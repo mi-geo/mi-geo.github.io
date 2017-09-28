@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Zhisheng的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/page/4/index.html">
 <meta property="og:site_name" content="Zhisheng的博客">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Zhisheng的博客">
@@ -182,20 +182,20 @@ var _hmt = _hmt || [];
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-Guava-limit" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-AJAX" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/23/Guava-limit/">Google Guava 缓存实现接口的限流</a>
+      <a class="article-title" href="/2017/06/23/AJAX/">AJAX 学习</a>
     </h1>
   
 
         
-        <a href="/2017/09/23/Guava-limit/" class="archive-article-date">
-  	<time datetime="2017-09-23T07:30:59.463Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-23</time>
+        <a href="/2017/06/23/AJAX/" class="archive-article-date">
+  	<time datetime="2017-06-23T14:00:05.420Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-23</time>
 </a>
         
       </header>
@@ -207,9 +207,11 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="http://ohfk1r827.bkt.clouddn.com/cb2.jpeg-1" alt=""><br>
+        <h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>最近的项目中大量地方需要使用 AJAX，无奈，谁叫我既要写前台又要写后台呢，只好学习下这个技术点，主要参考 <a href="http://www.w3school.com.cn/ajax/index.asp">W3school 文档</a>，下面记录下这些知识点，便于日后自己查阅，下面的一些测试代码建议在 W3school 中测试。</p>
+<h3 id="AJAX-基础："><a href="#AJAX-基础：" class="headerlink" title="AJAX 基础："></a>AJAX 基础：</h3><p> AJAX = Asynchronous JavaScript and XML（异步的 JavaScript 和 XML）。</p>
+<p><strong>AJAX 是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。</strong> 在很多网站可以见到使用这种技术。<br>
         
-          <a class="article-more-a" href="/2017/09/23/Guava-limit/#more">more >></a>
+          <a class="article-more-a" href="/2017/06/23/AJAX/#more">more >></a>
         
       
 
@@ -223,7 +225,7 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Guava</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">AJAX</a>
         		</li>
       		
 		</ul>
@@ -233,7 +235,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/23/Guava-limit/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/06/23/AJAX/">展开全文 >></a>
         </p>
       
 
@@ -251,20 +253,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-Interview-summary" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Java-error1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/17/Interview-summary/">面试过阿里等互联网大公司，我知道了这些套路</a>
+      <a class="article-title" href="/2017/06/20/Java-error1/">java.sql.SQLException Field &#39;id&#39; doesn&#39;t have a default value</a>
     </h1>
   
 
         
-        <a href="/2017/09/17/Interview-summary/" class="archive-article-date">
-  	<time datetime="2017-09-16T17:28:43.398Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-17</time>
+        <a href="/2017/06/20/Java-error1/" class="archive-article-date">
+  	<time datetime="2017-06-20T07:10:47.405Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-20</time>
 </a>
         
       </header>
@@ -276,9 +278,15 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="http://ohfk1r827.bkt.clouddn.com/shanghai.jpeg-1" alt=""></p>
+        <p>1、错误描述</p>
+<p>在做一个电商网站项目时，使用 Mybatis + MySQL 时出现问题 <code>Caused by: java.sql.SQLException: Field &#39;id&#39; doesn&#39;t have a default value</code> ，网上很多人说是 <a href="https://my.oschina.net/boonya/blog/692232">MyBatis 插入数据行 ID 没生成自增</a>。但是我尝试好久，没解决该问题。</p>
+<p>2、错误原因</p>
+<p>后来才发现是因为创建数据库时的建表语句中的 id 是主键的，但是在插入的过程中，没有给予数值，并且没有让 id 自增。</p>
+<p>3、解决办法</p>
+<p>修改数据库表中的id，让其自增（在插入的过程中，不插入id数据时）。</p>
+<p>（我是直接将整个数据库都导出来，然后在每个表的 id 后面加上一个 <code>auto_increment</code>）, 如下 ：<br>
         
-          <a class="article-more-a" href="/2017/09/17/Interview-summary/#more">more >></a>
+          <a class="article-more-a" href="/2017/06/20/Java-error1/#more">more >></a>
         
       
 
@@ -292,7 +300,7 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">面经</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
         		</li>
       		
 		</ul>
@@ -302,7 +310,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/17/Interview-summary/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/06/20/Java-error1/">展开全文 >></a>
         </p>
       
 
@@ -320,20 +328,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-linux-lua-lfs-install" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-blog-talk" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/15/linux-lua-lfs-install/">Linux 下 lua 开发环境安装及安装 luafilesystem</a>
+      <a class="article-title" href="/2017/06/17/blog-talk/">搭建一个博客项目后的碎碎念</a>
     </h1>
   
 
         
-        <a href="/2017/09/15/linux-lua-lfs-install/" class="archive-article-date">
-  	<time datetime="2017-09-15T15:17:26.540Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-15</time>
+        <a href="/2017/06/17/blog-talk/" class="archive-article-date">
+  	<time datetime="2017-06-17T14:01:44.007Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-17</time>
 </a>
         
       </header>
@@ -345,10 +353,11 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p>火云邪神语录：天下武功，无坚不破，唯快不破！Nginx 的看家本领就是速度，Lua 的拿手好戏亦是速度，这两者的结合在速度上无疑有基因上的优势。</p>
-<p><img src="http://www.lua.org/images/lua.gif" alt=""><br>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><blockquote>
+<p>以前大二的时候就想一个人独立做一个由 Java 开发的个人博客, 可耐当时还很弱鸡，一个人难以独挡一片，因为要会的东西太多，后来自己看到很多都是由 WordPress 搭建的博客，很多模板很漂亮，可是自己要稍微对 “拍黄片” 了解一点，并且里面的各种插件特特别的多。去年的时候就开始用上了 GitHub Page 搭建静态的博客，因为自己一直习惯用 Markdown 写作，写完后，软件可以直接生成 PDF 和 HTML 文件，这样就很方便了，直接将自己的 HTML、PDF 和 MD 文件一起 push 到 GitHub 上，然后自己在通过域名加上文章链接就可以直接访问我的博客了，这样就省了很多事了。还提供了 PDF 和 MD 版本，对有不同需求的人都可满足了。可是后来觉得这样的逼格还是不够高，就又开始折腾 Hexo 了，发现用 Hexo 也是很非常简单的（其实是看到 Hexo 的 yilia 主题非常漂亮）。于是就换上了 Hexo 了，自己在这上面写博客也很方便。每次用软件写完后，在 Git Bash 下敲一行命令 <code>hexo d -g</code> 就行了，很方便！前段时间看到了一款开源的博客（由 Java 搭建而成）——  Tale，主题比较简洁，符合程序员的范。也刚好符合自己最初的想法，但是我是没打算放弃现在的博客，就是有一个想法，自己也跟着在那个基础山修改下。（因为 Tale 使用的是轻量级 mvc 框架 <code>Blade</code> 开发，我好像不太了解这个框架呢），想着就 SpringBoot 开发比较快，上手也简单。当时就有这个想法，可怜没时间，不过前些天发现有人就是基于那个 Tale 博客重新修改了，用的就是 SpringBoot ，哇，果然是英雄所见略同。当时就和作者邮件联系了，于是蹭这些天的时间赶紧去看看，结果不只是看看，完全自己就全部敲了一遍，终于在今天搞定了，为了庆祝，才写下这篇文章，好好记录这些美好的时刻（博客可以完全发挥，不限题材）。通过自己深入这个项目，才能够很了解内部的实现方式，这点收获很大，这十天时间花的值，再此感谢两位原作者 <a href="https://github.com/ZHENFENG13">ZHENFENG13</a> 、<a href="https://github.com/otale">otale</a> 。</p>
+</blockquote>
         
-          <a class="article-more-a" href="/2017/09/15/linux-lua-lfs-install/#more">more >></a>
+          <a class="article-more-a" href="/2017/06/17/blog-talk/#more">more >></a>
         
       
 
@@ -362,7 +371,7 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">lua</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
         		</li>
       		
 		</ul>
@@ -372,7 +381,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/15/linux-lua-lfs-install/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/06/17/blog-talk/">展开全文 >></a>
         </p>
       
 
@@ -390,20 +399,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-Elasticsearch-install" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Hexo-yilia-toc" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/09/Elasticsearch-install/">全文搜索引擎 Elasticsearch 集群搭建入门教程</a>
+      <a class="article-title" href="/2017/06/13/Hexo-yilia-toc/">Hexo + yilia 主题实现文章目录</a>
     </h1>
   
 
         
-        <a href="/2017/09/09/Elasticsearch-install/" class="archive-article-date">
-  	<time datetime="2017-09-09T03:56:42.374Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-09</time>
+        <a href="/2017/06/13/Hexo-yilia-toc/" class="archive-article-date">
+  	<time datetime="2017-06-13T10:53:33.974Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-13</time>
 </a>
         
       </header>
@@ -415,10 +424,10 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>ElasticSearch 是一个基于 Lucene 的搜索服务器。它提供了一个分布式多用户能力的全文搜索引擎，基于 RESTful web 接口。Elasticsearch 是用 Java 开发的，并作为 Apache 许可条款下的开放源码发布，是当前流行的企业级搜索引擎。设计用于云计算中，能够达到实时搜索，稳定，可靠，快速，安装使用方便。基百科、Stack Overflow、Github 都采用它。</p>
-<p>本文从零开始，讲解如何使用 Elasticsearch 搭建自己的全文搜索引擎。每一步都有详细的说明，大家跟着做就能学会。<br>
+        <h3 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h3><p>为了方便查看每篇文章的目录结构，可以定位到想看的地方，特地找了下如何实现这个功能。</p>
+<h3 id="添加-CSS-样式"><a href="#添加-CSS-样式" class="headerlink" title="添加 CSS 样式"></a>添加 CSS 样式</h3><p>打开 <code>themes\yilia\source</code> 下的 <code>main.234bc0.css</code> 文件，直接在后面添加如下代码：<br>
         
-          <a class="article-more-a" href="/2017/09/09/Elasticsearch-install/#more">more >></a>
+          <a class="article-more-a" href="/2017/06/13/Hexo-yilia-toc/#more">more >></a>
         
       
 
@@ -432,7 +441,7 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Elasticsearch</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
         		</li>
       		
 		</ul>
@@ -442,7 +451,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/09/Elasticsearch-install/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/06/13/Hexo-yilia-toc/">展开全文 >></a>
         </p>
       
 
@@ -460,20 +469,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-Elasticsearch-analyzers" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-HashMap-Hashtable" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/07/Elasticsearch-analyzers/">Elasticsearch 默认分词器和中分分词器之间的比较及使用方法</a>
+      <a class="article-title" href="/2017/06/10/HashMap-Hashtable/">HashMap、Hashtable、HashSet 和 ConcurrentHashMap 的比较</a>
     </h1>
   
 
         
-        <a href="/2017/09/07/Elasticsearch-analyzers/" class="archive-article-date">
-  	<time datetime="2017-09-07T01:50:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-07</time>
+        <a href="/2017/06/10/HashMap-Hashtable/" class="archive-article-date">
+  	<time datetime="2017-06-10T14:09:09.072Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-10</time>
 </a>
         
       </header>
@@ -485,10 +494,9 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p>介绍：ElasticSearch 是一个基于 Lucene 的搜索服务器。它提供了一个分布式多用户能力的全文搜索引擎，基于 RESTful web 接口。Elasticsearch 是用 Java 开发的，并作为Apache许可条款下的开放源码发布，是当前流行的企业级搜索引擎。设计用于云计算中，能够达到实时搜索，稳定，可靠，快速，安装使用方便。</p>
-<p>Elasticsearch中，内置了很多分词器（analyzers）。下面来进行比较下系统默认分词器和常用的中文分词器之间的区别。<br>
+        <p>HashMap 和 Hashtable 的比较是 Java 面试中的常见问题，用来考验程序员是否能够正确使用集合类以及是否可以随机应变使用多种思路解决问题。HashMap 的工作原理、ArrayList 与 Vector 的比较以及这个问题是有关 Java 集合框架的最经典的问题。Hashtable 是个过时的集合类，存在于 Java API 中很久了。在 Java 4 中被重写了，实现了 Map 接口，所以自此以后也成了 Java 集合框架中的一部分。Hashtable 和 HashMap 在 Java 面试中相当容易被问到，甚至成为了集合框架面试题中最常被考的问题，所以在参加任何 Java 面试之前，都不要忘了准备这一题。<br>
         
-          <a class="article-more-a" href="/2017/09/07/Elasticsearch-analyzers/#more">more >></a>
+          <a class="article-more-a" href="/2017/06/10/HashMap-Hashtable/#more">more >></a>
         
       
 
@@ -502,7 +510,7 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Elasticsearch</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
         		</li>
       		
 		</ul>
@@ -512,7 +520,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/07/Elasticsearch-analyzers/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/06/10/HashMap-Hashtable/">展开全文 >></a>
         </p>
       
 
@@ -530,20 +538,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-recommend-books" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Java-Thread" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/26/recommend-books/">那些年我看过的书 —— 致敬我的大学生活 —— Say Good Bye ！</a>
+      <a class="article-title" href="/2017/06/04/Java-Thread/">《Java 多线程编程核心技术》学习笔记及总结</a>
     </h1>
   
 
         
-        <a href="/2017/08/26/recommend-books/" class="archive-article-date">
-  	<time datetime="2017-08-26T05:38:47.267Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-26</time>
+        <a href="/2017/06/04/Java-Thread/" class="archive-article-date">
+  	<time datetime="2017-06-04T13:04:18.921Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-04</time>
 </a>
         
       </header>
@@ -555,9 +563,19 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="http://ohfk1r827.bkt.clouddn.com/learn-2004897_960_720.png-1" alt=""><br>
+        <h2 id="第一章-——-Java-多线程技能"><a href="#第一章-——-Java-多线程技能" class="headerlink" title="第一章 —— Java 多线程技能"></a>第一章 —— Java 多线程技能</h2><p>线程技术点：</p>
+<ul>
+<li>线程的启动</li>
+<li>如何使线程暂停</li>
+<li>如何使线程停止</li>
+<li>线程的优先级</li>
+<li>线程安全相关问题</li>
+</ul>
+<h3 id="进程和线程的概念及多线程的优点"><a href="#进程和线程的概念及多线程的优点" class="headerlink" title="进程和线程的概念及多线程的优点"></a>进程和线程的概念及多线程的优点</h3><p>进程：比如我们电脑运行的 QQ.exe 程序，是操作系统管理的基本运行单元</p>
+<p>线程：在进程中独立运行的子任务，比如 QQ.exe 进程中就有很多线程在运行，下载文件线程、发送消息线程、语音线程、视频线程等。</p>
+<p>多线程优点：我们电脑可以同时操作不同的软件，边听着歌，敲着代码，查看 pdf 文档，浏览网页等，CPU 在这些任务之间不停的切换，切换非常快，所以我们就觉得他们是在同时运行的。<br>
         
-          <a class="article-more-a" href="/2017/08/26/recommend-books/#more">more >></a>
+          <a class="article-more-a" href="/2017/06/04/Java-Thread/#more">more >></a>
         
       
 
@@ -571,7 +589,11 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">多线程</a>
         		</li>
       		
 		</ul>
@@ -581,7 +603,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/08/26/recommend-books/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/06/04/Java-Thread/">展开全文 >></a>
         </p>
       
 
@@ -601,7 +623,7 @@ var _hmt = _hmt || [];
   
   
     <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+      <a class="extend prev" rel="prev" href="/page/3/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="page-number current">4</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/5/">Next &raquo;</a>
     </nav>
   
 

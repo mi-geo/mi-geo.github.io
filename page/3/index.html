@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Zhisheng的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/page/3/index.html">
 <meta property="og:site_name" content="Zhisheng的博客">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Zhisheng的博客">
@@ -182,20 +182,20 @@ var _hmt = _hmt || [];
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-Guava-limit" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-ThreadPool" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/23/Guava-limit/">Google Guava 缓存实现接口的限流</a>
+      <a class="article-title" href="/2017/07/29/ThreadPool/">Java 线程池艺术探索</a>
     </h1>
   
 
         
-        <a href="/2017/09/23/Guava-limit/" class="archive-article-date">
-  	<time datetime="2017-09-23T07:30:59.463Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-23</time>
+        <a href="/2017/07/29/ThreadPool/" class="archive-article-date">
+  	<time datetime="2017-07-29T14:27:44.446Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-29</time>
 </a>
         
       </header>
@@ -207,9 +207,12 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="http://ohfk1r827.bkt.clouddn.com/cb2.jpeg-1" alt=""><br>
+        <h2 id="线程池"><a href="#线程池" class="headerlink" title="线程池"></a>线程池</h2><p>Wiki 上是这样解释的：<a href="https://en.wikipedia.org/wiki/Thread_pool">Thread Pool</a></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Thread_pool.svg/400px-Thread_pool.svg.png" alt=""></p>
+<p>作用：<strong>利用线程池可以大大减少在创建和销毁线程上所花的时间以及系统资源的开销！</strong></p>
+<p>下面主要讲下线程池中最重要的一个类 ThreadPoolExecutor 。<br>
         
-          <a class="article-more-a" href="/2017/09/23/Guava-limit/#more">more >></a>
+          <a class="article-more-a" href="/2017/07/29/ThreadPool/#more">more >></a>
         
       
 
@@ -223,7 +226,15 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Guava</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">多线程</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">线程池</a>
         		</li>
       		
 		</ul>
@@ -233,7 +244,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/23/Guava-limit/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/07/29/ThreadPool/">展开全文 >></a>
         </p>
       
 
@@ -251,20 +262,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-Interview-summary" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Spring-MVC03" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/17/Interview-summary/">面试过阿里等互联网大公司，我知道了这些套路</a>
+      <a class="article-title" href="/2017/07/21/Spring-MVC03/">看透 Spring MVC 源代码分析与实践 ——  Spring MVC 组件分析</a>
     </h1>
   
 
         
-        <a href="/2017/09/17/Interview-summary/" class="archive-article-date">
-  	<time datetime="2017-09-16T17:28:43.398Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-17</time>
+        <a href="/2017/07/21/Spring-MVC03/" class="archive-article-date">
+  	<time datetime="2017-07-21T02:34:05.009Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-21</time>
 </a>
         
       </header>
@@ -276,9 +287,11 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="http://ohfk1r827.bkt.clouddn.com/shanghai.jpeg-1" alt=""></p>
+        <p>由于星期一接到面试通知，和面试官约好了星期四面试，所以这几天没更新完这系列的文章，面完试后立马就把这个解决掉。通过这次面试，也让我懂得了很多，知道了自己的一些不足之处，后面还要继续下功夫好好的深入复习下去。这几篇文章写的我觉得还是不够仔细，感兴趣的还是建议自己去看看源码。</p>
+<h3 id="第-11-章-——-组件概览"><a href="#第-11-章-——-组件概览" class="headerlink" title="第 11 章  ——  组件概览"></a>第 11 章  ——  组件概览</h3><p><strong>HandlerMapping</strong></p>
+<p>根据 request 找到对应的处理器 Handler 和 Interceptors。内部只有一个方法<br>
         
-          <a class="article-more-a" href="/2017/09/17/Interview-summary/#more">more >></a>
+          <a class="article-more-a" href="/2017/07/21/Spring-MVC03/#more">more >></a>
         
       
 
@@ -292,7 +305,7 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">面经</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Spring MVC</a>
         		</li>
       		
 		</ul>
@@ -302,7 +315,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/17/Interview-summary/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/07/21/Spring-MVC03/">展开全文 >></a>
         </p>
       
 
@@ -320,20 +333,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-linux-lua-lfs-install" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Spring-MVC02" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/15/linux-lua-lfs-install/">Linux 下 lua 开发环境安装及安装 luafilesystem</a>
+      <a class="article-title" href="/2017/07/14/Spring-MVC02/">看透 Spring MVC 源代码分析与实践 ——  俯视 Spring MVC</a>
     </h1>
   
 
         
-        <a href="/2017/09/15/linux-lua-lfs-install/" class="archive-article-date">
-  	<time datetime="2017-09-15T15:17:26.540Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-15</time>
+        <a href="/2017/07/14/Spring-MVC02/" class="archive-article-date">
+  	<time datetime="2017-07-14T11:15:25.357Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-14</time>
 </a>
         
       </header>
@@ -345,10 +358,10 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p>火云邪神语录：天下武功，无坚不破，唯快不破！Nginx 的看家本领就是速度，Lua 的拿手好戏亦是速度，这两者的结合在速度上无疑有基因上的优势。</p>
-<p><img src="http://www.lua.org/images/lua.gif" alt=""><br>
+        <p>Spring MVC</p>
+<p><img src="http://ohfk1r827.bkt.clouddn.com/spring-mvc.png" alt="spring-mvc"><br>
         
-          <a class="article-more-a" href="/2017/09/15/linux-lua-lfs-install/#more">more >></a>
+          <a class="article-more-a" href="/2017/07/14/Spring-MVC02/#more">more >></a>
         
       
 
@@ -362,7 +375,7 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">lua</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Spring MVC</a>
         		</li>
       		
 		</ul>
@@ -372,7 +385,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/15/linux-lua-lfs-install/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/07/14/Spring-MVC02/">展开全文 >></a>
         </p>
       
 
@@ -390,20 +403,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-Elasticsearch-install" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Spring-MVC01" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/09/Elasticsearch-install/">全文搜索引擎 Elasticsearch 集群搭建入门教程</a>
+      <a class="article-title" href="/2017/07/14/Spring-MVC01/">看透 Spring MVC 源代码分析与实践 ——  网站基础知识</a>
     </h1>
   
 
         
-        <a href="/2017/09/09/Elasticsearch-install/" class="archive-article-date">
-  	<time datetime="2017-09-09T03:56:42.374Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-09</time>
+        <a href="/2017/07/14/Spring-MVC01/" class="archive-article-date">
+  	<time datetime="2017-07-14T11:08:14.505Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-14</time>
 </a>
         
       </header>
@@ -415,10 +428,14 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>ElasticSearch 是一个基于 Lucene 的搜索服务器。它提供了一个分布式多用户能力的全文搜索引擎，基于 RESTful web 接口。Elasticsearch 是用 Java 开发的，并作为 Apache 许可条款下的开放源码发布，是当前流行的企业级搜索引擎。设计用于云计算中，能够达到实时搜索，稳定，可靠，快速，安装使用方便。基百科、Stack Overflow、Github 都采用它。</p>
-<p>本文从零开始，讲解如何使用 Elasticsearch 搭建自己的全文搜索引擎。每一步都有详细的说明，大家跟着做就能学会。<br>
+        <h3 id="网站架构及其演变过程"><a href="#网站架构及其演变过程" class="headerlink" title="网站架构及其演变过程"></a>网站架构及其演变过程</h3><h4 id="基础结构"><a href="#基础结构" class="headerlink" title="基础结构"></a>基础结构</h4><p>网络传输分解方式：</p>
+<ul>
+<li>标准的 OSI 参考模型</li>
+<li>TCP/IP 参考模型</li>
+</ul>
+<p><img src="http://ohfk1r827.bkt.clouddn.com/OSI-TCPIP.jpg" alt="OSI-TCPIP"><br>
         
-          <a class="article-more-a" href="/2017/09/09/Elasticsearch-install/#more">more >></a>
+          <a class="article-more-a" href="/2017/07/14/Spring-MVC01/#more">more >></a>
         
       
 
@@ -432,7 +449,7 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Elasticsearch</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Spring MVC</a>
         		</li>
       		
 		</ul>
@@ -442,7 +459,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/09/Elasticsearch-install/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/07/14/Spring-MVC01/">展开全文 >></a>
         </p>
       
 
@@ -460,20 +477,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-Elasticsearch-analyzers" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-servlet" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/07/Elasticsearch-analyzers/">Elasticsearch 默认分词器和中分分词器之间的比较及使用方法</a>
+      <a class="article-title" href="/2017/07/09/servlet/">通过源码详解 Servlet</a>
     </h1>
   
 
         
-        <a href="/2017/09/07/Elasticsearch-analyzers/" class="archive-article-date">
-  	<time datetime="2017-09-07T01:50:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-07</time>
+        <a href="/2017/07/09/servlet/" class="archive-article-date">
+  	<time datetime="2017-07-09T05:47:19.553Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-07-09</time>
 </a>
         
       </header>
@@ -485,10 +502,10 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p>介绍：ElasticSearch 是一个基于 Lucene 的搜索服务器。它提供了一个分布式多用户能力的全文搜索引擎，基于 RESTful web 接口。Elasticsearch 是用 Java 开发的，并作为Apache许可条款下的开放源码发布，是当前流行的企业级搜索引擎。设计用于云计算中，能够达到实时搜索，稳定，可靠，快速，安装使用方便。</p>
-<p>Elasticsearch中，内置了很多分词器（analyzers）。下面来进行比较下系统默认分词器和常用的中文分词器之间的区别。<br>
+        <h2 id="Servlet-结构"><a href="#Servlet-结构" class="headerlink" title="Servlet 结构"></a>Servlet 结构</h2><p><img src="http://ohfk1r827.bkt.clouddn.com/servlet1.png" alt="servlet1"></p>
+<h3 id="1、Servlet"><a href="#1、Servlet" class="headerlink" title="1、Servlet"></a>1、Servlet</h3><p>Servlet 该接口定义了5个方法。<br>
         
-          <a class="article-more-a" href="/2017/09/07/Elasticsearch-analyzers/#more">more >></a>
+          <a class="article-more-a" href="/2017/07/09/servlet/#more">more >></a>
         
       
 
@@ -502,7 +519,11 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Elasticsearch</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">Servlet</a>
         		</li>
       		
 		</ul>
@@ -512,7 +533,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/07/Elasticsearch-analyzers/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/07/09/servlet/">展开全文 >></a>
         </p>
       
 
@@ -530,20 +551,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-recommend-books" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Velocity-foreach" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/26/recommend-books/">那些年我看过的书 —— 致敬我的大学生活 —— Say Good Bye ！</a>
+      <a class="article-title" href="/2017/06/25/Velocity-foreach/">Velocity 循环指令一种好的解决方法</a>
     </h1>
   
 
         
-        <a href="/2017/08/26/recommend-books/" class="archive-article-date">
-  	<time datetime="2017-08-26T05:38:47.267Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-26</time>
+        <a href="/2017/06/25/Velocity-foreach/" class="archive-article-date">
+  	<time datetime="2017-06-25T05:01:16.352Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-06-25</time>
 </a>
         
       </header>
@@ -555,9 +576,11 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="http://ohfk1r827.bkt.clouddn.com/learn-2004897_960_720.png-1" alt=""><br>
+        <h3 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h3><p>前台的数据经常是由需要通过 foreach 循环获取。</p>
+<h3 id="好的解决方案：（拿我最近做的一个项目做例子）"><a href="#好的解决方案：（拿我最近做的一个项目做例子）" class="headerlink" title="好的解决方案：（拿我最近做的一个项目做例子）"></a>好的解决方案：（拿我最近做的一个项目做例子）</h3><p>购物商城左边的导航栏，商品大分类和小分类（Category）</p>
+<p><strong>1、在 model 包下创建一个 ViewObject 类</strong></p>
         
-          <a class="article-more-a" href="/2017/08/26/recommend-books/#more">more >></a>
+          <a class="article-more-a" href="/2017/06/25/Velocity-foreach/#more">more >></a>
         
       
 
@@ -571,7 +594,7 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Velocity</a>
         		</li>
       		
 		</ul>
@@ -581,7 +604,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/08/26/recommend-books/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/06/25/Velocity-foreach/">展开全文 >></a>
         </p>
       
 
@@ -601,7 +624,7 @@ var _hmt = _hmt || [];
   
   
     <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+      <a class="extend prev" rel="prev" href="/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/4/">Next &raquo;</a>
     </nav>
   
 

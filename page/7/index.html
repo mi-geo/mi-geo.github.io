@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Zhisheng的博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/page/7/index.html">
 <meta property="og:site_name" content="Zhisheng的博客">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Zhisheng的博客">
@@ -182,20 +182,20 @@ var _hmt = _hmt || [];
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-Guava-limit" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-循环队列的相关条件和公式" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/23/Guava-limit/">Google Guava 缓存实现接口的限流</a>
+      <a class="article-title" href="/2017/03/28/循环队列的相关条件和公式/">循环队列的相关条件和公式</a>
     </h1>
   
 
         
-        <a href="/2017/09/23/Guava-limit/" class="archive-article-date">
-  	<time datetime="2017-09-23T07:30:59.463Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-23</time>
+        <a href="/2017/03/28/循环队列的相关条件和公式/" class="archive-article-date">
+  	<time datetime="2017-03-28T11:00:11.318Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-28</time>
 </a>
         
       </header>
@@ -207,10 +207,16 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="http://ohfk1r827.bkt.clouddn.com/cb2.jpeg-1" alt=""><br>
-        
-          <a class="article-more-a" href="/2017/09/23/Guava-limit/#more">more >></a>
-        
+        <p><strong>循环队列的相关条件和公式：</strong><br>队尾指针是rear,队头是front，其中QueueSize为循环队列的最大长度</p>
+<ol>
+<li>队空条件：rear==front</li>
+<li>队满条件：(rear+1) %QueueSIze==front</li>
+<li>计算队列长度：（rear-front+QueueSize）%QueueSize</li>
+<li>入队：（rear+1）%QueueSize</li>
+<li>出队：（front+1）%QueueSize</li>
+<li>队列中元素的个数： (rear-front+QueueSize)%QueueSize</li>
+</ol>
+
       
 
       
@@ -223,7 +229,15 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">Guava</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">数据结构</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">算法</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">循环队列</a>
         		</li>
       		
 		</ul>
@@ -233,7 +247,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/23/Guava-limit/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/03/28/循环队列的相关条件和公式/">展开全文 >></a>
         </p>
       
 
@@ -251,20 +265,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-Interview-summary" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Python爬虫实战之爬取糗事百科段子" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/17/Interview-summary/">面试过阿里等互联网大公司，我知道了这些套路</a>
+      <a class="article-title" href="/2017/03/28/Python爬虫实战之爬取糗事百科段子/">Python爬虫实战之爬取糗事百科段子</a>
     </h1>
   
 
         
-        <a href="/2017/09/17/Interview-summary/" class="archive-article-date">
-  	<time datetime="2017-09-16T17:28:43.398Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-17</time>
+        <a href="/2017/03/28/Python爬虫实战之爬取糗事百科段子/" class="archive-article-date">
+  	<time datetime="2017-03-28T10:59:16.278Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-28</time>
 </a>
         
       </header>
@@ -276,9 +290,16 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="http://ohfk1r827.bkt.clouddn.com/shanghai.jpeg-1" alt=""></p>
+        <h3 id="完整代码地址：Python爬虫实战之爬取糗事百科段子"><a href="#完整代码地址：Python爬虫实战之爬取糗事百科段子" class="headerlink" title="完整代码地址：Python爬虫实战之爬取糗事百科段子"></a>完整代码地址：<a href="https://github.com/zhisheng17/Python-Projects/tree/master/qiushibaike">Python爬虫实战之爬取糗事百科段子</a></h3><h3 id="程序代码详解："><a href="#程序代码详解：" class="headerlink" title="程序代码详解："></a>程序代码详解：</h3><ol>
+<li><p><strong>Spider1-qiushibaike.py</strong>：爬取糗事百科的8小时最新页的段子。包含的信息有作者名称，觉得好笑人数，评论人数，发布的内容。如果发布的内容中含有图片的话，则过滤图片，内容依然显示出来。</p>
+</li>
+<li><p><strong>Spider2-qiushibaike.py</strong>：在Spider1-qiushibaike.py基础上，引入类和方法，进行优化和封装，爬取糗事百科的24小时热门页的段子。进一步优化，每按一次回车更新一条内容，当前页的内容抓取完毕后，自动抓取下一页的内容，按‘q’退出。</p>
+</li>
+<li><p><strong>Spider3-qiushibaike.py</strong>：在Spiders-qiushibaike.py基础上，爬取了百科段子的评论。按C查看当前这个糗事的评论，当切换到查看评论时，换回车显示下一个评论,按Q退出回到查看糗事。糗事段子页数是一页一页加载的，如果你已经看完所有的糗事，就会自动退出！</p>
+</li>
+</ol>
         
-          <a class="article-more-a" href="/2017/09/17/Interview-summary/#more">more >></a>
+          <a class="article-more-a" href="/2017/03/28/Python爬虫实战之爬取糗事百科段子/#more">more >></a>
         
       
 
@@ -292,7 +313,11 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">面经</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Python</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">爬虫</a>
         		</li>
       		
 		</ul>
@@ -302,7 +327,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/17/Interview-summary/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/03/28/Python爬虫实战之爬取糗事百科段子/">展开全文 >></a>
         </p>
       
 
@@ -320,20 +345,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-linux-lua-lfs-install" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-Python爬虫实战之爬取百度贴吧帖子" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/15/linux-lua-lfs-install/">Linux 下 lua 开发环境安装及安装 luafilesystem</a>
+      <a class="article-title" href="/2017/03/28/Python爬虫实战之爬取百度贴吧帖子/">Python爬虫实战之爬取百度贴吧帖子</a>
     </h1>
   
 
         
-        <a href="/2017/09/15/linux-lua-lfs-install/" class="archive-article-date">
-  	<time datetime="2017-09-15T15:17:26.540Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-15</time>
+        <a href="/2017/03/28/Python爬虫实战之爬取百度贴吧帖子/" class="archive-article-date">
+  	<time datetime="2017-03-28T10:58:38.918Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-28</time>
 </a>
         
       </header>
@@ -345,10 +370,17 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p>火云邪神语录：天下武功，无坚不破，唯快不破！Nginx 的看家本领就是速度，Lua 的拿手好戏亦是速度，这两者的结合在速度上无疑有基因上的优势。</p>
-<p><img src="http://www.lua.org/images/lua.gif" alt=""><br>
+        <p>大家好，上次我们实验了爬取了<a href="https://github.com/zhisheng17/Python-Projects/tree/master/qiushibaike">糗事百科的段子</a>，那么这次我们来尝试一下爬取百度贴吧的帖子。与上一篇不同的是，这次我们需要用到文件的相关操作。</p>
+<h3 id="本篇目标"><a href="#本篇目标" class="headerlink" title="本篇目标"></a>本篇目标</h3><ol>
+<li><p>对百度贴吧的任意帖子进行抓取</p>
+</li>
+<li><p>指定是否只抓取楼主发帖内容</p>
+</li>
+<li><p>将抓取到的内容分析并保存到文件</p>
+</li>
+</ol>
         
-          <a class="article-more-a" href="/2017/09/15/linux-lua-lfs-install/#more">more >></a>
+          <a class="article-more-a" href="/2017/03/28/Python爬虫实战之爬取百度贴吧帖子/#more">more >></a>
         
       
 
@@ -362,7 +394,11 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">lua</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Python</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">爬虫</a>
         		</li>
       		
 		</ul>
@@ -372,7 +408,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/15/linux-lua-lfs-install/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/03/28/Python爬虫实战之爬取百度贴吧帖子/">展开全文 >></a>
         </p>
       
 
@@ -390,20 +426,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-Elasticsearch-install" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-中缀表达式转换成前缀和后缀表达式这类题目的超实用解题技巧" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/09/Elasticsearch-install/">全文搜索引擎 Elasticsearch 集群搭建入门教程</a>
+      <a class="article-title" href="/2017/03/28/中缀表达式转换成前缀和后缀表达式这类题目的超实用解题技巧/">中缀表达式转换成前缀和后缀表达式这类题目的超实用解题技巧</a>
     </h1>
   
 
         
-        <a href="/2017/09/09/Elasticsearch-install/" class="archive-article-date">
-  	<time datetime="2017-09-09T03:56:42.374Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-09</time>
+        <a href="/2017/03/28/中缀表达式转换成前缀和后缀表达式这类题目的超实用解题技巧/" class="archive-article-date">
+  	<time datetime="2017-03-28T10:58:16.670Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-28</time>
 </a>
         
       </header>
@@ -415,10 +451,15 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>ElasticSearch 是一个基于 Lucene 的搜索服务器。它提供了一个分布式多用户能力的全文搜索引擎，基于 RESTful web 接口。Elasticsearch 是用 Java 开发的，并作为 Apache 许可条款下的开放源码发布，是当前流行的企业级搜索引擎。设计用于云计算中，能够达到实时搜索，稳定，可靠，快速，安装使用方便。基百科、Stack Overflow、Github 都采用它。</p>
-<p>本文从零开始，讲解如何使用 Elasticsearch 搭建自己的全文搜索引擎。每一步都有详细的说明，大家跟着做就能学会。<br>
+        <p>看到了标题如果还不了解的这几个概念的请先看看博客：<a href="http://blog.csdn.net/tzs_1041218129/article/details/52650917"><strong>详解前缀、中缀、后缀表达式</strong></a></p>
+<p>先给几个中缀表达式转换成后缀表达式题目做做吧，最后我们在总结超实用的技巧！！</p>
+<p><strong>1. 表达式“X=A+B*（C–D）/E”的后缀表示形式可以为</strong></p>
+<p>A. XAB+CDE/-*=</p>
+<p>B. XA+BC-DE/*=</p>
+<p>C. XABCD-*E/+=</p>
+<p>D. XABCDE+*/=</p>
         
-          <a class="article-more-a" href="/2017/09/09/Elasticsearch-install/#more">more >></a>
+          <a class="article-more-a" href="/2017/03/28/中缀表达式转换成前缀和后缀表达式这类题目的超实用解题技巧/#more">more >></a>
         
       
 
@@ -432,7 +473,11 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Elasticsearch</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">数据结构</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">表达式</a>
         		</li>
       		
 		</ul>
@@ -442,7 +487,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/09/Elasticsearch-install/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/03/28/中缀表达式转换成前缀和后缀表达式这类题目的超实用解题技巧/">展开全文 >></a>
         </p>
       
 
@@ -460,20 +505,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-Elasticsearch-analyzers" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-深度探究Java 中 finally 语句块" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/09/07/Elasticsearch-analyzers/">Elasticsearch 默认分词器和中分分词器之间的比较及使用方法</a>
+      <a class="article-title" href="/2017/03/28/深度探究Java 中 finally 语句块/">深度探究Java 中 finally 语句块</a>
     </h1>
   
 
         
-        <a href="/2017/09/07/Elasticsearch-analyzers/" class="archive-article-date">
-  	<time datetime="2017-09-07T01:50:46.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-07</time>
+        <a href="/2017/03/28/深度探究Java 中 finally 语句块/" class="archive-article-date">
+  	<time datetime="2017-03-28T10:57:39.759Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-28</time>
 </a>
         
       </header>
@@ -485,10 +530,10 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p>介绍：ElasticSearch 是一个基于 Lucene 的搜索服务器。它提供了一个分布式多用户能力的全文搜索引擎，基于 RESTful web 接口。Elasticsearch 是用 Java 开发的，并作为Apache许可条款下的开放源码发布，是当前流行的企业级搜索引擎。设计用于云计算中，能够达到实时搜索，稳定，可靠，快速，安装使用方便。</p>
-<p>Elasticsearch中，内置了很多分词器（analyzers）。下面来进行比较下系统默认分词器和常用的中文分词器之间的区别。<br>
+        <p>乍看这个题目，是不是有人会问，这个谁不知道啊，大凡熟悉 Java 编程的人都知道 finally 语句块的作用和用法。有什么可深度辨析的呢？事实并非如此，我发现即使写了很多年 Java 程序的人，也不一定能够透彻的理解 finally 语句块。本篇将以生动形象的案例来带您由浅入深的来分析一下这个小小的 finally，希望这篇文章能够让您真正的理解 finally 语句块的本质，至少阅读完本篇文章后，没有觉得浪费了时间。</p>
+<p>可不能小看这个简单的 finally，看似简单的问题背后，却隐藏了无数的玄机。接下来我就带您一步一步的揭开这个 finally 的神秘面纱。</p>
         
-          <a class="article-more-a" href="/2017/09/07/Elasticsearch-analyzers/#more">more >></a>
+          <a class="article-more-a" href="/2017/03/28/深度探究Java 中 finally 语句块/#more">more >></a>
         
       
 
@@ -502,7 +547,11 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">Elasticsearch</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">Java</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">finally</a>
         		</li>
       		
 		</ul>
@@ -512,7 +561,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/09/07/Elasticsearch-analyzers/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/03/28/深度探究Java 中 finally 语句块/">展开全文 >></a>
         </p>
       
 
@@ -530,20 +579,20 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-recommend-books" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-利用Github Page 搭建个人博客网站" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/26/recommend-books/">那些年我看过的书 —— 致敬我的大学生活 —— Say Good Bye ！</a>
+      <a class="article-title" href="/2017/03/28/利用Github Page 搭建个人博客网站/">利用Github Page 搭建个人博客网站</a>
     </h1>
   
 
         
-        <a href="/2017/08/26/recommend-books/" class="archive-article-date">
-  	<time datetime="2017-08-26T05:38:47.267Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-08-26</time>
+        <a href="/2017/03/28/利用Github Page 搭建个人博客网站/" class="archive-article-date">
+  	<time datetime="2017-03-28T10:57:04.193Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-28</time>
 </a>
         
       </header>
@@ -555,9 +604,17 @@ var _hmt = _hmt || [];
 
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="http://ohfk1r827.bkt.clouddn.com/learn-2004897_960_720.png-1" alt=""><br>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>最近这几天，没事干，想找点事折腾下，于是自己便想到了自己一直想干的一件事：搭建一个属于自己的博客网站。目前搭建个人 <code>blog</code> 网站最好的是用 <code>wordpress</code> ，但是那个折腾起来好像还挺麻烦的，再加上还需要自己修改些前端代码和用 <code>PHP</code> 做（虽然我学了几天拍黄片，但是早已忘了），然后就是用 <code>Github Page</code> 吧，自己也一直在这个最大的交友网站装 X 。想想就用这个吧（后来好像觉得这个还挺省事的）</p>
+<p>再说说拥有个人博客网站的好处吧：</p>
+<ul>
+<li>装 X（如果网站够炫）</li>
+<li>很好的用来总结自己所学的知识</li>
+<li>面试加分（在简历上放上自己的个人网站链接，面试官就可以更好的了解你，知道你所学知识的深度和广度）</li>
+<li>不再受其他博客平台的规则所束缚</li>
+</ul>
+<p>如果你现在还没有自己个人博客网站的话，那么我觉得你看完本篇博客后，强烈的建议你去折腾折腾下，搞个自己的，让自己也能够体验装 X 的感觉。</p>
         
-          <a class="article-more-a" href="/2017/08/26/recommend-books/#more">more >></a>
+          <a class="article-more-a" href="/2017/03/28/利用Github Page 搭建个人博客网站/#more">more >></a>
         
       
 
@@ -571,7 +628,11 @@ var _hmt = _hmt || [];
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Github Page</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">博客网站</a>
         		</li>
       		
 		</ul>
@@ -581,7 +642,7 @@ var _hmt = _hmt || [];
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2017/08/26/recommend-books/">展开全文 >></a>
+          <a class="article-more-a" href="/2017/03/28/利用Github Page 搭建个人博客网站/">展开全文 >></a>
         </p>
       
 
@@ -601,7 +662,7 @@ var _hmt = _hmt || [];
   
   
     <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+      <a class="extend prev" rel="prev" href="/page/6/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/">5</a><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/">8</a><a class="page-number" href="/page/9/">9</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/8/">Next &raquo;</a>
     </nav>
   
 
