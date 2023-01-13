@@ -1,25 +1,21 @@
 ## Midwest Landscape Comprehensive Map
 
-Here's my sample map website!
+Here is an interactive map!
 
 <iframe src="Online-map.html" height="500" width="800"></iframe>
 
 You can explore this map [as its own web page here](Online-map.html).
 
+## New York City Map
 
-## Midwest Landscape Comprehensive Map
+Here's a static map!
 
-Here's my sample map website!
-
-<iframe src="Online-map.html" height="500" width="800"></iframe>
-
-You can explore this map [as its own web page here](Online-map.html).
+<iframe src="my_static_map.png" height="500" width="800"></iframe>
 
 
-## Midwest Landscape Comprehensive Map
+## US Travelling Map
 
-Here's my sample map website!
+Here's a travelling map showing where I have been to in the USA!
 
-<iframe src="Online-map.html" height="500" width="800"></iframe>
-
-You can explore this map [as its own web page here](Online-map.html).
+<iframe src="Teng-US-map.png" height="500" width="800"></iframe>
+You can explore this map [as its own web page here](Teng-US-map.png).
