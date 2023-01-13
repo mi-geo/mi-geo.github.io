@@ -6,7 +6,7 @@ Here is an interactive map!
 
 You can explore this map [as its own web page here](Online-map.html).
 
-## New York City Map
+## New York City Map, This is not a demo
 
 Here's a static map!
 
