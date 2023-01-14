@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal 
+theme: mmistakes/minimal-mistakes@4.21.0
 title: Teng's Github Personal Website
 description: This website demonstrates the personal life of Teng Zhang, Ph.D candidate near Lansing, MI
 logo: logo.jpg
