@@ -1,4 +1,4 @@
-theme: mmistakes/minimal-mistakes@4.21.0
+theme: "mmistakes/minimal-mistakes@4.21.0"
 title: Teng's Github Personal Website
 description: This website demonstrates the personal life of Teng Zhang, Ph.D candidate near Lansing, MI. I am checking if the update is successful, to be honest...
 logo: logo.jpg
