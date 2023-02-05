@@ -9,6 +9,7 @@ You can explore this map [as its own web page here](Online-map.html).
 ## New York City Map, This is not a demo
 
 Here's a static map!
+Haha I am the stupidest guy ever
 
 <iframe src="my_static_map.png" height="500" width="800"></iframe>
 
