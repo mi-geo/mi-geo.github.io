@@ -2,8 +2,8 @@
 layout: single
 author_profile: true
 header:
-  overlay_color: "#000"
-  overlay_filter: "0"
+  overlay_color: ""
+  overlay_filter: ""
   overlay_image:  /images/gate-arch-banner.png
   caption: "St. Louis, MO. \n Photo credit: [**Teng Zhang**](https://https://www.facebook.com/geography.teng.zhang)"
 
