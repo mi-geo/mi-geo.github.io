@@ -1,34 +1,30 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Research"
+    url: /research/
+  - title: "Life"
+    url: /life/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "CV"
+    url: /cv/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Guide"
+    url: /page-archive/
+  - title: "About"
+    url: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  - title: "Research"
-    url: /Research/
-  - title: "Life"
-    url: /Life/
-  - title: "Teaching"
-    url: /Teaching/
-  - title: "CV"
-    url: /CV/
-  - title: "Posts"
-    url: /year-archive/
   # - title: "Categories"
   #   description: "guess what is here" 
   #   url: /categories/
   # - title: "Tags"
   #   url: /tags/
-  - title: "Guide"
-    url: /page-archive/
-  - title: "About"
-    url: /about/
   # - title: "Collections"
   #   url: /collection-archive/
   # - title: "External Link"
