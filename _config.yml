@@ -30,7 +30,7 @@ masthead_title           : "The opposite of every menthe opposite of every guy y
 # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
-date_format              : "%Y-%m-%d"
+# date_format              : "%B %-d, %Y"
 
 
 comments:

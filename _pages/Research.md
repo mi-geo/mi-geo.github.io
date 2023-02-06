@@ -2,7 +2,7 @@
 title: "my-research"
 layout: splash
 permalink: /research/
-date: 2023-02-06T02:00
+date: 
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
