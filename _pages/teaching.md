@@ -1,5 +1,5 @@
 ---
-title: "my-teaching"
+title: "Teaching Philosophy of Mine"
 layout: archive
 permalink: /teaching/
 date: 
@@ -8,10 +8,10 @@ header:
   overlay_filter: "0.2"
   overlay_image: /assets/images/Tikal.jpg
   actions:
-    - label: "Download"
+    - label: "Read More"
       url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+excerpt: "Teaching is the chance of enhancing your relationship between you and the next generation."
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
