@@ -20,6 +20,8 @@ main:
     url: /tags/
   - title: "Pages"
     url: /page-archive/
+  - title: "About"
+    url: /about/
   - title: "Collections"
     url: /collection-archive/
   - title: "External Link"

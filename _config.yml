@@ -112,7 +112,7 @@ analytics:
 # Site Author
 author:
   name             : "Teng Zhang"
-  avatar           : "/assets/images/logo-cat" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/my-logo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "This website demonstrates the personal life of Teng Zhang, Ph.D candidate near **Lansing, MI**."
   location         : "Lansing, MI"
   email            : "zhangte6@msu.edu"
