@@ -10,19 +10,24 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-  
+  - title: "Research"
+    url: /year-archive/
+  - title: "Life"
+    url: /year-archive/
+  - title: "Teaching"
+    url: /year-archive/
   - title: "Posts"
     url: /year-archive/
-  - title: "Categories"
-    description: "guess what is here" 
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Pages"
+  # - title: "Categories"
+  #   description: "guess what is here" 
+  #   url: /categories/
+  # - title: "Tags"
+  #   url: /tags/
+  - title: "Guide"
     url: /page-archive/
   - title: "About"
     url: /about/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "External Link"
-    url: https://google.com
+  # - title: "Collections"
+  #   url: /collection-archive/
+  # - title: "External Link"
+  #   url: https://google.com
