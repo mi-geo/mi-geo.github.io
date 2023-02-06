@@ -11,11 +11,13 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
   - title: "Research"
-    url: /year-archive/
+    url: /Research/
   - title: "Life"
-    url: /year-archive/
+    url: /Life/
   - title: "Teaching"
-    url: /year-archive/
+    url: /Teaching/
+  - title: "CV"
+    url: /CV/
   - title: "Posts"
     url: /year-archive/
   # - title: "Categories"

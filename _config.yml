@@ -26,7 +26,8 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "stormocean/stormocean.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/gate-arch.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo-cat.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "Dr. to be. This is the place of masthead_title" # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "The opposite of every menthe opposite of every guy you've ever met"  
+# overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 date_format              : "%Y-%m-%d"
@@ -129,12 +130,12 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "Netflix"
-      icon: "fas fa-wallet"
-      url: "https://www.netflix.com/browse/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/geography.teng/"
+   # - label: "Netflix"
+   #    icon: "fas fa-wallet"
+   #    url: "https://www.netflix.com/browse/"
 
 # Site Footer
 footer:
@@ -156,7 +157,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url:  "https://www.instagram.com/geography.teng/"
 
 
 # Reading Files
