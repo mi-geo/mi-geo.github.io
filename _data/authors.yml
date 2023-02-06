@@ -1,0 +1,15 @@
+# Authors
+
+Teng Zhang:
+  name        : "Teng Zhang"
+  bio         : "I wish my dream can come true!"
+  avatar      : "/assets/images/avatar-1.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:zhangte6@msu.edu"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/geography.teng/"
+
+# icons can be found here: https://fontawesome.com/v5/search
