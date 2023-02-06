@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 author_profile: true
 header:
   overlay_color: "#000"
@@ -20,7 +20,9 @@ My journey to becoming a Michigander started as a senior analyst at Jones Lang L
 
 When not immersed in work, I embrace my wanderlust and embark on adventures, with Peru and Bolivia next on my bucket list of places to visit.
 
+***
 
 # Recent Research / Talks
 
-April 2023 | Association of American Geographers :  [BWho is implementing the killings in Indonesia](http://www.aag.org/).
+April 2023 | Association of American Geographers: [Who is implementing the killings in Indonesia](http://www.aag.org/).
+

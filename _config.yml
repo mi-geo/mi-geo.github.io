@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "stormocean/stormocean.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/gate-arch.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/logo-cat.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "The opposite of every menthe opposite of every guy you've ever met"  
+masthead_title           : "The opposite of every guy you've ever met"  
 # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -290,7 +290,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: splash  # archive, splash, single
+      layout: single  # archive, splash, single
       author_profile: true
       read_time: true
       comments: true

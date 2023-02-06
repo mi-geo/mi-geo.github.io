@@ -1,7 +1,7 @@
 ---
 title: "my-research"
-layout: splash
-permalink: /research/
+layout: archive
+permalink: /teaching/
 date: 
 header:
   overlay_color: "#000"
