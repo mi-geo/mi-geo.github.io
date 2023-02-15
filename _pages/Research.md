@@ -13,7 +13,7 @@ header:
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
 excerpt: "Violence, Data, and Urban built environment."
 intro: 
-  - excerpt: 'What can I do to make the world become better? '
+  - excerpt: 'Geography is a bout the location and space of everything on earth: '
 feature_row:
   - image_path: assets/images/Indonesia-statue.jpg
     alt: "Violence"

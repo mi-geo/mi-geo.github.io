@@ -1,6 +1,6 @@
 ---
 title: "Teaching Philosophy of Mine"
-layout: archive
+layout: single
 permalink: /teaching/
 date: 
 header:
@@ -11,46 +11,31 @@ header:
     - label: "Read More"
       url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
-excerpt: "Teaching is the chance of enhancing your relationship between you and the next generation."
+excerpt: "Teaching is a life long learning experience of enhancing your relationship between you and the next generation, and gaining enlightenment from the students"
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'Years of teaching experience both online and in person: *geography*, *GIS*, and Python/R `data analysis`. Here are some selected courses I\'ve taught'
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/Michigan-lay-down-small.jpg
+    alt: "Intermediate Geographic Information System"
+    title: "Intermediate Geographic Information System"
+    excerpt: 'An intermediate level GIS course for students who have learned the introductory GIS and want to dig deeper. The course is composed by 16 lectures and 11 labs. Three major sections of this course are: **geospatial concepts**, **raster** analysis, and **vector** analysis. Syllabus could be found here:'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-1-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+  - image_path: /assets/images/world-regional-geography.jpg
+    alt: "Wolrd Regional Geography"
+    title: "OnGEO Courses: Wolrd Regional Geography"
+    excerpt: 'A world tour taking you to visit every regions in the world and understand the major challenge and feature each region is facing with.'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/Culture-Revolution.jpg
     alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    title: "Planned Courses: Geography of Violence"
+    excerpt: 'It will be a 200-level course connecting the geography phenomenon of violence of different scales from domestic violence to holocaust.'
+	type: "left"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -62,6 +47,5 @@ feature_row4:
 
 {% include feature_row id="feature_row2" type="left" %}
 
-{% include feature_row id="feature_row3" type="right" %}
+{% include feature_row id="feature_row3" type="left" %}
 
-{% include feature_row id="feature_row4" type="center" %}
