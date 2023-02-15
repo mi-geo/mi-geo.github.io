@@ -31,7 +31,7 @@ feature_row:
     title: "Environment Economic Geography"
     excerpt: "Quantitative urban policy study"
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/whole-draft-resize.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Left Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
