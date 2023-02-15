@@ -1,5 +1,5 @@
 ---
-title: "my-research"
+title: "My Research"
 layout: splash
 permalink: /research/
 date: 
@@ -17,8 +17,8 @@ intro:
 feature_row:
   - image_path: assets/images/Indonesia-statue.jpg
     alt: "Violence"
-    title: "Violence"
-    excerpt: "Spatial analysis about mass **violence**."
+    title: "Spatial Analysis in Mass Violence"
+    excerpt: "Spatial analysis of mass **violence**. Research area focuses on Indonesia."
   - image_path: /assets/images/Indonesia-statue.jpg
     image_caption: "Image courtesy of [Teng](https://unsplash.com/)"
     alt: "placeholder image 2"
