@@ -1,11 +1,12 @@
 ---
 title: Teng's personal website
-layout: splash
+layout: single
 author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0"
-  overlay_image:  /assets/images/gate-arch-banner.jpg
+  #overlay_image:  /assets/images/gate-arch-banner.jpg
+  image: /assets/images/gate-arch-banner.jpg
   caption: "St. Louis, MO. *Photo credit:* [***Teng Zhang***](https://https://www.facebook.com/geography.teng.zhang)"
 ---
 Hi, I am Teng, a Ph.D. candidate about to graduate from [Michigan State University](https://https://geo.msu.edu/)Michigan where I worked with Professors Siddharth Chandra and Ashton Shortridge. My research areas are in applied spatial data analysis, digital humanity, and urban/environmental economic geography. 
