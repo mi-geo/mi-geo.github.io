@@ -1,5 +1,5 @@
 ---
-title: "My Research"
+title: My Research
 layout: splash
 permalink: /research/
 date: 
@@ -18,7 +18,7 @@ excerpt: "Mass Violence, Data, and Urban Built-Environment.
 
 
 
-"
+ "
   actions:
     - label: "Read More"
       url: "https://github.com/"

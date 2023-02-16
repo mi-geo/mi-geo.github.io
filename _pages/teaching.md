@@ -1,5 +1,5 @@
 ---
-title: "Teaching Philosophy of Mine"
+title: Teaching Philosophy of Mine
 layout: splash
 permalink: /teaching/
 date: 

@@ -1,5 +1,5 @@
 ---
-title: CV
+title: Personal CV
 permalink: /cv/
 toc: true
 toc_label: " "
