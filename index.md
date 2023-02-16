@@ -7,10 +7,11 @@ header:
   overlay_filter: "0"
   overlay_image:  /assets/images/gate-arch.jpg
   caption: "St. Louis, MO. *Photo credit:* [***Teng Zhang***](https://https://www.facebook.com/geography.teng.zhang)"
-excerpt: "Mass Violence, Data, and Urban Built-Environment.
-
-
-
+excerpt: " 
+ 
+ 
+ 
+  
 "
 
 ---
