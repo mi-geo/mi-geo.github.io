@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/Tikal.jpg
   actions:
     - label: "Read More"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+      url: ""
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
 excerpt: "Teaching is a life long learning experience of enhancing your relationship between you and the next generation, and gaining enlightenment from the students"
 intro:
@@ -43,7 +43,7 @@ feature_row3:
 ---
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id="feature_row" %}
+{% include feature_row id="feature_row" type="right" %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
