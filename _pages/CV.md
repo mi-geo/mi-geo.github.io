@@ -9,6 +9,9 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/Tahquamenon.jpg
+  actions:
+    - label: "Read More"
+      url: "https://github.com/"
 toc_icon: "book-user"
 toc_sticky: false
 ---
