@@ -1,6 +1,6 @@
 ---
 title: "Teaching Philosophy of Mine"
-layout: splash
+layout: archive
 permalink: /teaching/
 date: 
 header:

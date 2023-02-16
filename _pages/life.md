@@ -8,12 +8,12 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/Theo-Salvador.jpg
   actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+    - label: "More..."
+      url: "https://elsalvadorinfo.net/el-rosario-church-san-salvador/"
+  caption: "Iglesia el Rosario, Photo credit: [**Teng Zhang**](https://stormocean.github.io)"
+excerpt: "And now these three remain: faith, hope and love.l But the greatest of these is love. (1 Corinthians 13:13)"
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'Enjoy life since it is short!'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"

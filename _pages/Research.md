@@ -24,14 +24,14 @@ feature_row:
     alt: "placeholder image 2"
     title: "Placeholder 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
+    url: "/teaching/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/Belize-city.jpg
     title: "Environment Economic Geography"
     excerpt: "Quantitative urban policy study"
 feature_row2:
-  - image_path: /assets/images/whole-draft-resize.jpg
+  - image_path: /assets/images/whole-draft-resize.PNG
     alt: "placeholder image 2"
     title: "Placeholder Image Left Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
@@ -39,7 +39,7 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/xiancun.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Right Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
@@ -47,7 +47,7 @@ feature_row3:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+  - image_path: /assets/images/Dongxiang-2.JPG
     alt: "placeholder image 2"
     title: "Placeholder Image Center Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
