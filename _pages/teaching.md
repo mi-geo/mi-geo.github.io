@@ -37,7 +37,6 @@ feature_row3:
     alt: "placeholder image 2"
     title: "Planned Courses: Geography of Violence"
     excerpt: 'It will be a 200-level course connecting the geography phenomenon of violence of different scales from domestic violence to holocaust.'
-	type: "left"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
