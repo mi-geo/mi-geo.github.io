@@ -12,8 +12,10 @@ header:
       url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
 excerpt: "Teaching is a life long learning experience of enhancing your relationship between you and the next generation, and gaining enlightenment from the students"
+
 intro: 
   - excerpt: 'Years of teaching experience both online and in person: *geography*, *GIS*, and Python/R `data analysis`. Here are some selected courses I\'ve taught'
+
 feature_row:
   - image_path: /assets/images/Michigan-lay-down-small.jpg
     alt: "Intermediate Geographic Information System"
@@ -22,6 +24,7 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
+	
 feature_row2:
   - image_path: /assets/images/world-regional-geography.jpg
     alt: "Wolrd Regional Geography"
@@ -30,6 +33,7 @@ feature_row2:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
+
 feature_row3:
   - image_path: /assets/images/Culture-Revolution.jpg
     alt: "placeholder image 2"
@@ -43,7 +47,7 @@ feature_row3:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+{% include feature_row id="feature_row" %}
 
 {% include feature_row id="feature_row2" type="left" %}
 

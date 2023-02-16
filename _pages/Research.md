@@ -9,9 +9,9 @@ header:
   overlay_image: /assets/images/Jkt-downtown.jpg
   actions:
     - label: "Read More"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+      url: "https://github.com/"
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
-excerpt: "Violence, Data, and Urban built environment."
+excerpt: "Mass Violence, Data, and Urban Built-Environment."
 intro: 
   - excerpt: 'Geography is a bout the location and space of everything on earth: '
 feature_row:
@@ -19,11 +19,11 @@ feature_row:
     alt: "Violence"
     title: "Spatial Analysis in Mass Violence"
     excerpt: "Spatial analysis of mass **violence**. Research area focuses on Indonesia."
-  - image_path: /assets/images/Indonesia-statue.jpg
+  - image_path: /assets/images/Beijing-danwei.jpg
     image_caption: "Image courtesy of [Teng](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    alt: "Danwei"
+    title: "Transitioning Asian Cities"
+    excerpt: "Walled residential area creates segregation and unsettling urban environment in Northern China..."
     url: "/teaching/"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -32,14 +32,14 @@ feature_row:
     excerpt: "Quantitative urban policy study"
 feature_row2:
   - image_path: /assets/images/whole-draft-resize.PNG
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    alt: "Indonesia"
+    title: "Map resizing"
+    excerpt: 'This is how every single settlements in **East Java**, Indonesia looks like in the 1950s'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/xiancun.jpg
+  - image_path: /assets/images/Xiancun.jpg
     alt: "placeholder image 2"
     title: "Placeholder Image Right Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
