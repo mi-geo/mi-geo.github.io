@@ -23,7 +23,6 @@ gallery:
     image_path: /assets/images/travel/Sault-Ste-Marie.jpg
     alt: "Sault Ste. Marie"
     title: "Sault Ste. Marie"
-	
 gallery2:
   - url: https://flic.kr/p/8a6Ven
     image_path: https://farm2.staticflickr.com/1272/4697500467_8294dac099_q.jpg

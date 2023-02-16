@@ -13,7 +13,7 @@ header:
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
 excerpt: "Teaching is a life long learning experience of enhancing your relationship between you and the next generation, and gaining enlightenment from the students"
 
-intro: 
+intro:
   - excerpt: 'Years of teaching experience both online and in person: *geography*, *GIS*, and Python/R `data analysis`. Here are some selected courses I\'ve taught'
 
 feature_row:
