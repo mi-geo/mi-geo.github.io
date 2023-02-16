@@ -1,5 +1,14 @@
 ---
+
+
+
+
+
+
 title: Research is my love
+
+
+
 layout: splash
 permalink: /research/
 date: 
