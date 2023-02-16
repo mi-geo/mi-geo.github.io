@@ -1,14 +1,5 @@
 ---
-
-
-
-
-
-
 title: Research is my love
-
-
-
 layout: splash
 permalink: /research/
 date: 
@@ -17,10 +8,11 @@ header:
   overlay_filter: "0.2"
   overlay_image: /assets/images/Jkt-downtown.jpg
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
-excerpt: "Mass Violence, Data, and Urban Built-Environment."
   actions:
     - label: "Read More"
       url: "https://github.com/"
+excerpt: "Mass Violence, Data, and Urban Built-Environment."
+
 intro: 
   - excerpt: 'Geography is a bout the location and space of everything on earth: '
 feature_row:
