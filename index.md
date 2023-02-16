@@ -1,5 +1,5 @@
 ---
-title: Teng Zhang, Ph.D. (candidate)
+title: Teng Zhang
 layout: single
 author_profile: true
 header:

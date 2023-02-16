@@ -8,17 +8,7 @@ header:
   overlay_filter: "0.2"
   overlay_image: /assets/images/Jkt-downtown.jpg
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
-excerpt: "Mass Violence, Data, and Urban Built-Environment.
-
-
-
-
-
-
-
-
-
- "
+excerpt: "Mass Violence, Data, and Urban Built-Environment."
   actions:
     - label: "Read More"
       url: "https://github.com/"
