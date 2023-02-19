@@ -22,7 +22,7 @@ feature_row:
     url: "/assets/images/travel/Christ.jpg"
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row:
+feature_row2:
   - image_path: /assets/images/travel/Teng-US-map-zm.jpg
     alt: " "
     title: "Upper Pennisula"
@@ -34,3 +34,5 @@ feature_row:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row type="left" %}
+
+{% include feature_row id="feature_row2" type="left" %}

@@ -41,13 +41,13 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: /assets/images/whole-draft-resize.PNG
+  - image_path: /assets/images/res/whole-draft-resize.png
     alt: "Spatial Analysis of Indonesia Mass Violence"
     title: "Map resizing"
     excerpt: 'This is how every single settlements in **East Java**, Indonesia looks like in the 1950s'
-    url: "#test-link"
+    url: "/Indonesia/"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn--info"
 feature_row3:
   - image_path: /assets/images/res/Air-Quality-Fig02.png
     alt: "Environment Policy and Empirical Result of Air Quality in China"
@@ -87,4 +87,6 @@ feature_row5:
 
 ### work in process: 
 
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="feature_row4" type="left" %}
+
+{% include feature_row id="feature_row5" type="left" %}
