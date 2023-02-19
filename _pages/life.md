@@ -29,7 +29,7 @@ feature_row2:
     excerpt: 'These are all the counties I have been travelled to in the states! I did not put the legend in, but you will figure it out!'
     url: "/assets/images/travel/Teng-US-map.png"
     btn_label: "Zoom In"
-    btn_class: "btn--info"
+    btn_class: "btn--success"
 feature_row3:
   - image_path: /assets/images/travel/Teng-US-map-zm.png
     alt: " "
@@ -37,7 +37,7 @@ feature_row3:
     excerpt: 'These are all the counties I have been travelled to in the states! I did not put the legend in, but you will figure it out!'
     url: "/assets/images/travel/Teng-US-map.png"
     btn_label: "Zoom In"
-    btn_class: "btn--info"
+    btn_class: "btn--success"
 feature_row4:
   - image_path: /assets/images/Dongxiang-2.JPG
     alt: "Development Problems"
@@ -45,7 +45,7 @@ feature_row4:
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
     url: "#test-link"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn--success"
 ---
 {% include feature_row id="intro" type="center" %}
 

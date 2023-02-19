@@ -78,9 +78,10 @@ Seperator2:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
+#### Selected Published Work
 
 {% include feature_row id="Seperator1" type="left" %}
-#### Selected Published Work
+
 
 {% include feature_row id="feature_row2" type="left" %}
 
@@ -88,7 +89,7 @@ Seperator2:
 
 {% include feature_row id="feature_row4" type="left" %}
 
-{% include feature_row id="Seperator2" type="left" %}
 #### Selected Work in Process:
+{% include feature_row id="Seperator2" type="left" %}
 
 {% include feature_row id="feature_row5" type="left" %}
