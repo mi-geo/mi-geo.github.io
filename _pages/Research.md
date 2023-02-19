@@ -24,7 +24,6 @@ feature_row:
     url: "/teaching/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-
   - image_path: /assets/images/Beijing-danwei.jpg
     image_caption: "Image courtesy of [Teng](https://stormocean.github.io/)"
 	alt: "Danwei"
@@ -33,7 +32,6 @@ feature_row:
     url: "/teaching/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-
   - image_path: /assets/images/Belize-city.jpg
     image_caption: "Image courtesy of [Teng](https://stormocean.github.io/)"
     alt: "Spatial Analysis"
@@ -42,7 +40,6 @@ feature_row:
     url: "/teaching/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-
 feature_row2:
   - image_path: /assets/images/whole-draft-resize.PNG
     alt: "Spatial Analysis of Indonesia Mass Violence"
@@ -51,7 +48,6 @@ feature_row2:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-
 feature_row3:
   - image_path: /assets/images/res/Air-Quality-Fig02.png
     alt: "Environment Policy and Empirical Result of Air Quality in China"
@@ -61,7 +57,6 @@ feature_row3:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-
 feature_row4:
   - image_path: /assets/images/res/HGDY-Danwei-timeline.png
     alt: "danwei compound in Beijing..."
@@ -72,7 +67,6 @@ feature_row4:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-
 feature_row5:
   - image_path: /assets/images/Dongxiang-2.JPG
     alt: "Development Problems"
@@ -82,7 +76,6 @@ feature_row5:
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
-
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
