@@ -15,7 +15,8 @@ header:
 toc_icon: "book-user"
 toc_sticky: false
 ---
-*C.V. [Download](Teng_CV_master_research.pdf)*
+*C.V. [Download](https://stormocean.github.io/Teng_CV_master_research.pdf)*
+
 ## Profile
 
 I am seeking a position to exercise my passion for advancing knowledge and transforming lives on vital social topics utilizing my advanced geospatial analytics abilities.

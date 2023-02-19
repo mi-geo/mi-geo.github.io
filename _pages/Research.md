@@ -41,7 +41,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 Seperator1: 
-  - title: #### Selected Published Work
+  - title: "#### Selected Published Work"
   - excerpt: ''
 feature_row2:
   - image_path: /assets/images/res/whole-draft-resize.png
@@ -61,7 +61,7 @@ feature_row3:
     btn_label: "Read More"
     btn_class: "btn--info"
 Seperator2: 
-  - title: #### Work in Process: 
+  - title: "#### Work in Process: "
   - excerpt: ''
 feature_row4:
   - image_path: /assets/images/res/HGDY-Danwei-timeline.png
