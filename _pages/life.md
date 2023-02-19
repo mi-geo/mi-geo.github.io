@@ -23,16 +23,36 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: /assets/images/travel/Teng-US-map-zm.jpg
+  - image_path: /assets/images/travel/Teng-US-map-zm.png
     alt: " "
-    title: "Upper Pennisula"
-    excerpt: 'This is what the city Sault Ste. Marie in the UP looks like!'
-    url: "/assets/images/travel/Teng-US-map.jpg"
+    title: "United States Footprint"
+    excerpt: 'These are all the counties I have been travelled to in the states! I did not put the legend in, but you will figure it out!'
+    url: "/assets/images/travel/Teng-US-map.png"
     btn_label: "Zoom In"
     btn_class: "btn--info"
+feature_row3:
+  - image_path: /assets/images/travel/Teng-US-map-zm.png
+    alt: " "
+    title: "United States Footprint"
+    excerpt: 'These are all the counties I have been travelled to in the states! I did not put the legend in, but you will figure it out!'
+    url: "/assets/images/travel/Teng-US-map.png"
+    btn_label: "Zoom In"
+    btn_class: "btn--info"
+feature_row4:
+  - image_path: /assets/images/Dongxiang-2.JPG
+    alt: "Development Problems"
+    title: "Gansu and other stuff"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row type="left" %}
 
 {% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="left" %}
+
+{% include feature_row id="feature_row4" type="left" %}

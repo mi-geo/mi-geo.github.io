@@ -23,7 +23,7 @@ feature_row:
     excerpt: "Spatial analysis of mass **violence**. Research area focuses on Indonesia."
     url: "/teaching/"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn"
   - image_path: /assets/images/Beijing-danwei.jpg
     image_caption: "Image courtesy of [Teng](https://stormocean.github.io/)"
     alt: "Danwei"
@@ -31,7 +31,7 @@ feature_row:
     excerpt: "My previous studies includes discussed several  Quantitative urban policy study"
     url: "/teaching/"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn"
   - image_path: /assets/images/Belize-city.jpg
     image_caption: "Image courtesy of [Teng](https://stormocean.github.io/)"
     alt: "Spatial Analysis"
@@ -39,9 +39,9 @@ feature_row:
     excerpt: ""
     url: "/teaching/"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn"
 Seperator1: 
-  - title: "#### Selected Published Work"
+  - title: ""
   - excerpt: ''
 feature_row2:
   - image_path: /assets/images/res/whole-draft-resize.png
@@ -60,9 +60,6 @@ feature_row3:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--info"
-Seperator2: 
-  - title: "#### Work in Process: "
-  - excerpt: ''
 feature_row4:
   - image_path: /assets/images/res/HGDY-Danwei-timeline.png
     alt: "danwei compound in Beijing..."
@@ -73,27 +70,25 @@ feature_row4:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--info"
-feature_row5:
-  - image_path: /assets/images/Dongxiang-2.JPG
-    alt: "Development Problems"
-    title: "Gansu and other stuff"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+Seperator2: 
+  - title: ""
+  - excerpt: ''
+
 ---
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
 {% include feature_row id="Seperator1" type="left" %}
+#### Selected Published Work
 
 {% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row3" type="right" %}
 
-{% include feature_row id="Seperator2" type="left" %}
-
 {% include feature_row id="feature_row4" type="left" %}
+
+{% include feature_row id="Seperator2" type="left" %}
+#### Selected Work in Process:
 
 {% include feature_row id="feature_row5" type="left" %}
