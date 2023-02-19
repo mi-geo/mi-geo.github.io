@@ -2,16 +2,16 @@
 main:
   - title: "Research"
     url: /research/
-  - title: "Life"
-    url: /life/
   - title: "Teaching"
     url: /teaching/
   - title: "CV"
     url: /cv/
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Guide"
-    url: /page-archive/
+  - title: "Indonesia"
+    url: /Indonesia/
+  - title: "Life"
+    url: /life/
+  - title: "Blogs"
+    url: /collection-archive/
   - title: "About"
     url: /about/
   # - title: "Sample Posts"
