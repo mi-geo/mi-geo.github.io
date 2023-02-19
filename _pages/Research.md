@@ -26,7 +26,7 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: /assets/images/Beijing-danwei.jpg
     image_caption: "Image courtesy of [Teng](https://stormocean.github.io/)"
-	alt: "Danwei"
+    alt: "Danwei"
     title: "Transitioning, Poverty, and Development of Asia"
     excerpt: "My previous studies includes discussed several  Quantitative urban policy study"
     url: "/teaching/"
