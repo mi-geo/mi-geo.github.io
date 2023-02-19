@@ -1,6 +1,6 @@
 ---
 title: '**Unsafe Place**: \Spatial Analysis of Indonesia Genocide 1965 - 1966'
-layout: post
+layout: single
 permalink: /Indonesia/
 date:
 header:
@@ -12,13 +12,7 @@ header:
     - label: "Read More"
       url: "https://github.com/"
 excerpt: "Three researches about the mass killing event 60 years ago..."
-
-```markdown
-[X-Large Button](#link){: .btn .btn--x-large}
-[Large Button](#link){: .btn .btn--large}
-[Default Button](#link){: .btn}
-[Small Button](#link){: .btn .btn--small}
-```
+---
 
 ## Background
 The Indonesian Communist Purge was one of the most massive genocides in human history. The victims of the purge were members of the Indonesian Communist Party and their so-called sympathizers. The persecutors included the Indonesian Army and local militias. While the army followed orders from Surabaya’s Commander, the Nahdlatul Ulama (NU) party supported local militias because they held long-term resentments toward the communist party. The following research aims to distinguish the different impacts of the two types of persecutors on the magnitude of the purge and find which one played the fundamental role in the killing. 
@@ -27,17 +21,21 @@ The research uses the distance between a settlement and the local army command o
 
 ## Spatial analysis in mass violence 
 
-#### Bayesian Regression: 
+#### Bayesian Regression:
 <figure>
 	<a href="/assets/images/res/Bayesian-01.png"><img src="/assets/images/res/Bayesian-01.png"></a>
 	<figcaption>Coef. of influence magnitude varied by distance to the source of influence.</figcaption>
 </figure>
 
 #### Multilevel Regression: 
-<figure class="half">
-	<a href="http://placehold.it/1200x600.JPG"><img src="http://placehold.it/600x300.jpg"></a>
-	<a href="http://placehold.it/1200x600.jpeg"><img src="http://placehold.it/600x300.jpg"></a>
-	<figcaption>Two images.</figcaption>
+<figure>
+	<a href="/assets/images/res/command-structure-EJ.png"><img src="/assets/images/res/command-structure-EJ.png"></a>
+	<figcaption>Structure of military commands in East Java</figcaption>
+</figure>
+
+<figure>
+	<a href="/assets/images/res/kodim_loc.png"><img src="/assets/images/res/kodim_loc.png"></a>
+	<figcaption>Locations of kodim in East Java</figcaption>
 </figure>
 
 #### Simulation of settlement patterns: 
@@ -47,8 +45,6 @@ The research uses the distance between a settlement and the local army command o
 	<figcaption>Two images.</figcaption>
 </figure>
 
-
-
 **Watch out!** You can also add notices by appending `{: .notice}` to a paragraph.
 {: .notice}
 
@@ -56,13 +52,7 @@ The research uses the distance between a settlement and the local army command o
   1 Infinite Loop<br /> Cupertino, CA 95014<br /> United States
 </address>
 
-### Anchor Tag (aka. Link)
-
 This is an example of a [link](http://apple.com "Apple").
-
-### Abbreviation Tag
-
-The abbreviation CSS stands for "Cascading Style Sheets".
 
 *[CSS]: Cascading Style Sheets
 
