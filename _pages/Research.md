@@ -40,10 +40,13 @@ feature_row:
     url: "/teaching/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+Seperator1: 
+  - title: #### Selected Published Work
+  - excerpt: ''
 feature_row2:
   - image_path: /assets/images/res/whole-draft-resize.png
     alt: "Spatial Analysis of Indonesia Mass Violence"
-    title: "Map resizing"
+    title: "Spatial Analysis of Indonesia Mass Violence"
     excerpt: 'This is how every single settlements in **East Java**, Indonesia looks like in the 1950s'
     url: "/Indonesia/"
     btn_label: "Read More"
@@ -56,7 +59,10 @@ feature_row3:
 	Using a panel data regression model, this study revealed that inadequate capability and strong opposition towards enforcing stringent environmental regulations were pivotal factors contributing to environmental degradation in urban China. Moreover, the study concluded that social pressure had a negligible impact on improving urban air quality. The findings suggest that economic development and structural transformation have diminished the bargaining power of regulated actors in local economies with respect to the environment.'
     url: "#test-link"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn--info"
+Seperator2: 
+  - title: #### Work in Process: 
+  - excerpt: ''
 feature_row4:
   - image_path: /assets/images/res/HGDY-Danwei-timeline.png
     alt: "danwei compound in Beijing..."
@@ -66,7 +72,7 @@ feature_row4:
 	This study posits that the institutional and proprietary framework of post-danwei compounds is poorly defined and disorderly, leading to a weakened pattern of residual claims and the decline of these compounds. To address this issue, the study suggests the formulation of an updated contract pertaining to danwei compounds that can effectively regulate the behavior of property users."
     url: "#test-link"
     btn_label: "Read More"
-    btn_class: "btn--primary"
+    btn_class: "btn--info"
 feature_row5:
   - image_path: /assets/images/Dongxiang-2.JPG
     alt: "Development Problems"
@@ -79,13 +85,14 @@ feature_row5:
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
-### selected published work:
+
+{% include feature_row id="Seperator1" type="left" %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
 {% include feature_row id="feature_row3" type="right" %}
 
-### work in process: 
+{% include feature_row id="Seperator2" type="left" %}
 
 {% include feature_row id="feature_row4" type="left" %}
 
