@@ -31,11 +31,11 @@ feature_row2:
     btn_label: "Zoom In"
     btn_class: "btn--success"
 feature_row3:
-  - image_path: /assets/images/travel/Teng-US-map-zm.png
+  - image_path: /assets/images/travel/Teng-CN-map-zm.jpg
     alt: " "
     title: "United States Footprint"
     excerpt: 'These are all the counties I have been travelled to in the states! I did not put the legend in, but you will figure it out!'
-    url: "/assets/images/travel/Teng-US-map.png"
+    url: "/assets/images/travel/Teng-CN-map.jpg"
     btn_label: "Zoom In"
     btn_class: "btn--success"
 feature_row4:
