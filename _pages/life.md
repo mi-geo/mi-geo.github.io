@@ -34,8 +34,7 @@ feature_row3:
   - image_path: /assets/images/travel/Teng-CN-map-zm.jpg
     alt: " "
     title: "My Footprint in Greater China"
-    excerpt: 'These are all the counties I have been travelled to in China (both People's Republic and the Republic). 
-	! I did not put the legend in, but you will figure it out!'
+    excerpt: "These are all the counties I have been travelled to in China (both People's Republic and the Republic)!"
     url: "/assets/images/travel/Teng-CN-map.jpg"
     btn_label: "Zoom In"
     btn_class: "btn--success"
