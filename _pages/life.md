@@ -33,8 +33,9 @@ feature_row2:
 feature_row3:
   - image_path: /assets/images/travel/Teng-CN-map-zm.jpg
     alt: " "
-    title: "United States Footprint"
-    excerpt: 'These are all the counties I have been travelled to in the states! I did not put the legend in, but you will figure it out!'
+    title: "My Footprint in Greater China"
+    excerpt: 'These are all the counties I have been travelled to in China (both People's Republic and the Republic). 
+	! I did not put the legend in, but you will figure it out!'
     url: "/assets/images/travel/Teng-CN-map.jpg"
     btn_label: "Zoom In"
     btn_class: "btn--success"
@@ -42,7 +43,7 @@ feature_row4:
   - image_path: /assets/images/Dongxiang-2.JPG
     alt: "Development Problems"
     title: "Gansu and other stuff"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    excerpt: 'My home town is Gansu'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--success"
@@ -55,4 +56,4 @@ feature_row4:
 
 {% include feature_row id="feature_row3" type="left" %}
 
-{% include feature_row id="feature_row4" type="left" %}
+{% include feature_row id="feature_row4" type="right" %}
