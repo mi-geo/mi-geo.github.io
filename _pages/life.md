@@ -26,7 +26,7 @@ feature_row2:
   - image_path: /assets/images/travel/Teng-US-map-zm.png
     alt: " "
     title: "United States Footprint"
-    excerpt: 'These are all the counties I have been travelled to in the states! I did not put the legend in, but you will figure it out!'
+    excerpt: 'These are all the counties I have been travelled to in the States! I did not put the legend in, but you will figure it out!'
     url: "/assets/images/travel/Teng-US-map.png"
     btn_label: "Zoom In"
     btn_class: "btn--success"
