@@ -1,6 +1,6 @@
 ---
 title: Teng Zhang
-layout: splash
+layout: single
 author_profile: true
 classes: wide
 header:
@@ -10,7 +10,6 @@ header:
   caption: "St. Louis, MO. *Photo credit:* [***Teng Zhang***](https://https://www.facebook.com/geography.teng.zhang)"
 excerpt: " "
 
----
 feature_row:
   - image_path: /assets/images/Belize-city.jpg
     image_caption: "Credit: [Teng](https://stormocean.github.io/)"
@@ -28,15 +27,8 @@ feature_row:
     url: "/teaching/"
     btn_label: "Read More"
     btn_class: "btn-info"
-  - image_path: /assets/images/Beijing-danwei.jpg
-    image_caption: "Credit: [Teng](https://stormocean.github.io/)"
-    alt: "Danwei"
-    title: "Transitioning, Poverty, and Development of Asia"
-    excerpt: "My previous studies includes discussed several Quantitative urban policy study"
-    url: "/teaching/"
-    btn_label: "Read More"
-    btn_class: "btn-info"
-	
+---
+{% include feature_row id="intro" type="center" %}
 Hi, I am Teng, a Ph.D. candidate about to graduate from [Michigan State University](https://https://geo.msu.edu/) where I worked with Professors Siddharth Chandra and Ashton Shortridge. My research areas are in applied spatial data analysis, digital humanity, and urban/environmental economic geography. 
 
 Right now, I am completing my dissertation project, [*Unsafe Place: Spatial Analysis of Indonesian Genocide 1965-1966 in Java Timur*](/Indonesia), which uses innovative spatial quantitative techniques to answer three vital research questions about genocide: where, who, and how. 
