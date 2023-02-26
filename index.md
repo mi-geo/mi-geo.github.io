@@ -1,7 +1,8 @@
 ---
 title: Teng Zhang
-layout: single
+layout: splash
 author_profile: true
+classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0"
@@ -10,6 +11,32 @@ header:
 excerpt: " "
 
 ---
+feature_row:
+  - image_path: /assets/images/Belize-city.jpg
+    image_caption: "Credit: [Teng](https://stormocean.github.io/)"
+    alt: "Spatial Analysis"
+    title: "Innovatie Spatial Analysis Methods"
+    excerpt: ""
+    url: "/teaching/"
+    btn_label: "Read More"
+    btn_class: "btn-info"
+  - image_path: /assets/images/Indonesia-statue.jpg
+    image_caption: "Credit: [Teng](https://stormocean.github.io/)"
+    alt: "Violence"
+    title: "Mass Violence in Indonesia"
+    excerpt: "Spatial analysis of mass **violence**. Research area focuses on Indonesia."
+    url: "/teaching/"
+    btn_label: "Read More"
+    btn_class: "btn-info"
+  - image_path: /assets/images/Beijing-danwei.jpg
+    image_caption: "Credit: [Teng](https://stormocean.github.io/)"
+    alt: "Danwei"
+    title: "Transitioning, Poverty, and Development of Asia"
+    excerpt: "My previous studies includes discussed several Quantitative urban policy study"
+    url: "/teaching/"
+    btn_label: "Read More"
+    btn_class: "btn-info"
+	
 Hi, I am Teng, a Ph.D. candidate about to graduate from [Michigan State University](https://https://geo.msu.edu/) where I worked with Professors Siddharth Chandra and Ashton Shortridge. My research areas are in applied spatial data analysis, digital humanity, and urban/environmental economic geography. 
 
 Right now, I am completing my dissertation project, [*Unsafe Place: Spatial Analysis of Indonesian Genocide 1965-1966 in Java Timur*](/Indonesia), which uses innovative spatial quantitative techniques to answer three vital research questions about genocide: where, who, and how. 

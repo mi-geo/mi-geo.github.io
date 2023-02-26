@@ -16,30 +16,30 @@ excerpt: "Mass Violence, Data, and Urban Built-Environment."
 intro: 
   - excerpt: 'Geography is a bout the location and space of everything on earth: '
 feature_row:
-  - image_path: /assets/images/Indonesia-statue.jpg
-    image_caption: "Image courtesy of [Teng](https://stormocean.github.io/)"
-    alt: "Violence"
-    title: "Mass Violence in Indonesia"
-    excerpt: "Spatial analysis of mass **violence**. Research area focuses on Indonesia."
-    url: "/teaching/"
-    btn_label: "Read More"
-    btn_class: "btn"
-  - image_path: /assets/images/Beijing-danwei.jpg
-    image_caption: "Image courtesy of [Teng](https://stormocean.github.io/)"
-    alt: "Danwei"
-    title: "Transitioning, Poverty, and Development of Asia"
-    excerpt: "My previous studies includes discussed several  Quantitative urban policy study"
-    url: "/teaching/"
-    btn_label: "Read More"
-    btn_class: "btn"
   - image_path: /assets/images/Belize-city.jpg
-    image_caption: "Image courtesy of [Teng](https://stormocean.github.io/)"
+    image_caption: "Credit: [Teng](https://stormocean.github.io/)"
     alt: "Spatial Analysis"
     title: "Innovatie Spatial Analysis Methods"
     excerpt: ""
     url: "/teaching/"
     btn_label: "Read More"
-    btn_class: "btn"
+    btn_class: "btn-info"
+  - image_path: /assets/images/Indonesia-statue.jpg
+    image_caption: "Credit: [Teng](https://stormocean.github.io/)"
+    alt: "Violence"
+    title: "Mass Violence in Indonesia"
+    excerpt: "Spatial analysis of mass **violence**. Research area focuses on Indonesia."
+    url: "/teaching/"
+    btn_label: "Read More"
+    btn_class: "btn-info"
+  - image_path: /assets/images/Beijing-danwei.jpg
+    image_caption: "Credit: [Teng](https://stormocean.github.io/)"
+    alt: "Danwei"
+    title: "Transitioning, Poverty, and Development of Asia"
+    excerpt: "My previous studies includes discussed several  Quantitative urban policy study"
+    url: "/teaching/"
+    btn_label: "Read More"
+    btn_class: "btn-info"
 Seperator1: 
   - title: ""
   - excerpt: ''
