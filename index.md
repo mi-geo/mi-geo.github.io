@@ -2,14 +2,13 @@
 title: Teng Zhang
 layout: single
 author_profile: true
-classes: wide
+#classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.1"
   overlay_image:  /assets/images/gate-arch.jpg
   caption: "St. Louis, MO. *Photo credit:* [***Teng Zhang***](https://https://www.facebook.com/geography.teng.zhang)"
 excerpt: " "
-
 feature_row:
   - image_path: /assets/images/res/Beijing-restua-surviving5.png
     #image_caption: "Credit: [Teng](https://stormocean.github.io/)"
@@ -28,14 +27,13 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn-info"
 ---
-{% include feature_row%}
-#### Simulation of settlement patterns: 
-<figure class="half">
-	<a href="/assets/images/res/EJ-pop-head.png"><img src="/assets/images/res/swaping-01.png"></a>
-	<a href="/assets/images/res/Beijing-restua-surviving5.png"><img src="/assets/images/res/swaping-02.png"></a>
-	<figcaption>Two images.</figcaption>
-</figure>
 Hi, I am Teng, a Ph.D. candidate about to graduate from [Michigan State University](https://https://geo.msu.edu/) where I worked with Professors Siddharth Chandra and Ashton Shortridge. My research areas are in applied spatial data analysis, digital humanity, and urban/environmental economic geography. 
+
+<figure class="half">
+	<a href="/Indonesia/"><img src="/assets/images/res/EJ-pop-head.png"></a>
+	<a href="/works/"><img src="/assets/images/res/GWR.png"></a>
+	<figcaption>Spatial Analysis and Indonesian Genocide</figcaption>
+</figure>
 
 Right now, I am completing my dissertation project, [*Unsafe Place: Spatial Analysis of Indonesian Genocide 1965-1966 in Java Timur*](/Indonesia), which uses innovative spatial quantitative techniques to answer three vital research questions about genocide: where, who, and how. 
 

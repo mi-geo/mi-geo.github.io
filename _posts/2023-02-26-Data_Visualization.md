@@ -19,7 +19,7 @@ The followed chart is drawn by a package that I forgot its name.
 
 ### Seasonal Panel Data Illustration, AQI (Month)
 The Chinese AQI data is the greatest.
-<iframe src="/assets/images/res/Urumqi.png" height="500" width="800"></iframe>
-<iframe src="/assets/images/res/Shanghai.png" height="500" width="800"></iframe>
+<iframe src="/assets/images/res/Urumqi.png"></iframe>
+<iframe src="/assets/images/res/Shanghai.png"></iframe>
 
 

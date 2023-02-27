@@ -15,12 +15,13 @@ excerpt: "A few examples of the works I have done as a RA, especially on data vi
 class: wide
 ---
 I love to make maps. There 
+
 ## Data Visualization Examples
-<iframe src="/assets/images/res/Indices1_min_distance.png"></iframe>
+<iframe src="/assets/images/res/Indices1_min_distance.png" height="832" width="1219"></iframe>
 [More visulizationsas](/data/Data_Visualization/)
 
 ## Map Examples
-<iframe src="/assets/maps/east_java_anim/East_Java3js.html"></iframe>
+<iframe src="/assets/maps/east_java_anim/East_Java3js.html" height="500" width="800"></iframe>
 [More maps:](/data/Map_Examples/)
 
 ## Data Scrapping
