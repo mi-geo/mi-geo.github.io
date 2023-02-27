@@ -11,28 +11,28 @@ header:
 excerpt: " "
 
 feature_row:
-  - image_path: /assets/images/Belize-city.jpg
-    image_caption: "Credit: [Teng](https://stormocean.github.io/)"
+  - image_path: /assets/images/res/Beijing-restua-surviving5.png
+    #image_caption: "Credit: [Teng](https://stormocean.github.io/)"
     alt: "Spatial Analysis"
     title: "Innovatie Spatial Analysis Methods"
     excerpt: ""
-    url: "/teaching/"
+    url: "/research/"
     btn_label: "Read More"
     btn_class: "btn-info"
-  - image_path: /assets/images/Indonesia-statue.jpg
-    image_caption: "Credit: [Teng](https://stormocean.github.io/)"
+  - image_path: /assets/images/res/whole-draft-resize.png
+    #image_caption: "Credit: [Teng](https://stormocean.github.io/)"
     alt: "Violence"
     title: "Mass Violence in Indonesia"
-    excerpt: "Spatial analysis of mass **violence**. Research area focuses on Indonesia."
-    url: "/teaching/"
+    excerpt: " analysis of mass **violence**. Research area focuses on Indonesia."
+    url: "/Indonesia/"
     btn_label: "Read More"
     btn_class: "btn-info"
 ---
-{% include feature_row type="center" %}
+{% include feature_row%}
 #### Simulation of settlement patterns: 
 <figure class="half">
-	<a href="/assets/images/res/swaping-01.png"><img src="/assets/images/res/swaping-01.png"></a>
-	<a href="/assets/images/res/swaping-02.png"><img src="/assets/images/res/swaping-02.png"></a>
+	<a href="/assets/images/res/EJ-pop-head.png"><img src="/assets/images/res/swaping-01.png"></a>
+	<a href="/assets/images/res/Beijing-restua-surviving5.png"><img src="/assets/images/res/swaping-02.png"></a>
 	<figcaption>Two images.</figcaption>
 </figure>
 Hi, I am Teng, a Ph.D. candidate about to graduate from [Michigan State University](https://https://geo.msu.edu/) where I worked with Professors Siddharth Chandra and Ashton Shortridge. My research areas are in applied spatial data analysis, digital humanity, and urban/environmental economic geography. 

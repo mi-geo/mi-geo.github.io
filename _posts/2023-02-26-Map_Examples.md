@@ -18,13 +18,13 @@ The followed map is an interactive map built by leafty, showing the population i
 <iframe src="/assets/maps/leafty_1.html" height="500" width="800"></iframe>
 You can explore this map [as its own web page here](/assets/maps/leafty_1.html).
 
-### 3D Rslayer map
+### 3D Rayshader map
 The rayslayer package in R in a powerful tool to create 3D terrain model. However, it doesn't support html. 
-<iframe src="/assets/maps/Sleeping_bear-3Dzm.png" height="500" width="800"></iframe>
+<iframe src="/assets/maps/Sleeping_bear-3Dzm.png"></iframe>
 
 ### Static maps
 For practical reasons, I prefer static maps. They are easier to share, 
-<iframe src="/assets/maps/static_map.png" height="500" width="800"></iframe>
+<iframe src="/assets/maps/static_map.png"></iframe>
 
 
 

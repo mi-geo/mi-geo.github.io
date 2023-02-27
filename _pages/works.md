@@ -16,12 +16,12 @@ class: wide
 ---
 I love to make maps. There 
 ## Data Visualization Examples
-<iframe src="/assets/maps/Online-map.html" height="500" width="800"></iframe>
-[More visulizationsas](/assets/maps/Online-map.html)
+<iframe src="/assets/images/res/Indices1_min_distance.png"></iframe>
+[More visulizationsas](/data/Data_Visualization/)
 
 ## Map Examples
-<iframe src="/assets/maps/east_java_anim/East_Java3js.html" height="500" width="800"></iframe>
-More maps: [as its own web page here](/assets/maps/east_java_anim/East_Java3js.html)
+<iframe src="/assets/maps/east_java_anim/East_Java3js.html"></iframe>
+[More maps:](/data/Map_Examples/)
 
 ## Data Scrapping
 
@@ -33,7 +33,7 @@ More maps: [as its own web page here](/assets/maps/east_java_anim/East_Java3js.h
 
 ## "Fancy" Machine Learning Application
 
-<iframe src="/assets/maps/Online-map.html" height="500" width="800"></iframe>
+<iframe src="/assets/maps/Online-map.html" ></iframe>
 
 You can explore this map [as its own web page here](/assets/maps/Online-map.html).
 
