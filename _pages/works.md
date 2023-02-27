@@ -21,7 +21,7 @@ I love to make maps. There
 [More visulizationsas](/data/Data_Visualization/)
 
 ## Map Examples
-<iframe src="/assets/maps/east_java_anim/East_Java3js.html" height="500" width="800"></iframe>
+<iframe src="/assets/maps/east_java_anim/East_Java3js.html"></iframe>
 [More maps:](/data/Map_Examples/)
 
 ## Data Scrapping

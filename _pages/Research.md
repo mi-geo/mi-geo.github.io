@@ -58,11 +58,10 @@ feature_row3:
   - image_path: /assets/images/res/Air-Quality-Fig02.png
     alt: "Environment Policy and Empirical Result of Air Quality in China"
     title: "Environment Policy and Empirical Result of Air Quality in China"
-    excerpt: 'The capability, pressure, and resistance to enforce environmental regulations would determine the result of air quality. This study investigated the air quality across 86 major Chinese cities and observed that between 2001 and 2011, air quality showed an overall improvement, although with substantial discrepancies across cities.
+    excerpt: "The capability, pressure, and resistance to enforce environmental regulations would determine the result of air quality. This study investigated the air quality across 86 major Chinese cities and observed that between 2001 and 2011, air quality showed an overall improvement, although with substantial discrepancies across cities.
 	Using a panel data regression model, this study revealed that inadequate capability and strong opposition towards enforcing stringent environmental regulations were pivotal factors contributing to environmental degradation in urban China. Moreover, the study concluded that social pressure had a negligible impact on improving urban air quality. 
 	
-	*He, C., Zhang, T. and Rui, W., 2012. Air quality in urban China. Eurasian Geography and Economics, 53(6), pp.750-771.*
-	'
+	*He, C., Zhang, T. and Rui, W., 2012. Air quality in urban China. Eurasian Geography and Economics, 53(6), pp.750-771.*"
     url: "https://www.tandfonline.com/doi/pdf/10.2747/1539-7216.53.6.750"
     btn_label: "Read More"
     btn_class: "btn--info"
