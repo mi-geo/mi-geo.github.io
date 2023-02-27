@@ -3,11 +3,9 @@ title: "R Code Examples for data science"
 header:
   teaser: "assets/images/Sun-Venus.jpg"
 categories:
-  - posts
+  - Visual
 tags:
   - code
-  - r
-  - visualization
 toc: true
 ---
 

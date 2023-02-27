@@ -1,14 +1,9 @@
 ---
 layout: post
-title: "My heart is broken"
+title: "post layout sample"
 categories:
-  - Love
+  - Template
 tags:
-  - post
-  - css
-  - edge case
-  - lists
-  - markup
 ---
 The layout of this page is 'post'. 
 Nested and mixed lists are an interesting beast. It's a corner case to make sure that

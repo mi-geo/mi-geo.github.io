@@ -23,12 +23,14 @@ The research uses the distance between a settlement and the local army command o
 ## Spatial analysis in mass violence 
 
 #### Bayesian Regression:
+Bayesian regression could take advantage of knowledge that we already have. We know the killing patterns in Tuban, thus we use that as a prior and estimate the results of Bayesian regression.
 <figure>
 	<a href="/assets/images/res/Bayesian-01.png"><img src="/assets/images/res/Bayesian-01.png"></a>
 	<figcaption>Coef. of influence magnitude varied by distance to the source of influence.</figcaption>
 </figure>
 
 #### Multilevel Regression: 
+Multi-level model would be a great way to do that. 
 <figure>
 	<a href="/assets/images/res/command-structure-EJ.png"><img src="/assets/images/res/command-structure-EJ.png"></a>
 	<figcaption>Structure of military commands in East Java</figcaption>
@@ -40,8 +42,9 @@ The research uses the distance between a settlement and the local army command o
 </figure>
 
 #### Simulation of settlement patterns: 
+The residential pattern is unpredictable, but we roughly know the percentage of abangan people and santri people in each district, thus under the assumption that they tend to live together, we can generate a similation of where they live:
 <figure class="half">
 	<a href="/assets/images/res/swaping-01.png"><img src="/assets/images/res/swaping-01.png"></a>
 	<a href="/assets/images/res/swaping-02.png"><img src="/assets/images/res/swaping-02.png"></a>
-	<figcaption>Two images.</figcaption>
+	<figcaption>Left: randomly locate two types of cells in the district; Right: swap cells until the level of clustering is satisfictary.</figcaption>
 </figure>

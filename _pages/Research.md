@@ -36,7 +36,7 @@ feature_row:
     image_caption: "Credit: [Teng](https://stormocean.github.io/)"
     alt: "Danwei"
     title: "Transitioning, Poverty, and Development of Asia"
-    excerpt: "My previous studies includes discussed several  Quantitative urban policy study"
+    excerpt: "My previous studies includes discussed several Quantitative urban policy study"
     url: "/teaching/"
     btn_label: "Read More"
     btn_class: "btn-info"

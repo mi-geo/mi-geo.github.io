@@ -5,8 +5,6 @@ header:
   caption: "Photo credit: [**Teng Zhang**]"
 categories:
   - Research
-  - Life
-  - Travelling
 tags:
   - life
 ---

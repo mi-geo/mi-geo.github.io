@@ -5,7 +5,7 @@ author_profile: true
 classes: wide
 header:
   overlay_color: "#000"
-  overlay_filter: "0"
+  overlay_filter: "0.1"
   overlay_image:  /assets/images/gate-arch.jpg
   caption: "St. Louis, MO. *Photo credit:* [***Teng Zhang***](https://https://www.facebook.com/geography.teng.zhang)"
 excerpt: " "
@@ -28,7 +28,13 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn-info"
 ---
-{% include feature_row id="intro" type="center" %}
+{% include feature_row type="center" %}
+#### Simulation of settlement patterns: 
+<figure class="half">
+	<a href="/assets/images/res/swaping-01.png"><img src="/assets/images/res/swaping-01.png"></a>
+	<a href="/assets/images/res/swaping-02.png"><img src="/assets/images/res/swaping-02.png"></a>
+	<figcaption>Two images.</figcaption>
+</figure>
 Hi, I am Teng, a Ph.D. candidate about to graduate from [Michigan State University](https://https://geo.msu.edu/) where I worked with Professors Siddharth Chandra and Ashton Shortridge. My research areas are in applied spatial data analysis, digital humanity, and urban/environmental economic geography. 
 
 Right now, I am completing my dissertation project, [*Unsafe Place: Spatial Analysis of Indonesian Genocide 1965-1966 in Java Timur*](/Indonesia), which uses innovative spatial quantitative techniques to answer three vital research questions about genocide: where, who, and how. 

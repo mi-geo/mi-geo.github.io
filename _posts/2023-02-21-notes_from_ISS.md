@@ -3,9 +3,9 @@ title: "ISS 221 Big Ideas in Social Science"
 header:
   teaser: "assets/images/Sun-Venus.jpg"
 categories:
-  - posts
+  - Notes
 tags:
-  - feelings
+  - subjective
 toc: true
 ---
 
