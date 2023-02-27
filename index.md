@@ -30,7 +30,7 @@ feature_row:
 Hi, I am Teng, a Ph.D. candidate about to graduate from [Michigan State University](https://https://geo.msu.edu/) where I worked with Professors Siddharth Chandra and Ashton Shortridge. My research areas are in applied spatial data analysis, digital humanity, and urban/environmental economic geography. 
 
 <figure class="half">
-	<a href="/Indonesia/"><img src="/assets/images/res/EJ-pop-head.png"></a>
+	<a href="/Indonesia/"><img src="/assets/images/res/Pop.png"></a>
 	<a href="/works/"><img src="/assets/images/res/GWR.png"></a>
 	<figcaption>Spatial Analysis and Indonesian Genocide</figcaption>
 </figure>
