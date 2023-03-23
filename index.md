@@ -27,6 +27,17 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn-info"
 ---
+
+# AAG 2023 Annual Meeting Poster
+
+<figure>
+	<a href="/Indonesia/"><img src="/assets/charts/AAG2023-Poster-zm.png"></a>
+	<figcaption>Teng's AAG Annual Meeting 2023 Poster：Community’s Cohesion and Resistance
+</figure>
+You can explore this poster [here (png format)](/assets/charts/AAG2023-Poster-f.png) or [here (pdf format)](/assets/charts/AAG2023-Poster-f.pdf).
+
+***
+
 Hi, I am Teng, a Ph.D. candidate about to graduate from [Michigan State University](https://https://geo.msu.edu/) where I worked with Professors Siddharth Chandra and Ashton Shortridge. My research areas are in applied spatial data analysis, digital humanity, and urban/environmental economic geography. 
 
 <figure class="half">
