@@ -15,7 +15,7 @@ header:
 toc_icon: "book-user"
 toc_sticky: false
 ---
-*C.V. [Download](assets/Teng_CV_master_research.pdf)*
+*C.V. [Download](https://mi-geo.github.io/assets/Teng_CV_master_research.pdf)*
 
 ## Profile
 
