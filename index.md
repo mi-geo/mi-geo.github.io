@@ -29,10 +29,9 @@ feature_row:
 ---
 
 # AAG 2023 Annual Meeting Poster
-
+Community’s Cohesion and Resistance
 <figure>
 	<a href="/Indonesia/"><img src="/assets/charts/AAG2023-Poster-zm.png"></a>
-	<figcaption>Teng's AAG Annual Meeting 2023 Poster：Community’s Cohesion and Resistance</figcaption>
 </figure>
 You can explore this poster [here (png format)](/assets/charts/AAG2023-Poster-f.png) or [here (pdf format)](/assets/charts/AAG2023-Poster-f.pdf).
 
