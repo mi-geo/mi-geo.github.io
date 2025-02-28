@@ -28,6 +28,25 @@ feature_row:
     btn_class: "btn-info"
 ---
 
+Hi, I am Teng Zhang PhD, currently working as a postdoc scholar at Southern Methodist University. A couple of years ago, I graduated [Michigan State University](https://https://geo.msu.edu/) where I worked with Professors Siddharth Chandra and Ashton Shortridge. My research areas are in applied spatial data analysis, digital humanity, and urban/environmental economic geography. 
+
+<figure class="half">
+	<a href="/Indonesia/"><img src="/assets/images/res/Pop.png"></a>
+	<a href="/works/"><img src="/assets/images/res/GWR.png"></a>
+	<figcaption>Spatial Analysis and Indonesian Genocide</figcaption>
+</figure>
+
+Right now, I am completing my a paper about using network analysis as a tool to detect the local legal resource supply in southern united states. I will keep you updated. 
+
+My dissertation project, [*Unsafe Place: Spatial Analysis of Indonesian Genocide 1965-1966 in Java Timur*](/Indonesia) used innovative spatial quantitative techniques to answer three vital research questions about genocide: where, who, and how. 
+
+Aside from my academic pursuits, I have shared my knowledge and passion with students through the art of teaching, imparting the intricacies of Intermediate GIS, World Regional Geography, and GIS Technology. I am now in the midst of creating syllabi for new classes, hoping to delve into the fascinating fields of Human Geography and Geography of Violence.
+
+My journey to becoming a Michigander started as a senior analyst at Jones Lang LaSalle in Guangzhou, China, where I roamed the land and explored a multitude of real estate marvels: towering apartments, sprawling warehouses, bustling office buildings, and vibrant shopping centers. My experiences there continue to influence and inspire me in my research and analytical projects.
+
+When not immersed in work, I embrace my wanderlust and embark on adventures, with Peru and Bolivia next on my bucket list of places to visit.
+
+***
 # AAG 2023 Annual Meeting Poster
 Community’s Cohesion and Resistance
 <figure>
@@ -37,25 +56,10 @@ You can explore this poster [here (png format)](/assets/charts/AAG2023-Poster-f.
 
 ***
 
-Hi, I am Teng, a Ph.D. candidate about to graduate from [Michigan State University](https://https://geo.msu.edu/) where I worked with Professors Siddharth Chandra and Ashton Shortridge. My research areas are in applied spatial data analysis, digital humanity, and urban/environmental economic geography. 
-
-<figure class="half">
-	<a href="/Indonesia/"><img src="/assets/images/res/Pop.png"></a>
-	<a href="/works/"><img src="/assets/images/res/GWR.png"></a>
-	<figcaption>Spatial Analysis and Indonesian Genocide</figcaption>
-</figure>
-
-Right now, I am completing my dissertation project, [*Unsafe Place: Spatial Analysis of Indonesian Genocide 1965-1966 in Java Timur*](/Indonesia), which uses innovative spatial quantitative techniques to answer three vital research questions about genocide: where, who, and how. 
-
-Aside from my academic pursuits, I have shared my knowledge and passion with students through the art of teaching, imparting the intricacies of Intermediate GIS, World Regional Geography, and GIS Technology. I am now in the midst of creating syllabi for new classes, hoping to delve into the fascinating fields of Human Geography and Geography of Violence.
-
-My journey to becoming a Michigander started as a senior analyst at Jones Lang LaSalle in Guangzhou, China, where I roamed the land and explored a multitude of real estate marvels: towering apartments, sprawling warehouses, bustling office buildings, and vibrant shopping centers. My experiences there continue to influence and inspire me in my research and analytical projects.
-
-When not immersed in work, I embrace my wanderlust and embark on adventures, with Peru and Bolivia next on my bucket list of places to visit.
-
-***
-
 # Recent Research / Talks
 
-April 2023 | Association of American Geographers: [Who is implementing the killings in Indonesia](http://www.aag.org/).
+Mar 2023 | Association of American Geographers: [A network based metric for detecting legal resurces](http://www.aag.org/).
+Nov 2024 | American Society of Criminology: [Where are the lawyers in Texas?](http://www.aag.org/).
+Apr 2024 | Association of American Geographers: [Who should be responsible for the killings in Indonesia](http://www.aag.org/).
+Apr 2023 | Association of American Geographers: [Who is implementing the killings in Indonesia](http://www.aag.org/).
 
