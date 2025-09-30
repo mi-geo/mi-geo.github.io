@@ -15,12 +15,14 @@ header:
 toc_icon: "book-user"
 toc_sticky: false
 ---
-*C.V. [Download](https://mi-geo.github.io/assets/Teng_CV_wb.pdf)*
+*C.V. [Download](https://mi-geo.github.io/assets/Teng_CV_data_ac.pdf)*
 
 ## Profile
 
-I am seeking a position to exercise my passion for advancing knowledge and transforming lives on vital social topics utilizing my advanced geospatial analytics abilities.
-Years of diverse experience teaching geography in both in-person and online contexts; dedicated interdisciplinary research on a wide range of pressing global South topics; Rated as ’Excellent’ constantly as an MSU onGEO instructor; Awarded by multiple research scholarships including Kussy Scholarship for Study of Genocide and S.C. Lee Best Paper Competitions; Skilled in ArcGIS, R, and Python-based data analysis.  
+Self-motivated geospatial data scientist with a focus on interdisciplinary applications, dedicated to advancing spatial awareness and critical thinking in both research and teaching.
+•	Proficient in large-scale data analysis and management using R, Python and GIS, with extensive experience in automated data-crawling and machine learning. 
+•	Extensive teaching experience in both in-person and online settings, recognized as ’Excellent’ online geography instructor at MSU
+•	Committed to integrating AI-driven approaches to enhance research, teaching, and public understanding of complex geo-social science challenges.
 
 ## Education
 
