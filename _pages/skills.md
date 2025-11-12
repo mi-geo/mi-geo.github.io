@@ -1,7 +1,7 @@
 ---
-title: "Work & Maps"
+title: "My Work and Skills"
 layout: splash
-permalink: /works/
+permalink: /skills/
 date:
 header:
   overlay_color: "#000"

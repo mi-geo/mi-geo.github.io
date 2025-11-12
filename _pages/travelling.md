@@ -1,7 +1,7 @@
 ---
-title: "Life"
+title: "Travelling"
 layout: splash
-permalink: /life/
+permalink: /Travelling/
 date: 
 header:
   overlay_color: "#000"

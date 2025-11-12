@@ -112,15 +112,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Teng Zhang"
+  name             : "Teng Zhang, PhD"
   avatar           : "/assets/images/my-logo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "This website demonstrates the personal life of Teng Zhang, Ph.D candidate near **Lansing, MI**."
-  location         : "Lansing, MI"
-  email            : "zhangte6@msu.edu"
+  bio              : "Live Free or Die"
+  location         : "Dallas, TX"
+  email            : "tengz.ecogeo@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:your.name@email.com"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
@@ -136,13 +136,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url:  "https://x.com/Real_GEOTeng"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/mi-geo"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:

@@ -11,7 +11,7 @@ header:
   actions:
     - label: "Read More"
       url: "https://github.com/"
-excerpt: "Mass Violence, Data, and Urban Built-Environment."
+excerpt: "Spatial Data, Mass Violence, and Urban Built-Environment."
 
 intro: 
   - excerpt: 'Geography is a bout the location and space of everything on earth: '

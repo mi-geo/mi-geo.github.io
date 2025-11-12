@@ -20,8 +20,11 @@ toc_sticky: false
 ## Profile
 
 Self-motivated geospatial data scientist with a focus on interdisciplinary applications, dedicated to advancing spatial awareness and critical thinking in both research and teaching.
+
 •	Proficient in large-scale data analysis and management using R, Python and GIS, with extensive experience in automated data-crawling and machine learning. 
+
 •	Extensive teaching experience in both in-person and online settings, recognized as ’Excellent’ online geography instructor at MSU
+
 •	Committed to integrating AI-driven approaches to enhance research, teaching, and public understanding of complex geo-social science challenges.
 
 ## Education
