@@ -58,7 +58,11 @@ You can explore this poster [here (png format)](/assets/charts/AAG2023-Poster-f.
 
 # Recent Research / Talks
 Mar 2025 | Association of American Geographers: [A network based metric for detecting legal resurces](http://www.aag.org/).
+
 Nov 2024 | American Society of Criminology: [Where are the lawyers in Texas?](http://www.aag.org/).
+
 Apr 2024 | Association of American Geographers: [Who should be responsible for the killings in Indonesia](http://www.aag.org/).
+
 Apr 2023 | Association of American Geographers: [Who is implementing the killings in Indonesia](http://www.aag.org/).
+
 
