@@ -50,6 +50,7 @@ I love to make maps. There
 {% include feature_row id="feature_row3" type="right" %}
 
 ## Data Scrapping
-## Interactive Website Design
+
+##### Interactive Website Design
 
 ## "Fancy" Machine Learning Application
