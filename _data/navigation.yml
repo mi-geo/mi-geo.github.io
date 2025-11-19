@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "Skills"
+  - title: "Work"
     url: /skills/
   - title: "Research"
     url: /research/
@@ -14,8 +14,8 @@ main:
     url: /Travelling/
   - title: "Blogs"
     url: /categories/
-  - title: "About"
-    url: /about/
+  #- title: "About"
+  #  url: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
