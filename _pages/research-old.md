@@ -1,7 +1,7 @@
 ---
 title: Research Interests
 layout: splash
-permalink: /research/
+permalink: /research-old/
 date: 
 header:
   overlay_color: "#000"

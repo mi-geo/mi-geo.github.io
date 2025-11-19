@@ -1,5 +1,5 @@
 ---
-title: "My Work and Skills"
+title: "My Skill Set"
 layout: splash
 permalink: /skills/
 date:
@@ -14,43 +14,71 @@ header:
 excerpt: "A few examples of the works I have done as a RA, especially on data visualization:"
 class: wide
 
-feature_row:
-  - image_path: /assets/images/res/Indices1_min_distance.png
-    alt: "Data Visualization Examples"
-    title: "Data Visualization Examples"
-    excerpt: "We are trying to detect the significance of a result in a given two dimension distribution."
-    url: "/data/Data_Visualization/"
+intro: 
+  - excerpt: 'I am a highly motivated geospatial data social scientist.'
+feature_row0:
+  - image_path: /assets/images/Belize-city.jpg
+    image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
+    alt: "Scrawling"
+    title: "Data Manipulating and Scrawling"
+    excerpt: ""
+    url: "/scrawling/"
     btn_label: "Read More"
-    btn_class: "btn--info"
-feature_row2:
-  - image_path: /assets/maps/leafty_1.html
-    alt: "Map Illustration Examples"
-    title: "Data Visualization Examples"
-    excerpt: "We are trying to detect the significance of a result in a given two dimension distribution."
-    url: "/data/Map_Examples/"
+    btn_class: "btn-info"
+  - image_path: /assets/images/Indonesia-statue.jpg
+    image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
+    alt: "Visualization"
+    title: "Geospatial Visualization"
+    excerpt: "Spatial analysis of mass **violence**. Research area focuses on Indonesia."
+    url: "/visualization/"
     btn_label: "Read More"
-    btn_class: "btn--info"
-feature_row3:
-  - image_path: /assets/images/WordinEJALL.png
-    alt: "Scrapping Examples"
-    title: "Data Scrapping Examples"
-    excerpt: "Webscrapping and detect selected location names from non-English books"
-    url: "/data/Data_Scrapping/"
+    btn_class: "btn-info"
+  - image_path: /assets/images/Beijing-danwei.jpg
+    image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
+    alt: "Danwei"
+    title: "Geospatial Statistics"
+    excerpt: "My previous studies includes discussed several Quantitative urban policy study"
+    url: "/China/"
+    <!--
+	btn_label: "Read More"
+    btn_class: "btn-info"
+	-->
+
+feature_row1:
+  - image_path: /assets/images/Belize-city.jpg
+    image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
+    alt: ""
+    title: "Cartography and Mapping"
+    excerpt: ""
+    url: "/map/"
     btn_label: "Read More"
-    btn_class: "btn--info"
+    btn_class: "btn-info"
+  - image_path: /assets/images/Indonesia-statue.jpg
+    image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
+    alt: ""
+    title: "Machine Learning Application"
+    excerpt: ""
+    url: "/pytorch/"
+    btn_label: "Read More"
+    btn_class: "btn-info"
+  - image_path: /assets/images/Beijing-danwei.jpg
+    image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
+    alt: "Danwei"
+    title: "AI"
+    excerpt: ""
+    url: "/ai/"
+    <!--
+	btn_label: "Read More"
+    btn_class: "btn-info"
+	-->
+
 ---
-I love to make maps. There 
 
 {% include feature_row id="feature_row" type="right" %}
 
 <iframe src="/assets/maps/east_java_anim/East_Java3js.html" height="400" width="700"></iframe>
 [More maps:](/data/Map_Examples/)
 
-{% include feature_row id="feature_row2" type="left" %}
-{% include feature_row id="feature_row3" type="right" %}
+{% include feature_row id="feature_row0" type="left" %}
+{% include feature_row id="feature_row1" type="right" %}
 
-## Data Scrapping
-
-##### Interactive Website Design
-
-## "Fancy" Machine Learning Application
