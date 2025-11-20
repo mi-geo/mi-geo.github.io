@@ -14,7 +14,7 @@ header:
 excerpt: "Spatial Data, Mass Violence, and Urban Built-Environment."
 
 intro: 
-  - excerpt: 'Geography is a bout the location and space of everything on earth: '
+  - excerpt: 'Geography is about the location and space of everything on earth: '
 feature_row0:
   - image_path: /assets/images/texas1.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
@@ -51,14 +51,14 @@ feature_row1:
     excerpt: >
       We have estimates of the intensity of violence in the different kecamatan of East Java based on census data in conjunction with data on the locations of the historically significant pesantren, indicative of local capacity for political mobilization against the PKI, to examine possible associations between the two variables.
 
-      <small>*Chandra, S., Zhang, T., 2023. Glimpses of Indonesia’s 1965 Massacre through the Lens of the Census: The Role of Civilian Organizations in the Mass Anti-Communist Killings of 1965-66 in East Java. Indonesia (accepted)*</small>
+      <small>*Chandra, S., Zhang, T., 2023. Glimpses of Indonesia’s 1965 Massacre through the Lens of the Census: The Role of Civilian Organizations in the Mass Anti-Communist Killings of 1965-66 in East Java. Indonesia*</small>
 
     url: "/Indonesia/"
     btn_label: "Read More"
     btn_class: "btn--info"
 
 ---
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" type="left" %}
 
 {% include feature_row id="feature_row0" %}
 #### Selected Published Work
