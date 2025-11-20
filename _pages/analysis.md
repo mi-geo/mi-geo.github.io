@@ -22,7 +22,7 @@ feature_row0:
     alt: "Scrawling"
     title: "Data Manipulating and Scrawling"
     excerpt: ""
-    url: "/scrawling/"
+    url: "/analysis/scrawling/"
     btn_label: "Read More"
     btn_class: "btn-info"
   - image_path: /assets/images/mapping2.jpg
@@ -30,7 +30,7 @@ feature_row0:
     alt: "Visualization"
     title: "Geospatial Visualization"
     excerpt: "Spatial analysis of mass **violence**. Research area focuses on Indonesia."
-    url: "/visualization/"
+    url: "/analysis/visualization/"
     btn_label: "Read More"
     btn_class: "btn-info"
   - image_path: /assets/images/mapping3.jpg
@@ -38,7 +38,7 @@ feature_row0:
     alt: "statss"
     title: "Geospatial Statistics"
     excerpt: "My previous studies includes discussed several Quantitative urban policy study"
-    url: "/China/"
+    url: "/analysis/statistics/"
 
 feature_row1:
   - image_path: /assets/images/mapping1.jpg
@@ -46,23 +46,23 @@ feature_row1:
     alt: ""
     title: "Cartography and Mapping"
     excerpt: ""
-    url: "/map/"
+    url: "/analysis/mapping/"
     btn_label: "Read More"
     btn_class: "btn-info"
   - image_path: /assets/images/machine.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
-    alt: ""
+    alt: "Thomas Edison's factory"
     title: "Machine Learning Application"
     excerpt: ""
-    url: "/pytorch/"
+    url: "/analysis/pytorch/"
     btn_label: "Read More"
     btn_class: "btn-info"
   - image_path: /assets/images/inte1.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
-    alt: "Danwei"
-    title: "AI"
+    alt: "Mehretu's painting"
+    title: "AI Application"
     excerpt: ""
-    url: "/ai/"
+    url: "/analysis/ai/"
 
 
 ---

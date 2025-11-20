@@ -21,7 +21,7 @@ feature_row0:
     alt: "Texas state fair"
     title: "Uneven Legal Resource across Space"
     excerpt: ""
-    url: "/legal/"
+    url: "/research/legal/"
     btn_label: "Read More"
     btn_class: "btn-info"
   - image_path: /assets/images/Indonesia-statue.jpg
@@ -29,7 +29,7 @@ feature_row0:
     alt: "Violence"
     title: "Mass Violence in Indonesia"
     excerpt: "Spatial analysis of mass **violence**. Research area focuses on Indonesia."
-    url: "/Indonesia/"
+    url: "/research/Indonesia/"
     btn_label: "Read More"
     btn_class: "btn-info"
   - image_path: /assets/images/Beijing-danwei.jpg
@@ -37,7 +37,7 @@ feature_row0:
     alt: "Danwei"
     title: "Transitioning, Poverty, and Development of Asia"
     excerpt: "My previous studies includes discussed several Quantitative urban policy study"
-    url: "/China/"
+    url: "/research/China/"
 
 Seperator1:
   - title: ""
@@ -53,7 +53,7 @@ feature_row1:
 
       <small>*Chandra, S., Zhang, T., 2023. Glimpses of Indonesia’s 1965 Massacre through the Lens of the Census: The Role of Civilian Organizations in the Mass Anti-Communist Killings of 1965-66 in East Java. Indonesia*</small>
 
-    url: "/Indonesia/"
+    url: "/research/Indonesia/"
     btn_label: "Read More"
     btn_class: "btn--info"
 
@@ -62,5 +62,6 @@ feature_row1:
 
 {% include feature_row id="feature_row0" %}
 #### Selected Published Work
+
 
 {% include feature_row id="feature_row1"  type="left"%}
