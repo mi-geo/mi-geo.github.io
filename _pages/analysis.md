@@ -39,10 +39,6 @@ feature_row0:
     title: "Geospatial Statistics"
     excerpt: "My previous studies includes discussed several Quantitative urban policy study"
     url: "/China/"
-    <!--
-	btn_label: "Read More"
-    btn_class: "btn-info"
-	-->
 
 feature_row1:
   - image_path: /assets/images/Belize-city.jpg
@@ -67,10 +63,7 @@ feature_row1:
     title: "AI"
     excerpt: ""
     url: "/ai/"
-    <!--
-	btn_label: "Read More"
-    btn_class: "btn-info"
-	-->
+
 
 ---
 

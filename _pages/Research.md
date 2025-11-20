@@ -38,12 +38,12 @@ feature_row0:
     title: "Transitioning, Poverty, and Development of Asia"
     excerpt: "My previous studies includes discussed several Quantitative urban policy study"
     url: "/China/"
-	# btn_label: "Read More"
-    # btn_class: "btn-info"
 	
 Seperator1: 
   - title: ""
   - excerpt: ''
+  
+  
 feature_row1:
   - image_path: /assets/images/res/whole-draft-resize.png
     alt: "Spatial Analysis of Indonesia Mass Violence"
@@ -60,5 +60,7 @@ feature_row1:
 
 {% include feature_row id="feature_row0" %}
 #### Selected Published Work
+
+{% include feature_row id="feature_row1" %}
 
 {% include feature_row id="Seperator1" type="left" %}
