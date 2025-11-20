@@ -1,7 +1,7 @@
 ---
 title: "My Skill Set"
 layout: splash
-permalink: /skills/
+permalink: /work/
 date:
 header:
   overlay_color: "#000"
