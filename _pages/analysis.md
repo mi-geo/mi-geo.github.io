@@ -17,7 +17,7 @@ class: wide
 intro: 
   - excerpt: 'I am a highly motivated geospatial data social scientist.'
 feature_row0:
-  - image_path: /assets/images/Belize-city.jpg
+  - image_path: /assets/images/data1.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "Scrawling"
     title: "Data Manipulating and Scrawling"
@@ -25,7 +25,7 @@ feature_row0:
     url: "/scrawling/"
     btn_label: "Read More"
     btn_class: "btn-info"
-  - image_path: /assets/images/Indonesia-statue.jpg
+  - image_path: /assets/images/mapping2.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "Visualization"
     title: "Geospatial Visualization"
@@ -33,15 +33,15 @@ feature_row0:
     url: "/visualization/"
     btn_label: "Read More"
     btn_class: "btn-info"
-  - image_path: /assets/images/Beijing-danwei.jpg
+  - image_path: /assets/images/res/mapping3.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
-    alt: "Danwei"
+    alt: "statss"
     title: "Geospatial Statistics"
     excerpt: "My previous studies includes discussed several Quantitative urban policy study"
     url: "/China/"
 
 feature_row1:
-  - image_path: /assets/images/Belize-city.jpg
+  - image_path: /assets/images/mapping1.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: ""
     title: "Cartography and Mapping"
@@ -49,7 +49,7 @@ feature_row1:
     url: "/map/"
     btn_label: "Read More"
     btn_class: "btn-info"
-  - image_path: /assets/images/Indonesia-statue.jpg
+  - image_path: /assets/images/machine.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: ""
     title: "Machine Learning Application"
@@ -57,7 +57,7 @@ feature_row1:
     url: "/pytorch/"
     btn_label: "Read More"
     btn_class: "btn-info"
-  - image_path: /assets/images/Beijing-danwei.jpg
+  - image_path: /assets/images/inte1.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "Danwei"
     title: "AI"
