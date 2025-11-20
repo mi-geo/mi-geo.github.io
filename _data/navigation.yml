@@ -1,21 +1,32 @@
 # main links
 main:
-  - title: "Work"
-    url: /skills/
+  - title: "Analysis"
+    url: /analysis/
+    description: "My analytics, metrics, and data projects"
+    
   - title: "Research"
     url: /research/
+     description: "Academic research, publications, and working papers"
+     
   - title: "Teaching"
     url: /teaching/
+    description: "Courses I taught, teaching philosophy, and materials"
+
   - title: "CV"
     url: /cv/
+    
   - title: "Legal"
     url: /legal/
+    
   - title: "Unsafe Place"
     url: /Indonesia/
-  - title: "Travelling"
-    url: /Travelling/
-  - title: "Blogs"
-    url: /categories/
+    
+  - title: "Life"
+    url: /life/
+    description: "Travel notes and photography"
+        
+  #- title: "Blogs"
+  #  url: /categories/
   #- title: "About"
   #  url: /about/
   # - title: "Sample Posts"

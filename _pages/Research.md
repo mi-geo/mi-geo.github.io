@@ -42,6 +42,7 @@ feature_row0:
 	btn_label: "Read More"
     btn_class: "btn-info"
 	-->
+	
 Seperator1: 
   - title: ""
   - excerpt: ''
@@ -59,7 +60,7 @@ feature_row1:
 ---
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+{% include feature_row id="feature_row0" %}
 #### Selected Published Work
 
 {% include feature_row id="Seperator1" type="left" %}
