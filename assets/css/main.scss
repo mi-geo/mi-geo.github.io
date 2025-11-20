@@ -10,6 +10,6 @@ search: false
 
 /* Remove gray line above feature rows */
 .feature__wrapper {
-  border-top: none;
-  padding-top: 0;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
 }
