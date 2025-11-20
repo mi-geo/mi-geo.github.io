@@ -38,10 +38,8 @@ feature_row0:
     title: "Transitioning, Poverty, and Development of Asia"
     excerpt: "My previous studies includes discussed several Quantitative urban policy study"
     url: "/China/"
-    <!--
-	btn_label: "Read More"
-    btn_class: "btn-info"
-	-->
+	# btn_label: "Read More"
+    # btn_class: "btn-info"
 	
 Seperator1: 
   - title: ""

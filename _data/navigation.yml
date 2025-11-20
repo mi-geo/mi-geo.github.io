@@ -6,7 +6,7 @@ main:
     
   - title: "Research"
     url: /research/
-     description: "Academic research, publications, and working papers"
+    description: "Academic research, publications, and working papers"
      
   - title: "Teaching"
     url: /teaching/
