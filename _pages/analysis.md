@@ -33,7 +33,7 @@ feature_row0:
     url: "/visualization/"
     btn_label: "Read More"
     btn_class: "btn-info"
-  - image_path: /assets/images/res/mapping3.jpg
+  - image_path: /assets/images/mapping3.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "statss"
     title: "Geospatial Statistics"
@@ -67,8 +67,9 @@ feature_row1:
 
 ---
 
-<iframe src="/assets/maps/east_java_anim/East_Java3js.html" height="400" width="700"></iframe>
-[More maps:](/data/Map_Examples/)
+
+<!-- replacing <iframe src="/assets/maps/east_java_anim/East_Java3js.html" height="400" width="700"></iframe>
+[More maps:](/data/Map_Examples/) -->
 
 {% include feature_row id="feature_row0" %}
 <!-- replacing {% include feature_row id="feature_row0" type="center" %} -->

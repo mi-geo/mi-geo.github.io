@@ -7,3 +7,9 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Remove gray line above feature rows */
+.feature__wrapper {
+  border-top: none;
+  padding-top: 0;
+}
