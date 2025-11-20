@@ -13,3 +13,8 @@ search: false
   border-bottom: none !important;
   padding-bottom: 0 !important;
 }
+
+/* full screen height, use:  min-height: 100vh;  */
+.page-hero-tall .page__hero--overlay {
+  min-height: 600px;   // try 500–700px
+}

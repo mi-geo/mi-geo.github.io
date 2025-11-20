@@ -3,15 +3,16 @@ title: "My Skill Set"
 layout: splash
 permalink: /analysis/
 date:
+classes: page-hero-tall
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: /assets/images/Jackson.jpg
   actions:
-    - label: ""
-      url: ""
+    - label: "About the image"
+      url: "https://en.wikipedia.org/wiki/Mississippi_State_Capitol"
   caption: "Mississippi State Capitol, Photo credit: [**Teng**](https://stormocean.github.io)"
-excerpt: "A few examples of the works I have done as a RA, especially on data visualization:"
+excerpt: "A few examples of the works I have done:"
 class: wide
 
 intro: 
@@ -21,7 +22,7 @@ feature_row0:
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "Scrawling"
     title: "Data Manipulating and Scrawling"
-    excerpt: ""
+    excerpt: "Automation of large-scale web scraping, data cleaning, and high-volume dataset preparation for spatial analysis."
     url: "/analysis/scrawling/"
     btn_label: "Read More"
     btn_class: "btn-info"
@@ -29,7 +30,7 @@ feature_row0:
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "Visualization"
     title: "Geospatial Visualization"
-    excerpt: "Spatial analysis of mass **violence**. Research area focuses on Indonesia."
+    excerpt: "Advanced cartographic and spatial visualization techniques applied to regional violence and demographic patterns."
     url: "/analysis/visualization/"
     btn_label: "Read More"
     btn_class: "btn-info"
@@ -37,7 +38,7 @@ feature_row0:
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "statss"
     title: "Geospatial Statistics"
-    excerpt: "My previous studies includes discussed several Quantitative urban policy study"
+    excerpt: "Quantitative spatial modeling focusing on urban policy, spatial econometrics, and GIS-based statistical inference."
     url: "/analysis/statistics/"
 
 feature_row1:
@@ -45,7 +46,7 @@ feature_row1:
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: ""
     title: "Cartography and Mapping"
-    excerpt: ""
+    excerpt: "Design and production of thematic maps, interactive web maps, and geospatial storytelling platforms."
     url: "/analysis/mapping/"
     btn_label: "Read More"
     btn_class: "btn-info"
@@ -53,7 +54,7 @@ feature_row1:
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "Thomas Edison's factory"
     title: "Machine Learning Application"
-    excerpt: ""
+    excerpt: "Application of supervised and unsupervised learning to spatial prediction, clustering, and pattern detection."
     url: "/analysis/pytorch/"
     btn_label: "Read More"
     btn_class: "btn-info"
@@ -61,7 +62,7 @@ feature_row1:
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "Mehretu's painting"
     title: "AI Application"
-    excerpt: ""
+    excerpt: "Integrating modern AI tools for geospatial analytics, pattern recognition, and automated spatial decision support."
     url: "/analysis/ai/"
 
 

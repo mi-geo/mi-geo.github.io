@@ -3,6 +3,7 @@ title: Teaching Philosophy of Mine
 layout: splash
 permalink: /teaching/
 date: 
+classes: page-hero-tall
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
@@ -12,6 +13,7 @@ header:
       url: "https://stormocean.github.io/teaching-philosophy"
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
 excerpt: "Teaching is a life long learning experience of enhancing your relationship between you and the next generation, and gaining enlightenment from the students"
+
 intro:
   - excerpt: 'Years of teaching experience both online and in person: *geography*, *GIS*, and Python/R data analysis. Here are some selected courses I have taught'
 

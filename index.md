@@ -48,16 +48,17 @@ My journey to becoming a Michigander began as a senior analyst at Jones Lang LaS
 Outside of work, I am an avid traveler and have been recording [every county I’ve visited across the United States](/life). Internationally, looking ahead, Peru and Bolivia are next on my travel bucket list.
 
 ***
-# AAG 2025 Annual Meeting 
+## Poster about my research 
 Community’s Cohesion and Resistance
 <figure>
-	<a href="/Indonesia/"><img src="/assets/posters/AAG2023-Poster-zm.png"></a>
+	<a href="/Indonesia/"><img src="/assets/posters/Duke2023-Poster-zm.jpg"></a>
 </figure>
-You can explore this poster [here (png format)](/assets/posters/AAG2023-Poster-f.png) or [here (pdf format)](/assets/posters/AAG2023-Poster-f.pdf).
+You can explore this poster [here (png format)](/assets/posters/Duke2023-Poster.jpg) or [here (pdf format)](/assets/posters/AAG2023-Poster-f.pdf).
 
 ***
 
-# Recent Research / Talks
+## Recent Research / Talks
+
 Mar 2025 | Annual Meeting of Association of American Geographers: [A network based metric for detecting legal resurces](http://www.aag.org/).
 
 Nov 2024 | Annual Meeting of American Society of Criminology: [Where are the lawyers in Texas?](http://www.asc.org/).
@@ -65,6 +66,7 @@ Nov 2024 | Annual Meeting of American Society of Criminology: [Where are the law
 Apr 2024 | Annual Meeting of Association of American Geographers: [Who should be responsible for the killings in Indonesia](http://www.aag.org/).
 
 Apr 2023 | Annual Meeting of Association of American Geographers: [Community’s Cohesion and Resistance](http://www.aag.org/).
+
 <figure>
 	<a href="/Indonesia/"><img src="/assets/posters/AAG2023-Poster-zm.png"></a>
 </figure>

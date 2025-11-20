@@ -3,14 +3,15 @@ title: Research Interests
 layout: splash
 permalink: /research/
 date: 
+classes: page-hero-tall
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: /assets/images/Jkt-downtown.jpg
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
   actions:
-    - label: "Read More"
-      url: "https://github.com/"
+    - label: "About the image"
+      url: "https://en.wikipedia.org/wiki/Jakarta"
 excerpt: "Spatial Data, Mass Violence, and Urban Built-Environment."
 
 intro: 
@@ -20,7 +21,7 @@ feature_row0:
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "Texas state fair"
     title: "Uneven Legal Resource across Space"
-    excerpt: ""
+    excerpt: "Spatial inequalities in attorney availability and access to justice across rural and urban regions."
     url: "/research/legal/"
     btn_label: "Read More"
     btn_class: "btn-info"
