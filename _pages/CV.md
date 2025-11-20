@@ -5,13 +5,14 @@ toc: true
 toc_label: " "
 layout: single
 author_profile: true
+classes: page-hero-tall
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/Tahquamenon.jpg
   #actions:
   #  - label: "Read More"
-  #    url: "https://github.com/"
+  #    url: "https://en.wikipedia.org/wiki/Tahquamenon_Falls"
 toc_icon: "book-user"
 toc_sticky: false
 ---

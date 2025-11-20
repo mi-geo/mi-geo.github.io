@@ -8,10 +8,10 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: /assets/images/Jackson.jpg
-  actions:
-    - label: "About the image"
-      url: "https://en.wikipedia.org/wiki/Mississippi_State_Capitol"
-  caption: "Mississippi State Capitol, Photo credit: [**Teng**](https://stormocean.github.io)"
+  #actions:
+  #  - label: "About the image"
+  #    url: "https://en.wikipedia.org/wiki/Mississippi_State_Capitol"
+  caption: "Mississippi State Capitol, Photo credit: [**Teng**](https://en.wikipedia.org/wiki/Mississippi_State_Capitol)"
 excerpt: "A few examples of the works I have done:"
 class: wide
 
