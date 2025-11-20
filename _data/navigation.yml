@@ -15,15 +15,15 @@ main:
   - title: "CV"
     url: /cv/
     
-  - title: "Legal"
-    url: /legal/
-    
-  - title: "Unsafe Place"
-    url: /Indonesia/
-    
   - title: "Life"
     url: /life/
     description: "Travel notes and photography"
+
+  #- title: "Legal"
+  #  url: /legal/
+    
+  #- title: "Unsafe Place"
+  #  url: /Indonesia/
         
   #- title: "Blogs"
   #  url: /categories/

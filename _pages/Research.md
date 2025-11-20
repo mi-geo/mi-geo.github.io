@@ -48,9 +48,11 @@ feature_row1:
   - image_path: /assets/images/res/whole-draft-resize.png
     alt: "Spatial Analysis of Indonesia Mass Violence"
     title: "Spatial Analysis of Indonesia Mass Violence"
-    excerpt: "We have estimates of the intensity of violence in the different kecamatan of East Java based on census data in conjunction with data on the locations of the historically significant pesantren, indicative of local capacity for political mobilization against the PKI, to examine possible associations between the two variables.
-	
-	*Chandra, S., Zhang, T., 2023. Glimpses of Indonesia’s 1965 Massacre through the Lens of the Census: The Role of Civilian Organizations in the Mass Anti-Communist Killings of 1965-66 in East Java. Indonesia (accepted)*"
+    excerpt: >
+      We have estimates of the intensity of violence in the different kecamatan of East Java based on census data in conjunction with data on the locations of the historically significant pesantren, indicative of local capacity for political mobilization against the PKI, to examine possible associations between the two variables.
+      
+      *Chandra, S., Zhang, T., 2023. Glimpses of Indonesia’s 1965 Massacre through the Lens of the Census: The Role of Civilian Organizations in the Mass Anti-Communist Killings of 1965-66 in East Java. Indonesia (accepted)*
+    
     url: "/Indonesia/"
     btn_label: "Read More"
     btn_class: "btn--info"
