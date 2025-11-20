@@ -70,6 +70,8 @@ feature_row1:
 <iframe src="/assets/maps/east_java_anim/East_Java3js.html" height="400" width="700"></iframe>
 [More maps:](/data/Map_Examples/)
 
-{% include feature_row id="feature_row0" type="center" %}
-{% include feature_row id="feature_row1" type="center" %}
+{% include feature_row id="feature_row0" %}
+<!-- replacing {% include feature_row id="feature_row0" type="center" %} -->
+
+{% include feature_row id="feature_row1" %}
 
