@@ -2,6 +2,9 @@
 title: "Statistics & Modeling"
 layout: single
 permalink: /analysis/statistics/
+header:
+  overlay_image: /assets/images/earth_little_rock.jpg
+  overlay_filter: 0.25
 excerpt: "From basic regression to multilevel and Bayesian models applied to spatial and legal data."
 classes: wide
 ---
@@ -32,10 +35,11 @@ Typical applications:
 - modeling case rates vs. rurality and demographic factors  
 - estimating associations between institutional presence and violence  
 
-```r
+{% highlight r %}
 model <- glm(
   cases ~ rurality + income + population,
   data = df,
   family = poisson(link = "log")
 )
 summary(model)
+{% end highlight %}

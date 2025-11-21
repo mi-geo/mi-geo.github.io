@@ -59,10 +59,10 @@ feature_row1:
     btn_class: "btn--info"
 
 ---
-{% include feature_row id="intro" type="left" %}
+{% include feature_row id="intro" %}
 
 {% include feature_row id="feature_row0" %}
-#### Selected Published Work
 
+#### Selected Published Work
 
 {% include feature_row id="feature_row1"  type="left"%}

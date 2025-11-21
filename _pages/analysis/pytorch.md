@@ -2,6 +2,9 @@
 title: "Machine Learning Applications"
 layout: single
 permalink: /analysis/pytorch/
+header:
+  overlay_image: /assets/images/earth_little_rock.jpg
+  overlay_filter: 0.25
 excerpt: "Applying machine learning to spatial, legal, and historical data with an emphasis on interpretability and policy relevance."
 classes: wide
 ---

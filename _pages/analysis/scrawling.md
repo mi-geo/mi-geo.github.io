@@ -2,6 +2,9 @@
 title: "Data Manipulating and Scrawling"
 layout: single
 permalink: /analysis/scrawling/
+header:
+  overlay_image: /assets/images/earth_little_rock.jpg
+  overlay_filter: 0.25
 excerpt: "Examples of data cleaning, manipulation, and quick exploratory scrawls for research."
 class: wide
 ---

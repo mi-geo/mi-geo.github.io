@@ -2,6 +2,9 @@
 title: "Mapping & Spatial Visualization"
 layout: single
 permalink: /analysis/mapping/
+header:
+  overlay_image: /assets/images/earth_little_rock.jpg
+  overlay_filter: 0.25
 excerpt: "Examples of dynamic, interactive, and Shiny-based spatial visualizations for research and teaching."
 classes: wide
 ---
@@ -21,7 +24,7 @@ I use R, Python, and GIS tools to create:
 
 #### Interactive Leaflet Map (R)
 
-```r
+{% highlight r %}
 library(sf)
 library(leaflet)
 library(dplyr)
@@ -53,3 +56,4 @@ ggplot(df) +
   geom_sf(aes(fill = rate)) +
   transition_time(month) +
   labs(title = "Rate over time: {frame_time}")
+{% endhighlight %}

@@ -2,6 +2,9 @@
 title: "Data Visualization"
 layout: single
 permalink: /analysis/visualization/
+header:
+  overlay_image: /assets/images/earth_little_rock.jpg
+  overlay_filter: 0.25
 excerpt: "Designing clear, honest, and interpretable visualizations from complex spatial and statistical data."
 classes: wide
 ---
@@ -37,7 +40,7 @@ Typical outputs:
 - time series with interventions or policy changes  
 - distribution plots (ECDFs, ridgeline plots, violin plots)  
 
-```r
+{% highlight r %}
 library(ggplot2)
 library(dplyr)
 
@@ -51,3 +54,4 @@ df |>
     title = "Relationship between rurality and case rates"
   ) +
   theme_minimal()
+{% endhighlight %}
