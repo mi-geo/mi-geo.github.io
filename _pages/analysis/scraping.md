@@ -10,8 +10,10 @@ excerpt: "Examples of data cleaning, manipulation, and quick exploratory scrawls
 class: wide
 toc: true
 toc_label: "Content"
-toc_icon: "thumbs_up"
+toc_icon: "face"
 ---
+
+Good scraping should be respectful, quiet, and invisible.
 
 ### What I mean by “scraping”
 Scraping is the fast, improvisational stage of research where I pull messy online data into something usable—clean enough to explore, rough enough to stay flexible.  
@@ -75,7 +77,6 @@ Scraping responsibly means:
 3. respecting privacy  
 4. respecting intellectual property  
 
-Good scraping should be respectful, quiet, and invisible.
 ---
 
 
@@ -99,7 +100,6 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
     results = executor.map(fetch_page, urls)
 -->
 
----
 
 ### Basic Ethics of Web Scraping
 
