@@ -19,7 +19,7 @@ feature_row:
     alt: " "
     title: "Upper Pennisula"
     excerpt: 'This is what the city Sault Ste. Marie in the UP looks like!'
-    url: "/assets/images/travel/Christ.jpg"
+    url: "/life/up_michigan/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
@@ -49,7 +49,7 @@ feature_row4:
 ---
 
 
-{% include feature_row id="intro" type="left" %}
+{% include feature_row id="intro" %}
 
 {% include feature_row type="left" %}
 

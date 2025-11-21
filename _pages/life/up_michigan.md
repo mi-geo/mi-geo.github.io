@@ -1,6 +1,6 @@
 ---
 title: "Upper Peninsula of Michigan"
-layout: single
+layout: splash
 permalink: /life/up_michigan/
 classes: wide
 gallery:
