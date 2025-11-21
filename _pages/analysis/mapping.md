@@ -4,7 +4,8 @@ layout: single
 permalink: /analysis/mapping/
 header:
   overlay_image: /assets/images/earth_little_rock.jpg
-  overlay_filter: 0.25
+  overlay_filter: 0.2
+  caption: "[**Cool globes in front of Clinton Library**](https://www.clintonfoundation.org/clinton-presidential-center/cool-globes/) @ Little Rock, AR"
 excerpt: "Examples of dynamic, interactive, and Shiny-based spatial visualizations for research and teaching."
 classes: wide
 ---
@@ -21,7 +22,27 @@ I use R, Python, and GIS tools to create:
 - linked multiple-view maps (e.g., map + histogram)
 
 ### Examples
+#### Interactive Legal Desert Map (embedded HTML)
 
+<div style="position: relative; padding-bottom: 65%; height: 0; overflow: hidden; margin-bottom: 1.5rem;">
+  <iframe
+    src="/assets/maps/Colorado_ep.html"
+    style="position: absolute; top:0; left: 0; width: 100%; height: 100%; border: 0;"
+    loading="lazy"
+  ></iframe>
+</div>
+<details>
+  <summary><strong>Show R code</strong></summary>
+{% highlight r %}
+# some packages used to produce this map
+library(sf)
+library(leaflet)
+library(dplyr)
+{% endhighlight %}
+</details>
+
+
+<!-- 
 #### Interactive Leaflet Map (R)
 
 {% highlight r %}
@@ -57,3 +78,4 @@ ggplot(df) +
   transition_time(month) +
   labs(title = "Rate over time: {frame_time}")
 {% endhighlight %}
+--> 

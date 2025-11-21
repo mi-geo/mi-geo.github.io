@@ -4,7 +4,8 @@ layout: single
 permalink: /analysis/visualization/
 header:
   overlay_image: /assets/images/earth_little_rock.jpg
-  overlay_filter: 0.25
+  overlay_filter: 0.2
+  caption: "[**Cool globes in front of Clinton Library**](https://www.clintonfoundation.org/clinton-presidential-center/cool-globes/) @ Little Rock, AR"
 excerpt: "Designing clear, honest, and interpretable visualizations from complex spatial and statistical data."
 classes: wide
 ---

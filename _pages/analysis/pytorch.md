@@ -4,7 +4,8 @@ layout: single
 permalink: /analysis/pytorch/
 header:
   overlay_image: /assets/images/earth_little_rock.jpg
-  overlay_filter: 0.25
+  overlay_filter: 0.2
+  caption: "[**Cool globes in front of Clinton Library**](https://www.clintonfoundation.org/clinton-presidential-center/cool-globes/) @ Little Rock, AR"
 excerpt: "Applying machine learning to spatial, legal, and historical data with an emphasis on interpretability and policy relevance."
 classes: wide
 ---
