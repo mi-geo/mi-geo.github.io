@@ -42,4 +42,4 @@ model <- glm(
   family = poisson(link = "log")
 )
 summary(model)
-{% end highlight %}
+{% endhighlight %}
