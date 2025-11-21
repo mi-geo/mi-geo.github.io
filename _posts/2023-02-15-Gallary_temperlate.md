@@ -39,8 +39,8 @@ gallery3:
 ---
 
 
-{% include gallery caption="This is what you got!"%}
+{% include gallery id="gallery"  caption="This is what you got!"%}
 
-{% include gallery2 caption="This is what you got!"%}
+{% include gallery id="gallery2" caption="This is what you got!"%}
 
-{% include gallery3 caption="This is what you got!"%}
+{% include gallery id="gallery3" caption="This is what you got!"%}
