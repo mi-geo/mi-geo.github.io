@@ -1,34 +1,52 @@
 ---
-title: "Data Manipulating and Scrawling"
-layout: page
-permalink: /analysis/scrawling/
-excerpt: "Examples of data cleaning, manipulation, and quick exploratory scrawls for research."
-class: wide
+title: "Machine Learning Applications"
+layout: single
+permalink: /analysis/machine-learning/
+excerpt: "Applying machine learning to spatial, legal, and historical data with an emphasis on interpretability and policy relevance."
+classes: wide
 ---
 
-### What is “scrawling”?
+## Overview
 
-Scrawling is the rough, exploratory process I use before producing final figures or analysis.  
-It includes:
+I use machine learning when:
 
-- quick data cleaning
-- fast transformations
-- rough visualizations
-- messy drafts of ideas
-- testing code snippets
+- relationships are complex or non-linear  
+- there are many potential predictors  
+- prediction quality itself is important  
+- we want to explore variable importance before formal modeling  
 
-This stage helps reveal trends, outliers, and structural issues *before* running formal models.
+Applications span:
 
+- legal deserts and access to justice  
+- spatial patterns of violence  
+- demand for legal services across regions  
 
+---
 
-### Examples
+## Supervised Learning
 
-<video controls width="60%" style="display:block; margin: 2rem auto;">
-  <source src="/assets/videos/scraping-clipped.mp4" type="video/mp4">
-   Your browser does not support the video tag.
-</video>
+### Classification
 
-#### Quick Wrangling
+- predicting presence/absence of certain types of cases  
+- classifying regions into risk categories (e.g., high vs. low access)  
 
-I often start with rough transformations to understand structure:
+Algorithms:
 
+- logistic regression with regularization  
+- random forests  
+- gradient boosting (e.g., XGBoost, LightGBM)  
+
+```r
+library(caret)
+library(xgboost)
+
+# example: basic caret workflow
+ctrl <- trainControl(method = "cv", number = 5)
+
+fit <- train(
+  access_class ~ .,
+  data = train_df,
+  method = "xgbTree",
+  trControl = ctrl,
+  metric = "ROC"
+)

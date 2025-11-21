@@ -1,7 +1,7 @@
 ---
 title: '**Unsafe Place**: '
 layout: single
-permalink: /China/
+permalink: /research/China/
 author_profile: true
 date:
 header:

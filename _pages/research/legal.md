@@ -1,7 +1,7 @@
 ---
 title: '**Legal Desert**: '
 layout: single
-permalink: /legal/
+permalink: /research/legal/
 author_profile: true
 date:
 header:

@@ -1,34 +1,41 @@
 ---
-title: "Data Manipulating and Scrawling"
-layout: page
-permalink: /analysis/scrawling/
-excerpt: "Examples of data cleaning, manipulation, and quick exploratory scrawls for research."
-class: wide
+title: "Statistics & Modeling"
+layout: single
+permalink: /analysis/statistics/
+excerpt: "From basic regression to multilevel and Bayesian models applied to spatial and legal data."
+classes: wide
 ---
 
-### What is “scrawling”?
+## Overview
 
-Scrawling is the rough, exploratory process I use before producing final figures or analysis.  
-It includes:
+My statistical work focuses on:
 
-- quick data cleaning
-- fast transformations
-- rough visualizations
-- messy drafts of ideas
-- testing code snippets
+- spatial and panel data  
+- multi-level structures (regions, courts, institutions, individuals)  
+- causal inference when possible  
+- careful interpretation for policy and legal questions  
 
-This stage helps reveal trends, outliers, and structural issues *before* running formal models.
+I use both **frequentist** and **Bayesian** approaches, depending on the problem.
 
+---
 
+## Core Techniques
 
-### Examples
+### Regression & Generalized Linear Models
 
-<video controls width="60%" style="display:block; margin: 2rem auto;">
-  <source src="/assets/videos/scraping-clipped.mp4" type="video/mp4">
-   Your browser does not support the video tag.
-</video>
+- linear regression  
+- logistic and multinomial regression  
+- Poisson / negative binomial models for count data  
 
-#### Quick Wrangling
+Typical applications:
 
-I often start with rough transformations to understand structure:
+- modeling case rates vs. rurality and demographic factors  
+- estimating associations between institutional presence and violence  
 
+```r
+model <- glm(
+  cases ~ rurality + income + population,
+  data = df,
+  family = poisson(link = "log")
+)
+summary(model)

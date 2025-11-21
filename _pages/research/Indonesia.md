@@ -1,7 +1,7 @@
 ---
 title: '**Unsafe Place**: '
 layout: single
-permalink: /Indonesia/
+permalink: /research/Indonesia/
 author_profile: true
 date:
 header:

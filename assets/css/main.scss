@@ -15,6 +15,12 @@ search: false
 }
 
 /* full screen height, use:  min-height: 100vh;  */
-.page-hero-tall .page__hero--overlay {
+.page-hero-tall
+ .page__hero--overlay {
   min-height: 600px;   // try 500–700px
+}
+
+.page-hero-mid
+ .page__hero--overlay {
+  min-height: 400px;   // try 500–700px
 }

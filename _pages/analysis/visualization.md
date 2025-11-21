@@ -1,34 +1,53 @@
 ---
-title: "Data Manipulating and Scrawling"
-layout: page
-permalink: /analysis/scrawling/
-excerpt: "Examples of data cleaning, manipulation, and quick exploratory scrawls for research."
-class: wide
+title: "Data Visualization"
+layout: single
+permalink: /analysis/visualization/
+excerpt: "Designing clear, honest, and interpretable visualizations from complex spatial and statistical data."
+classes: wide
 ---
 
-### What is “scrawling”?
+## Visualization Philosophy
 
-Scrawling is the rough, exploratory process I use before producing final figures or analysis.  
-It includes:
+Good visualization is not about decoration; it is about **making structure visible**.
 
-- quick data cleaning
-- fast transformations
-- rough visualizations
-- messy drafts of ideas
-- testing code snippets
+My work often deals with:
 
-This stage helps reveal trends, outliers, and structural issues *before* running formal models.
+- large spatial datasets  
+- multi-level models  
+- time-varying outcomes  
+- network or relational data  
 
+I use visualization to:
 
+- reveal patterns and anomalies  
+- communicate uncertainty  
+- connect quantitative results to substantive questions  
+- make legal and historical issues legible to non-technical audiences  
 
-### Examples
+---
 
-<video controls width="60%" style="display:block; margin: 2rem auto;">
-  <source src="/assets/videos/scraping-clipped.mp4" type="video/mp4">
-   Your browser does not support the video tag.
-</video>
+## Static Visualizations (R / ggplot2)
 
-#### Quick Wrangling
+Most of my publication figures are built in **R** with **ggplot2**, often layered with spatial or temporal context.
 
-I often start with rough transformations to understand structure:
+Typical outputs:
 
+- choropleth maps of rates and ratios  
+- coefficient plots for regression and multilevel models  
+- time series with interventions or policy changes  
+- distribution plots (ECDFs, ridgeline plots, violin plots)  
+
+```r
+library(ggplot2)
+library(dplyr)
+
+df |>
+  ggplot(aes(x = rurality_index, y = case_rate)) +
+  geom_point(alpha = 0.3) +
+  geom_smooth(method = "loess", se = TRUE) +
+  labs(
+    x = "Rurality index",
+    y = "Case rate per 100,000",
+    title = "Relationship between rurality and case rates"
+  ) +
+  theme_minimal()
