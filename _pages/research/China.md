@@ -1,5 +1,5 @@
 ---
-title: '**Unsafe Place**: '
+title: '**Asia**: '
 layout: single
 permalink: /research/China/
 author_profile: true
@@ -10,7 +10,6 @@ header:
   overlay_image: /assets/images/Culture-Revolution.jpg
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
 excerpt: "China related research..."
----
 
 Seperator1: 
   - title: ""

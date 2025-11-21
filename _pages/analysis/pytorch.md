@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning Applications"
 layout: single
-permalink: /analysis/machine-learning/
+permalink: /analysis/pytorch/
 excerpt: "Applying machine learning to spatial, legal, and historical data with an emphasis on interpretability and policy relevance."
 classes: wide
 ---
@@ -36,7 +36,7 @@ Algorithms:
 - random forests  
 - gradient boosting (e.g., XGBoost, LightGBM)  
 
-```r
+{% highlight r %}
 library(caret)
 library(xgboost)
 
@@ -50,3 +50,4 @@ fit <- train(
   trControl = ctrl,
   metric = "ROC"
 )
+{% endhighlight %}

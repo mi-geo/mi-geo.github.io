@@ -15,7 +15,7 @@ excerpt: "And now these three remain: faith, hope and love. But the greatest of 
 intro:
   - excerpt: 'Enjoy life since it is short!'
 feature_row:
-  - image_path: /assets/images/travel/Sault-Ste-Marie.jpg
+  - image_path: /assets/images/travel/up/Sault-Ste-Marie.jpg
     alt: " "
     title: "Upper Pennisula"
     excerpt: 'This is what the city Sault Ste. Marie in the UP looks like!'
@@ -23,7 +23,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:
-  - image_path: /assets/images/travel/Teng-US-map-zm.png
+  - image_path: /assets/images/travel/Teng-US-map.png
     alt: " "
     title: "United States Footprint"
     excerpt: 'These are all the counties I have been travelled to in the States! I did not put the legend in, but you will figure it out!'
@@ -47,7 +47,9 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--success"
 ---
-{% include feature_row id="intro" type="center" %}
+
+
+{% include feature_row id="intro" type="left" %}
 
 {% include feature_row type="left" %}
 

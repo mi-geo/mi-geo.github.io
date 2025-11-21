@@ -1,6 +1,6 @@
 ---
 title: "Data Manipulating and Scrawling"
-layout: page
+layout: single
 permalink: /analysis/scrawling/
 excerpt: "Examples of data cleaning, manipulation, and quick exploratory scrawls for research."
 class: wide
