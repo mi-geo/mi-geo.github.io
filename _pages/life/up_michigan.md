@@ -2,7 +2,7 @@
 title: "Upper Peninsula of Michigan"
 layout: splash
 permalink: /life/up_michigan/
-classes: wide
+#classes: wide
 gallery:
   - url: /assets/images/travel/up/Christ.jpg
     image_path: /assets/images/travel/up/Christ.jpg
@@ -54,8 +54,8 @@ gallery:
     alt: "Tahquamenon Falls"
     title: "Tahquamenon Falls"
 
-  - url: /assets/images/travel/up/whale_conror.jpg
-    image_path: /assets/images/travel/up/whale_conror.jpg
+  - url: /assets/images/travel/up/whale_cornor.jpg
+    image_path: /assets/images/travel/up/whale_cornor.jpg
     alt: "Whitefish Point lighthouse"
     title: "Whitefish Point lighthouse"
 ---

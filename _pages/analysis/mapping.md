@@ -9,6 +9,7 @@ header:
 excerpt: "Examples of dynamic, interactive, and Shiny-based spatial visualizations for research and teaching."
 classes: wide
 ---
+# Mapping
 
 ## Dynamic Mapping
 
@@ -32,6 +33,7 @@ I use R, Python, and GIS tools to create:
   ></iframe>
 </div>
 <details>
+  <---! <summary><strong>Show R code</strong></summary>   --->
   <summary><strong>Show R code</strong></summary>
 {% highlight r %}
 # some packages used to produce this map

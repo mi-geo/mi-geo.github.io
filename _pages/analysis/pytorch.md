@@ -8,6 +8,10 @@ header:
   caption: "[**Cool globes in front of Clinton Library**](https://www.clintonfoundation.org/clinton-presidential-center/cool-globes/) @ Little Rock, AR"
 excerpt: "Applying machine learning to spatial, legal, and historical data with an emphasis on interpretability and policy relevance."
 classes: wide
+
+toc: true
+toc_label: "Content"
+toc_icon: "columns"
 ---
 
 ## Overview

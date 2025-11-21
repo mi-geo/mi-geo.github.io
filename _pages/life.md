@@ -2,7 +2,6 @@
 title: "Life"
 layout: splash
 permalink: /life/
-date: 
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
@@ -12,6 +11,7 @@ header:
       url: "https://elsalvadorinfo.net/el-rosario-church-san-salvador/"
   caption: "Iglesia el Rosario, Photo credit: [**Teng Zhang**](https://stormocean.github.io)"
 excerpt: "And now these three remain: faith, hope and love. But the greatest of these is love. (1 Corinthians 13:13)"
+
 intro:
   - excerpt: 'Enjoy life since it is short!'
 feature_row:

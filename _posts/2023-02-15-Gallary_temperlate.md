@@ -5,20 +5,20 @@ categories:
   - Travel
 tags:
 gallery:
-  - url: /assets/images/travel/Christ.jpg
-    image_path: /assets/images/travel/Christ.jpg
+  - url: /assets/images/travel/up/Christ.jpg
+    image_path: /assets/images/travel/up/Christ.jpg
     alt: "North Michigan"
     title: "World's largest Crusfix"
+  - url: /assets/images/travel/up/pictured_rock.jpg
+    image_path: /assets/images/travel/pictured_rock.jpg
+    alt: "pictured rock"
+    title: "Pictured Rock"
+  - url: /assets/images/travel/Royale_Isle2.jpg
+    image_path: /assets/images/travel/up/Royale_Isle2.JPG
+    alt: "Royale Isle"
+    title: "Royale Isle"
   - url: /assets/images/travel/Sault-Ste-Marie.jpg
-    image_path: /assets/images/travel/Sault-Ste-Marie.jpg
-    alt: "Sault Ste. Marie"
-    title: "Sault Ste. Marie"
-  - url: /assets/images/travel/Christ.jpg
-    image_path: /assets/images/travel/Christ.JPG
-    alt: "North Michigan"
-    title: "World's largest Crusfix"
-  - url: /assets/images/travel/Sault-Ste-Marie.jpg
-    image_path: /assets/images/travel/Sault-Ste-Marie.jpg
+    image_path: /assets/images/travel/up/Sault-Ste-Marie.jpg
     alt: "Sault Ste. Marie"
     title: "Sault Ste. Marie"
 gallery2:
@@ -41,3 +41,6 @@ gallery3:
 
 {% include gallery caption="This is what you got!"%}
 
+{% include gallery2 caption="This is what you got!"%}
+
+{% include gallery3 caption="This is what you got!"%}

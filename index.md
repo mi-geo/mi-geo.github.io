@@ -2,7 +2,7 @@
 title: Teng Zhang
 layout: single
 author_profile: true
-#classes: wide
+classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.1"

@@ -20,17 +20,17 @@ intro:
 feature_row0:
   - image_path: /assets/images/data1.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
-    alt: "Scrawling"
-    title: "Data Manipulating and Scrawling"
+    alt: "Scraping"
+    title: "Data Scraping and Cleaning"
     excerpt: "Automation of large-scale web scraping, data cleaning, and high-volume dataset preparation for spatial analysis."
-    url: "/analysis/scrawling/"
+    url: "/analysis/scraping/"
     btn_label: "Read More"
     btn_class: "btn-info"
   - image_path: /assets/images/mapping2.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "Visualization"
-    title: "Geospatial Visualization"
-    excerpt: "Advanced cartographic and spatial visualization techniques applied to regional violence and demographic patterns."
+    title: "Data Visualization"
+    excerpt: "Data illustration to explore the relationships between variables."
     url: "/analysis/visualization/"
     btn_label: "Read More"
     btn_class: "btn-info"
@@ -45,7 +45,7 @@ feature_row1:
   - image_path: /assets/images/mapping1.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: ""
-    title: "Cartography and Mapping"
+    title: "Geospatial Data Mapping"
     excerpt: "Design and production of thematic maps, interactive web maps, and geospatial storytelling platforms."
     url: "/analysis/mapping/"
     btn_label: "Read More"
@@ -53,7 +53,7 @@ feature_row1:
   - image_path: /assets/images/machine.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "Thomas Edison's factory"
-    title: "Machine Learning Application"
+    title: "Machine Learning Application in Geospatial Data"
     excerpt: "Application of supervised and unsupervised learning to spatial prediction, clustering, and pattern detection."
     url: "/analysis/pytorch/"
     btn_label: "Read More"
@@ -61,7 +61,7 @@ feature_row1:
   - image_path: /assets/images/inte1.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "Mehretu's painting"
-    title: "AI Application"
+    title: "AI Application in Geospatial Data"
     excerpt: "Integrating modern AI tools for geospatial analytics, pattern recognition, and automated spatial decision support."
     url: "/analysis/ai/"
 

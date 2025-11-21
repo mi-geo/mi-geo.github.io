@@ -47,9 +47,13 @@ Seperator2:
   - excerpt: ''
 
 ---
-{% include feature_row id="feature_row2" type="left" %}
+## Background
+My work on China examines the country’s rapidly evolving political and economic landscape through a spatial and institutional lens. I am particularly interested in how China’s political structure—characterized by a centralized party-state and layered administrative hierarchy—shapes regional governance, local policy implementation, and uneven development outcomes. I study China’s economic transformation not only as a macro-level shift from a planned to a market-oriented economy, but also as a deeply geographical process involving rural–urban migration, industrial restructuring, and spatial patterns of inequality. Drawing on methods from spatial statistics, geocomputation, and network analysis, I investigate how these structural forces produce measurable differences across provinces, prefectures, counties, and townships. My research also engages with questions of state capacity, local autonomy, coercive institutions, and the political economy of reform, connecting the Chinese experience to broader comparative and global frameworks. Ultimately, my goal is to understand how the spatial organization of the Chinese state interacts with demographic change, market integration, and governance pressures to shape social outcomes on the ground.
 
-{% include feature_row id="feature_row3" type="right" %}
 
-{% include feature_row id="feature_row4" type="left" %}
+{% include feature_row id="feature_row1" type="left" %}
+
+{% include feature_row id="feature_row2" type="right" %}
+
+{% include feature_row id="feature_row3" type="left" %}
 

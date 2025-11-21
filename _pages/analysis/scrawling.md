@@ -1,54 +1,85 @@
 ---
-title: "Data Manipulating and Scrawling"
+title: "Data Manipulating and Web Scraping"
 layout: single
-permalink: /analysis/scrawling/
+permalink: /analysis/scraping/
 header:
   overlay_image: /assets/images/earth_little_rock.jpg
   overlay_filter: 0.2
   caption: "[**Cool globes in front of Clinton Library**](https://www.clintonfoundation.org/clinton-presidential-center/cool-globes/) @ Little Rock, AR"
 excerpt: "Examples of data cleaning, manipulation, and quick exploratory scrawls for research."
 class: wide
+toc: true
+toc_label: "Content"
+toc_icon: "thumbs_up"
 ---
 
-### What is “scrawling”?
+### What I mean by “scraping”
+Scraping is the fast, improvisational stage of research where I pull messy online data into something usable—clean enough to explore, rough enough to stay flexible.  
+This is where most of my projects actually start.
 
-Scrawling is the rough, exploratory process I use before producing final figures or analysis.  
-It includes:
-
-- quick data cleaning  
-- fast transformations  
-- rough visualizations  
-- messy drafts of ideas  
-- testing code snippets and scraping logic  
-
-This stage helps reveal trends, outliers, and structural issues *before* running formal models.
-
----
-
-### Scrawling with Web Data
-
-When working with online court systems, public directories, or government portals, I often test scraping logic here before building a formal pipeline.  
-This usually involves a mix of:
-
-- **BeautifulSoup** — for parsing HTML quickly  
-- **Selenium** — for pages that require JavaScript, dropdown selections, or button clicking  
-- **multithreading** — for speeding up downloads when the server allows it  
-- **structured logging** — for catching failures, timeouts, or rate limits  
-
-This stage lets me understand the site layout, identify hidden form fields, explore DOM structures, and locate the specific elements needed for stable long-term scraping.
-
----
-
-### Example: Quick Scraping Logic Test
-
+### Demo: a simple scraping prototype
 <video controls width="60%" style="display:block; margin: 2rem auto;">
   <source src="/assets/videos/scraping-clipped.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-#### Quick Wrangling
 
-I often start with rough transformations to understand structure:
+---
+
+### Why scrape the web?
+Because the data you need is often:
+
+1. **The data sits on a website with no download option.**  
+   Many institutions display information online but offer no CSV, API, or export tool. Scraping becomes the only practical way to turn what you see on the screen into something you can work with. Sometimes, data will only be visible after clicking buttons or running JavaScript.
+
+2. **scattered across dozens or thousands of pages,**  
+   Court records, business listings, and demographic tables are often buried in long paginated lists. Scraping automates what would otherwise be hours—or weeks—of manual clicking.
+
+3. **Social science research needs scale.**  
+   Many questions require thousands or millions of observations. Scraping lets us build datasets large enough for rigorous models and reproducible research.
+
+
+
+---
+
+### When scraping works best
+1. **Pages share the same layout or structure.**  
+   When each record follows the same HTML pattern, scraping becomes predictable and efficient.
+
+2. **The site doesn’t aggressively block automated access.**  
+   Some servers allow light scraping; others block quickly. A cooperative site makes everything smoother.
+
+3. **There’s no human-verification barrier.**  
+   CAPTCHAs or puzzle checks stop automated scripts. Without them, scraping becomes straightforward.
+
+4. **The server is stable and responsive.**  
+   Strong servers can handle repeated requests, reducing timeouts and speeding up collection.
+
+When these conditions line up, scraping becomes surprisingly efficient.
+
+---
+
+### Tools I use
+- **BeautifulSoup** — ideal for parsing clean, static HTML and extracting specific elements.  
+- **Selenium** — when pages need clicking, scrolling, or dynamic loading  
+- **Threading** — safe speed-ups when scraping large collections  
+- **Occasional human assistance** — sometimes you just need someone to help bypass stubborn verification steps  
+
+---
+
+### Ethical notes
+Scraping responsibly means:
+1. acting at human speed
+	Slower requests reduce server stress and mimic normal browsing.
+2. not hammering a server  
+3. respecting privacy  
+4. respecting intellectual property  
+
+Good scraping should be respectful, quiet, and invisible.
+---
+
+
+
 
 <!--
 Example pseudocode (hidden):
