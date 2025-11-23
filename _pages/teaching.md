@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/Tikal.jpg
   actions:
     - label: "Read More"
-      url: "https://stormocean.github.io/teaching-philosophy"
+      url: "https://stormocean.github.io/assets/Teaching_Statement_new.pdf"
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
 excerpt: "Teaching is a life long learning experience of enhancing your relationship between you and the next generation, and gaining enlightenment from the students"
 
@@ -22,26 +22,26 @@ feature_row:
     alt: "Intermediate Geographic Information System"
     title: "Intermediate Geographic Information System"
     excerpt: 'An intermediate level GIS course for students who have learned the introductory GIS and want to dig deeper. The course is composed by 16 lectures and 11 labs. Three major sections of this course are: **geospatial concepts**, **raster** analysis, and **vector** analysis. Syllabus could be found here:'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    #url: "#test-link"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
 
 feature_row2:
   - image_path: /assets/images/world-regional-geography.jpg
     alt: "Wolrd Regional Geography"
     title: "OnGEO Courses: Wolrd Regional Geography"
     excerpt: 'A world tour taking you to visit every regions in the world and understand the major challenge and feature each region is facing with.'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    #url: "#test-link"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
 feature_row3:
   - image_path: /assets/images/Culture-Revolution.jpg
     alt: "placeholder image 2"
     title: "Planned Courses: Geography of Violence"
     excerpt: 'It will be a 200-level course connecting the geography phenomenon of violence of different scales from domestic violence to holocaust.'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+    #url: "#test-link"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
 ---
 {% include feature_row id="intro" type="center" %}
 

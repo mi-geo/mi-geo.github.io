@@ -9,7 +9,6 @@ header:
 excerpt: "Examples of dynamic, interactive, and Shiny-based spatial visualizations for research and teaching."
 classes: wide
 ---
-# Mapping
 
 ## Dynamic Mapping
 
@@ -21,6 +20,36 @@ I use R, Python, and GIS tools to create:
 - point-density maps with hover info  
 - tile-based web maps (Leaflet, Mapbox, Carto)  
 - linked multiple-view maps (e.g., map + histogram)
+
+#### Interactive Legal Desert Map (embedded HTML)
+
+<div style="position: relative; padding-bottom: 65%; height: 0; overflow: hidden; margin-bottom: 1.5rem;">
+  <iframe
+    src="/assets/maps/Colorado_ep.html"
+    style="position: absolute; top:0; left: 0; width: 100%; height: 100%; border: 0;"
+    loading="lazy"
+  ></iframe>
+</div>
+<details>
+  <---! <summary><strong>Show R code</strong></summary>   --->
+  <summary><strong>Show R code</strong></summary>
+{% highlight r %}
+
+
+
+## Online Mapping Platform
+ArcGIS Pro online:
+
+
+
+
+# some packages used to produce this map
+library(sf)
+library(leaflet)
+library(dplyr)
+{% endhighlight %}
+</details>
+
 
 ### Examples
 #### Interactive Legal Desert Map (embedded HTML)
@@ -36,12 +65,7 @@ I use R, Python, and GIS tools to create:
   <---! <summary><strong>Show R code</strong></summary>   --->
   <summary><strong>Show R code</strong></summary>
 {% highlight r %}
-# some packages used to produce this map
-library(sf)
-library(leaflet)
-library(dplyr)
-{% endhighlight %}
-</details>
+
 
 
 <!-- 

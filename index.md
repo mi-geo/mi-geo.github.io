@@ -29,11 +29,12 @@ feature_row:
 ---
 
 Hi, I am Teng Zhang, currently a geographyer onsite at Southern Methodist University. A couple of years ago, I earned my PhD in Geography from [Michigan State University](https://geo.msu.edu/), where I worked with Prof. Siddharth Chandra and Prof. Ashton Shortridge. 
+
 As a geospatial data scientist in quantitative human geography, I utilize innovative data-driven methods to analyze complex, interdisciplinary research questions. My work focuses broadly on the inequality of justice, encompassing themes such as mass violence, legal accessibility, and urban environment. Moving forward, I aim to deepen these lines of inquiry by examining the consequences and micro-structural patterns of inequality, while expanding into related themes that explore the interactions, long-term impacts, and the socio-institutional foundations of inequality and conflict.
 
-Currently, I am conducting researches on the uneven distribution of legal resources across southern U.S. states. These projects are inspired by principles of econometric analysis and employ highly abstract frameworks to categorize complex court activities. The underlying data are derived from over 200,000 caseload records collected through [a web crawler I developed](/Reseach). For more information, please refer to this link.
+Currently, I am conducting researches on the uneven distribution of legal resources across southern U.S. states. These projects are inspired by principles of econometric analysis and employ highly abstract frameworks to categorize complex court activities. The underlying data are derived from over 200,000 caseload records collected through [a web crawler I developed](/analysis/scraping). For more information, please refer to this link.
 
-My dissertation project, [*Unsafe Place: Spatial Analysis of Indonesian Genocide 1965-1966 in Java Timur*](/Indonesia) used innovative spatial quantitative techniques to answer three vital research questions about genocide: where, who, and how. 
+My dissertation project, [*Unsafe Place: Spatial Analysis of Indonesian Genocide 1965-1966 in Java Timur*](/research/Indonesia) used innovative spatial quantitative techniques to answer three vital research questions about genocide: where, who, and how. 
 
 <figure class="half">
 	<a href="/Indonesia/"><img src="/assets/images/res/Pop.png"></a>
@@ -45,9 +46,8 @@ Aside from my academic pursuits, I have shared my knowledge and passion with stu
 
 My journey to becoming a Michigander began as a senior analyst at Jones Lang LaSalle in Guangzhou, China, where I explored a diverse range of real estate landscapes—from high-rise apartments and expansive warehouses to bustling office towers and vibrant shopping centers. These early experiences continue to shape and inspire my approach to research and spatial analysis.
 
-Outside of work, I am an avid traveler and have been recording [every county I’ve visited across the United States](/life). Internationally, looking ahead, Peru and Bolivia are next on my travel bucket list.
+Outside of work, I am an avid traveler and have been recording [every county I’ve visited across the United States](/life/us_print/). Internationally, looking ahead, Peru and Bolivia are next on my travel bucket list.
 
-***
 ## Poster about my research 
 Community’s Cohesion and Resistance
 <figure>
@@ -55,7 +55,6 @@ Community’s Cohesion and Resistance
 </figure>
 You can explore this poster [here (png format)](/assets/posters/Duke2023-Poster.jpg) or [here (pdf format)](/assets/posters/AAG2023-Poster-f.pdf).
 
-***
 
 ## Recent Research / Talks
 

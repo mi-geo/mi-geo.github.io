@@ -12,8 +12,6 @@ classes: wide
 
 Here I focus on visualizing **non-geospatial** data — the kind of data that lives in a table (dataframe) rather than a map. These visualizations help reveal structure, patterns, surprises, and guardrails before modeling.
 
----
-
 ## Basic Data Structure: the Dataframe
 
 Most of my work begins with a **dataframe**: rows as observations, columns as variables.  
@@ -29,8 +27,6 @@ A dataframe can hold numeric values, categories, text, timestamps — whatever t
 
 
 
----
-
 ## Why Visualize?
 
 Visualization is the fastest way to understand what a dataset is trying to tell you. It helps:
@@ -40,7 +36,7 @@ Visualization is the fastest way to understand what a dataset is trying to tell 
 - **Provide a holistic picture** of what the data looks like before running formal models.  
 - **Surprises, there might be surprises**, oddities, and patterns you may not expect. Good figures make the data memorable.
 
----
+
 
 ## Best Ways to Visualize Data
 
@@ -55,22 +51,19 @@ You can explore this map [as its own web page here](/assets/charts/3Dhisto.html)
 
 Histograms, density curves, and boxplots also remain essential for understanding how a variable behaves on its own.
 <iframe src="/assets/images/res/Indices1_min_distance.png" height="400" width="600"></iframe>
-You can explore this map [as its own web page here](/assets/charts/3Dhisto.html).
 
 
----
 
 ## Some of My Favorite Plot Types
 
 - **Histograms** — simple, direct, and great for spotting skewness or multimodality.  
 - **Ridgeline plots** — elegant for comparing distributions across groups.  
-<iframe src="https://en.wikipedia.org/wiki/Ridgeline_plot#/media/File:Ridgelineplot.png" height="400" width="600"></iframe>
+<img src="https://en.wikipedia.org/wiki/Ridgeline_plot#/media/File:Ridgelineplot.png" height="400" width="600"></img>
 - **Dot and “spot” charts** — excellent for highlighting individual values or small clusters.
 - **Profile Charts** — histogram from another dimension.
-<iframe src="https://www.overcharts.com/en/wp-content/uploads/2020/05/tpo-profile-session2.png" height="400" width="600"></iframe>
+<img src="https://www.overcharts.com/en/wp-content/uploads/2020/05/tpo-profile-session2.png" height="400" width="600"></img>
 - **Volume Charts** — histogram from another dimension.
-<iframe src="https://library.tradingtechnologies.com/trade/Content/technical-indicators/screenshots/volume-at-price.png" height="400" width="600"></iframe>
-
+<img src="https://library.tradingtechnologies.com/trade/Content/technical-indicators/screenshots/volume-at-price.png" height="400" width="600"></img>
 
 
 
