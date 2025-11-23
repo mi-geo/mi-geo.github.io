@@ -64,9 +64,6 @@ library(dplyr)
 <details>
   <---! <summary><strong>Show R code</strong></summary>   --->
   <summary><strong>Show R code</strong></summary>
-{% highlight r %}
-
-
 
 <!-- 
 #### Interactive Leaflet Map (R)
