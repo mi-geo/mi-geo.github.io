@@ -20,7 +20,7 @@ Scraping is the fast, improvisational stage of research where I pull messy onlin
 This is where most of my projects actually start.
 
 ### Demo: a simple scraping prototype
-<video controls width="60%" style="display:block; margin: 2rem auto;">
+<video controls width="80%" style="display:block; margin: 2rem auto;">
   <source src="/assets/videos/scraping-clipped.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>

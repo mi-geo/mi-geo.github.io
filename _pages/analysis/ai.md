@@ -8,81 +8,66 @@ header:
   caption: "[**Cool globes in front of Clinton Library**](https://www.clintonfoundation.org/clinton-presidential-center/cool-globes/) @ Little Rock, AR"
 excerpt: "Using AI and language models to work with legal texts, spatial data, and complex research workflows."
 classes: wide
+toc: false
+sidebar:
+  nav: "analysis"
 ---
 
-## Overview
+This page documents a small experiment using **deep learning** for spatial analysis.  
+I trained a simple **convolutional neural network (CNN)** on the **EuroSAT** dataset — a collection of 64×64 Sentinel-2 satellite tiles labeled into 10 land-use classes:
 
-I use AI tools as **assistants**, not replacements, in research workflows, especially when dealing with:
+### AI for Land-Use Classification
 
-- large volumes of legal text or case descriptions  
-- unstructured data from web scraping  
-- repetitive coding or documentation tasks  
-- summarizing complex results for different audiences  
+This page documents a small experiment using **deep learning** for spatial analysis.  
+I trained a simple **convolutional neural network (CNN)** on the **EuroSAT** dataset — a collection of 64×64 Sentinel-2 satellite tiles labeled into 10 land-use classes:
 
----
+- AnnualCrop  
+- Forest  
+- HerbaceousVegetation  
+- Highway  
+- Industrial  
+- Pasture  
+- PermanentCrop  
+- Residential  
+- River  
+- SeaLake  
 
-## Text & Document Workflows
+The model is intentionally simple:
 
-### Summarizing Legal and Historical Texts
+- 3 convolutional layers (Conv → ReLU → MaxPool) ** I don't know what are them!**
+- 2 fully connected layers  
+- Dropout for regularization  
+- Input at **64×64**
 
-AI models help:
+![CNN model diagram](/assets/ai/cnn_model_flowchart.png)
 
-- summarize long court decisions or policy documents  
-- extract key issues, actors, and outcomes  
-- generate plain-language explanations of technical findings  
+After training, I sampled a handful of real satellite patches (from Google Map) and asked the model to classify them.  
+Below is the prediction figure:
 
-These outputs are always **checked and edited** by me before use.
+### Predicted Land-Use Labels for Sample Tiles
 
----
+![EuroSAT Predictions](sandbox:/assets/ai/Sat_Label1.png)
 
-### Structuring Unstructured Text
+*Example predictions from the trained CNN on randomly downloaded 64×64 tiles.  
 
-From scraped websites or PDFs, I use AI to:
 
-- identify and label entities (courts, locations, charges, dates)  
-- propose initial schemas for tabular data  
-- assist in spotting obvious OCR / parsing errors  
+- This provides a pathway to:
+  - map rurality or built-up intensity in legal desert studies  
+  - extract features for spatial regression  
+  - generate covariates for machine learning models  
+  - classify large areas via sliding-window inference  
 
-This complements, but does not replace, regex and rule-based cleaning in R/Python.
 
----
+### Future Steps?
 
-## Coding & Reproducibility Support
+- **outputs for GIS workflows?**  
+  Export AI-generated layers (land use, roads, built density) as GeoTIFFs for integration into QGIS/ArcGIS alongside court shapefiles, attorney address points, and Indonesian village boundaries.
 
-AI tools assist with:
+- **Hybrid spatial-AI models?**  
+  Combine imagery features with demographic data, travel-time networks, and court–lawyer relationships to predict attorney scarcity, identify vulnerable regions, and support comparative spatial analysis across U.S. legal deserts and Indonesian violence patterns.
 
-- drafting boilerplate code in R and Python  
-- suggesting alternative implementations or speed-ups  
-- generating documentation blocks and comments  
+- ** Compare self-trained model vs. GPT
+	large models may have strength, but will it perform better than specific model?
 
-Final code is version-controlled and manually inspected.
-
----
-
-## Interactive Assistants & Teaching
-
-I also use AI as:
-
-- a “debugging partner” for students learning R / GIS  
-- a way to generate starter examples and exercises  
-- a tool to translate technical descriptions into teaching materials  
-
----
-
-## Responsible Use
-
-I emphasize:
-
-- transparency about where AI was used  
-- protecting sensitive or confidential data  
-- verifying model outputs rather than trusting them blindly  
-
-AI is integrated in ways that respect research ethics and legal constraints.
-
----
-
-## See Also
-
-- [Machine Learning Applications](/analysis/machine-learning/)
-- [Statistics & Modeling](/analysis/statistics/)
-- [Visualization](/analysis/visualization/)
+- ** Compare self-trained model vs. traditional tools such as ENVI (traditional ML)
+	Comparing to my model, ENVI might be less accurate and hard to integrate with open source pipeline..

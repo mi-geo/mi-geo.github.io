@@ -46,11 +46,11 @@ It’s the clearest way to explore how two variables move together — or don’
 When the story involves three variables, **3D plots** and **interactive graphics** can add depth, especially when exploring surfaces, clusters, or nonlinear structure.
 
 Plotly is a great too in creating interactive 3D charts. It is free and available in both Python and R:
-<iframe src="/assets/charts/3Dhisto.html" height="400" width="600"></iframe>
+<iframe src="/assets/charts/3Dhisto.html" height="600" width="900"></iframe>
 You can explore this map [as its own web page here](/assets/charts/3Dhisto.html).
 
 Histograms, density curves, and boxplots also remain essential for understanding how a variable behaves on its own.
-<iframe src="/assets/images/res/Indices1_min_distance.png" height="400" width="600"></iframe>
+<img src="/assets/images/res/Indices1_min_distance.png" height="600" width="900">
 
 
 
@@ -58,12 +58,14 @@ Histograms, density curves, and boxplots also remain essential for understanding
 
 - **Histograms** — simple, direct, and great for spotting skewness or multimodality.  
 - **Ridgeline plots** — elegant for comparing distributions across groups.  
-<img src="https://en.wikipedia.org/wiki/Ridgeline_plot#/media/File:Ridgelineplot.png" height="400" width="600"></img>
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Ridgelineplot.png" height="600" width="900">
+
 - **Dot and “spot” charts** — excellent for highlighting individual values or small clusters.
 - **Profile Charts** — histogram from another dimension.
-<img src="https://www.overcharts.com/en/wp-content/uploads/2020/05/tpo-profile-session2.png" height="400" width="600"></img>
+<img src="https://www.overcharts.com/en/wp-content/uploads/2020/05/tpo-profile-session2.png" height="600" width="900">
+
 - **Volume Charts** — histogram from another dimension.
-<img src="https://library.tradingtechnologies.com/trade/Content/technical-indicators/screenshots/volume-at-price.png" height="400" width="600"></img>
+<img src="https://library.tradingtechnologies.com/trade/Content/technical-indicators/screenshots/volume-at-price.png" height="600" width="900">
 
 
 
