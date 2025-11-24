@@ -1,5 +1,5 @@
 ---
-title: '**Asia**: '
+title: '**China related topics**: '
 layout: single
 permalink: /research/China/
 author_profile: true
@@ -7,9 +7,8 @@ date:
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
-  overlay_image: /assets/images/Culture-Revolution.jpg
-  caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
-excerpt: "China related research..."
+  overlay_image: /assets/images/Culture-Revolution.jpg"
+excerpt: "China related research, including its economic transformation, political transition, and urban landscape"
 
 Seperator1: 
   - title: ""
@@ -20,7 +19,7 @@ feature_row1:
     alt: "Environment Policy and Empirical Result of Air Quality in China"
     title: "Environment Policy and Empirical Result of Air Quality in China"
     excerpt: |
-	"The capability, pressure, and resistance to enforce environmental regulations would determine the result of air quality. This study investigated the air quality across 86 major Chinese cities and observed that between 2001 and 2011, air quality showed an overall improvement, although with substantial discrepancies across cities.
+    "The capability, pressure, and resistance to enforce environmental regulations would determine the result of air quality. This study investigated the air quality across 86 major Chinese cities and observed that between 2001 and 2011, air quality showed an overall improvement, although with substantial discrepancies across cities.
 	
 	Using a panel data regression model, this study revealed that inadequate capability and strong opposition towards enforcing stringent environmental regulations were pivotal factors contributing to environmental degradation in urban China. Moreover, the study concluded that social pressure had a negligible impact on improving urban air quality.
 
