@@ -37,7 +37,7 @@ Applications include:
 ### 2. Network Analysis
 
 <figure>
-  <img src="/assets/images/res/network1.png" alt="General network analysis diagram" style="width:100%;">
+  <img src="/assets/images/res/network1.png" alt="General network analysis diagram" style="width:60%;">
   <figcaption><small>Geography is a network.</small></figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ Both directions are powerful depending on data availability.
 #### Colombia Drug-Trafficking Network
 
 <figure>
-  <img src="/assets/images/charts/Colombia_network.png" alt="Colombia drug trafficking network" style="width:100%;">
+  <img src="/assets/images/charts/Colombia_network.png" alt="Colombia drug trafficking network" style="width:60%;">
   <figcaption><small>Drug trafficking routes and the split of cartels inferred from non-network data—yet the structure reveals itself clearly.</small></figcaption>
 </figure>
 

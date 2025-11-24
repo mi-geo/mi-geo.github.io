@@ -39,14 +39,17 @@ The model is intentionally simple:
 - Dropout for regularization  
 - Input at **64×64**
 
-![CNN model diagram](/assets/ai/cnn_model_flowchart.png)
+<figure>
+  <img src="/assets/ai/cnn_model_flowchart.png" alt="CNN model diagram" style="width:60%;">
+  <figcaption><small>CNN model diagram</small></figcaption>
+</figure>
 
 After training, I sampled a handful of real satellite patches (from Google Map) and asked the model to classify them.  
 Below is the prediction figure:
 
 ### Predicted Land-Use Labels for Sample Tiles
 
-![EuroSAT Predictions](/assets/ai/Sat_Label1.png)
+![EuroSAT Predictions](/assets/ai/Sat_Labels.png)
 
 *Example predictions from the trained CNN on randomly downloaded 64×64 tiles.  
 
