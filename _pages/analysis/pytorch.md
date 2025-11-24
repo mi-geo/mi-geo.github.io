@@ -32,15 +32,19 @@ The goal is to model housing prices and evaluate three regression approaches:
 
 The maps and figures below compare model performance, spatial patterns of residuals, and feature importance.
 
----
 
-## 📈 Model Performance Comparison
+## 🗺️ Actual vs Predicted Housing Prices
+A direct comparison between **ground truth** housing values and **model predictions**.
+
+![Actual vs Predicted Map](/assets/ml/ca_housing_actual_vs_predicted.png)
+
+
+### 📈 Model Performance Comparison
 The three models behave very differently.  
 Linear Regression underfits, Random Forest overfits, and Gradient Boosting provides the best generalization.
 
 ![ML RMSE Comparison](/assets/ml/ML_rmse_comparing.png)
 
----
 
 ## 🗺️ Residual Maps (Spatial Error Patterns)
 Residual = *Actual – Predicted*.  
@@ -57,7 +61,7 @@ These maps reveal how each model behaves spatially across California.
 ### Gradient Boosting Residuals
 ![GBR Residuals](/assets/ml/Residual_GBR.png)
 
----
+
 
 ## 🧠 Feature Importance
 All models emphasize **median income**, but tree-based models reveal additional non-linear structure.
@@ -71,14 +75,6 @@ All models emphasize **median income**, but tree-based models reveal additional 
 ### Gradient Boosting Feature Importance
 ![GBR Feature Importance](/assets/ml/GB_feature_importance.png)
 
----
-
-## 🗺️ Actual vs Predicted Housing Prices
-A direct comparison between **ground truth** housing values and **model predictions**.
-
-![Actual vs Predicted Map](/assets/ml/ca_housing_actual_vs_predicted.png)
-
----
 
 ## 📝 Summary
 - **Gradient Boosting** performs best and captures broad spatial price gradients.  
