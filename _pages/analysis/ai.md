@@ -46,7 +46,7 @@ Below is the prediction figure:
 
 ### Predicted Land-Use Labels for Sample Tiles
 
-![EuroSAT Predictions](sandbox:/assets/ai/Sat_Label1.png)
+![EuroSAT Predictions](/assets/ai/Sat_Label1.png)
 
 *Example predictions from the trained CNN on randomly downloaded 64×64 tiles.  
 
@@ -66,8 +66,8 @@ Below is the prediction figure:
 - **Hybrid spatial-AI models?**  
   Combine imagery features with demographic data, travel-time networks, and court–lawyer relationships to predict attorney scarcity, identify vulnerable regions, and support comparative spatial analysis across U.S. legal deserts and Indonesian violence patterns.
 
-- ** Compare self-trained model vs. GPT
-	large models may have strength, but will it perform better than specific model?
+- ** Compare self-trained model vs. GPT  
+  large models may have strength, but will it perform better than specific model?
 
-- ** Compare self-trained model vs. traditional tools such as ENVI (traditional ML)
-	Comparing to my model, ENVI might be less accurate and hard to integrate with open source pipeline..
+- ** Compare self-trained model vs. traditional tools such as ENVI (traditional ML)  
+  Comparing to my model, ENVI might be less accurate and hard to integrate with open source pipeline..

@@ -38,7 +38,7 @@ The maps and figures below compare model performance, spatial patterns of residu
 The three models behave very differently.  
 Linear Regression underfits, Random Forest overfits, and Gradient Boosting provides the best generalization.
 
-![ML RMSE Comparison](assets/ml1/ML_rmse_comparing.png)
+![ML RMSE Comparison](/assets/ml/ML_rmse_comparing.png)
 
 ---
 
@@ -49,13 +49,13 @@ Red indicates **under-prediction**, blue indicates **over-prediction**.
 These maps reveal how each model behaves spatially across California.
 
 ### Linear Regression Residuals
-![LR Residuals](assets/ml1/Residual_LR.png)
+![LR Residuals](/assets/ml/Residual_LR.png)
 
 ### Random Forest Residuals
-![RF Residuals](assets/ml1/Residual_RF.png)
+![RF Residuals](/assets/ml/Residual_RF.png)
 
 ### Gradient Boosting Residuals
-![GBR Residuals](assets/ml1/Residual_GBR.png)
+![GBR Residuals](/assets/ml/Residual_GBR.png)
 
 ---
 
@@ -63,20 +63,20 @@ These maps reveal how each model behaves spatially across California.
 All models emphasize **median income**, but tree-based models reveal additional non-linear structure.
 
 ### Linear Regression Coefficients
-![LR Feature Importance](assets/ml1/LR_feature_importance.png)
+![LR Feature Importance](/assets/ml/LR_feature_importance.png)
 
 ### Random Forest Feature Importance
-![RF Feature Importance](assets/ml1/RF_feature_importance.png)
+![RF Feature Importance](/assets/ml/RF_feature_importance.png)
 
 ### Gradient Boosting Feature Importance
-![GBR Feature Importance](assets/ml1/GB_feature_importance.png)
+![GBR Feature Importance](/assets/ml/GB_feature_importance.png)
 
 ---
 
 ## 🗺️ Actual vs Predicted Housing Prices
 A direct comparison between **ground truth** housing values and **model predictions**.
 
-![Actual vs Predicted Map](assets/ml1/ca_housing_actual_vs_predicted.png)
+![Actual vs Predicted Map](/assets/ml/ca_housing_actual_vs_predicted.png)
 
 ---
 
