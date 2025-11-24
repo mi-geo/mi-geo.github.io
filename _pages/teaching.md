@@ -10,7 +10,7 @@ header:
   overlay_image: /assets/images/Tikal.jpg
   actions:
     - label: "Read More"
-      url: "https://stormocean.github.io/assets/Teaching_Statement_new.pdf"
+      url: "https://mi-geo.github.io/assets/Teaching_Statement_new.pdf"
   caption: "Photo credit: [**Teng Zhang**](https://facebook.com)"
 excerpt: "Teaching is a life long learning experience of enhancing your relationship between you and the next generation, and gaining enlightenment from the students"
 
