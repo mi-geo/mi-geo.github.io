@@ -22,7 +22,7 @@ feature_row:
     #image_caption: "Credit: [Teng](https://stormocean.github.io/)"
     alt: "Violence"
     title: "Mass Violence in Indonesia"
-    excerpt: " analysis of mass **violence**. Research area focuses on Indonesia."
+    excerpt: "analysis of mass **violence**. Research area focuses on Indonesia."
     url: "/Indonesia/"
     btn_label: "Read More"
     btn_class: "btn-info"
