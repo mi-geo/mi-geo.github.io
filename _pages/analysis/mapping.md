@@ -30,10 +30,6 @@ I use R, Python, and GIS tools to create:
     loading="lazy"
   ></iframe>
 </div>
-<details>
-  <---! <summary><strong>Show R code</strong></summary>   --->
-  <summary><strong>Show R code</strong></summary>
-{% highlight r %}
 
 
 
