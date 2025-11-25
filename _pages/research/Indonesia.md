@@ -12,6 +12,7 @@ header:
   actions:
     - label: "Read More"
       url: "https://github.com/"
+classes: wide
 excerpt: "Spatial Analysis of the Indonesian Purge of 1965-66..."
 ---
 

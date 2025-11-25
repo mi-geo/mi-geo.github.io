@@ -12,6 +12,7 @@ header:
   actions:
     - label: "Read More"
       url: "https://github.com/"
+classes: wide
 excerpt: "Diving deep into Southern United States' desert of legal resource"
 ---
 

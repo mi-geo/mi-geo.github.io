@@ -8,6 +8,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: "/assets/images/Culture-Revolution.jpg"
+classes: wide
 excerpt: "China related research, including its economic transformation, political transition, and urban landscape"
 
 Seperator1: 
