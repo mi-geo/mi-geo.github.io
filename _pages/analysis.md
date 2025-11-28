@@ -50,7 +50,7 @@ feature_row1:
     url: "/analysis/mapping/"
     btn_label: "Read More"
     btn_class: "btn-info"
-  - image_path: /assets/images/Xiancun.jpg
+  - image_path: /assets/images/Jilin_Apt.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
     alt: "Xiancun, Guangzhou before refurbishing"
     title: "Geospatial Simulation"

@@ -8,7 +8,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.2"
   overlay_image: /assets/images/Jkt-downtown.jpg
-  caption: "Photo credit: [**Teng Zhang**](https://en.wikipedia.org/wiki/Jakarta)"
+  caption: "credit: [**Teng Zhang**](https://en.wikipedia.org/wiki/Jakarta)"
   #actions:
   #  - label: "About the image"
   #    url: "https://en.wikipedia.org/wiki/Jakarta"
