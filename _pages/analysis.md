@@ -50,12 +50,12 @@ feature_row1:
     url: "/analysis/mapping/"
     btn_label: "Read More"
     btn_class: "btn-info"
-  - image_path: /assets/images/machine.jpg
+  - image_path: /assets/images/Xiancun.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
-    alt: "Thomas Edison's factory"
-    title: "Machine Learning Application in Geospatial Data"
-    excerpt: "Application of supervised and unsupervised learning to spatial prediction, clustering, and pattern detection."
-    url: "/analysis/pytorch/"
+    alt: "Xiancun, Guangzhou before refurbishing"
+    title: "Geospatial Simulation"
+    excerpt: "Simulating or Computational Models."
+    url: "/analysis/sim/"
     btn_label: "Read More"
     btn_class: "btn-info"
   - image_path: /assets/images/inte1.jpg
@@ -65,6 +65,28 @@ feature_row1:
     excerpt: "Integrating modern AI tools for geospatial analytics, pattern recognition, and automated spatial decision support."
     url: "/analysis/ai/"
 
+
+feature_row2:
+  - image_path: /assets/images/machine.jpg
+    image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
+    alt: "Thomas Edison's factory"
+    title: "Machine Learning Application in Geospatial Data"
+    excerpt: "Application of supervised and unsupervised learning to spatial prediction, clustering, and pattern detection."
+    url: "/analysis/pytorch/"
+    btn_label: "Read More"
+    btn_class: "btn-info"
+  - image_path: /assets/images/Sun-Venus.jpg
+    image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
+    alt: "Sun and Venus"
+    title: ""
+    excerpt: ""
+    url: ""
+  - image_path: /assets/images/Sun-Venus.jpg
+    image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
+    alt: "Sun and Venus"
+    title: ""
+    excerpt: ""
+    url: ""
 
 ---
 
@@ -76,4 +98,7 @@ feature_row1:
 <!-- replacing {% include feature_row id="feature_row0" type="center" %} -->
 
 {% include feature_row id="feature_row1" %}
+
+{% include feature_row id="feature_row2" %}
+
 
