@@ -50,9 +50,9 @@ feature_row1:
     url: "/analysis/mapping/"
     btn_label: "Read More"
     btn_class: "btn-info"
-  - image_path: /assets/images/Jilin_Apt.jpg
+  - image_path: /assets/images/Jilin_Apt1.jpg
     image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
-    alt: "Xiancun, Guangzhou before refurbishing"
+    alt: "Apartment in Jilin, Jinlin China"
     title: "Geospatial Simulation"
     excerpt: "Simulating or Computational Models."
     url: "/analysis/sim/"
