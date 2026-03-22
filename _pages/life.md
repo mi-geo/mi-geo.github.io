@@ -19,10 +19,9 @@ feature_row:
     alt: "Travel Globe"
     title: "Places I've been to"
     excerpt: 'An interactive globe of places I have visited, developed from the static travel maps I photoshopped before'
-    url: "/teng-globe/globe"
+    url: "https://mi-geo.github.io/teng-globe/globe.html"
     btn_label: "Open Globe"
     btn_class: "btn--primary"
-		
 feature_row:
   - image_path: /assets/images/travel/up/Sault-Ste-Marie.jpg
     alt: " "
