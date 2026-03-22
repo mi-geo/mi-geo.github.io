@@ -15,6 +15,14 @@ excerpt: "And now these three remain: faith, hope and love. But the greatest of 
 intro:
   - excerpt: 'Enjoy life since it is short!'
 feature_row:
+  - image_path: /assets/images/travel/globe_preview.png
+    alt: "Travel Globe"
+    title: "Places I've been to"
+    excerpt: 'An interactive globe of places I have visited, developed from the static travel maps I photoshopped before'
+    url: "/teng-globe/globe"
+    btn_label: "Open Globe"
+    btn_class: "btn--primary"
+feature_row:
   - image_path: /assets/images/travel/up/Sault-Ste-Marie.jpg
     alt: " "
     title: "Upper Pennisula"
