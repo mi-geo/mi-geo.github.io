@@ -14,10 +14,10 @@ excerpt: "And now these three remain: faith, hope and love. But the greatest of 
 
 intro:
   - excerpt: 'Enjoy life since it is short!'
-feature_row:
+feature_row0:
   - image_path: /assets/images/globe_preview.png
     alt: "Travel Globe"
-    title: "Places I've been to"
+    title: "My Travel Globe"
     excerpt: 'An interactive globe of places I have visited, developed from the static travel maps I photoshopped before'
     url: "https://mi-geo.github.io/teng-globe/globe.html"
     btn_label: "Open Globe"
@@ -59,7 +59,9 @@ feature_row4:
 
 {% include feature_row id="intro" %}
 
-{% include feature_row type="left" %}
+{% include feature_row id="feature_row0" type="left" %}
+
+{% include feature_row id="feature_row" type="right" %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
