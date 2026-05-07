@@ -34,9 +34,9 @@ A couple of years ago, I earned my PhD in Geography from [Michigan State Univers
 
 As a geospatial data scientist in quantitative human geography, I utilize innovative data-driven methods to analyze complex, interdisciplinary research questions. My work focuses broadly on the inequality of justice, encompassing themes such as mass violence, legal accessibility, and urban environment. Moving forward, I aim to deepen these lines of inquiry by examining the consequences and micro-structural patterns of inequality, while expanding into related themes that explore the interactions, long-term impacts, and the socio-institutional foundations of inequality and conflict.
 
-Currently, I am conducting researches on the uneven distribution of legal resources across southern U.S. states. These projects are inspired by principles of econometric analysis and employ highly abstract frameworks to categorize complex court activities. The underlying data are derived from over 200,000 caseload records collected through [a web crawler I developed](/analysis/scraping). For more information, please refer to this link.
+Currently, I am conducting researches on the uneven distribution of legal resources across southern U.S. states. These projects are inspired by principles of econometric analysis and employ highly abstract frameworks to categorize complex court activities. The underlying data are derived from over 200,000 caseload records collected through [a web crawler I developed](/projects/scraping). For more information, please refer to this link.
 
-I am also a passionate traveler. You can find my travel log — essentially a record of places I have been — through this [link](/life). It is a recent project in which I began transforming the static maps I used to mark into something [more interesting](/teng-globe/globe). The project is still in a relatively early stage. GitHub Pages does not easily support real dynamic web applications.
+I am also a passionate traveler. You can find my travel log — essentially a record of places I have been — through this [link](/travel). It is a recent project in which I began transforming the static maps I used to mark into something [more interesting](/teng-globe/globe). The project is still in a relatively early stage. GitHub Pages does not easily support real dynamic web applications.
 
 My dissertation project, [*Unsafe Place: Spatial Analysis of Indonesian Genocide 1965-1966 in Java Timur*](/research/Indonesia) used innovative spatial quantitative techniques to answer three vital research questions about genocide: where, who, and how. 
 
@@ -50,7 +50,7 @@ Aside from my academic pursuits, I have shared my knowledge and passion with stu
 
 My journey to becoming a Michigander began as a senior analyst at Jones Lang LaSalle in Guangzhou, China, where I explored a diverse range of real estate landscapes—from high-rise apartments and expansive warehouses to bustling office towers and vibrant shopping centers. These early experiences continue to shape and inspire my approach to research and spatial analysis.
 
-Outside of work, I am an avid traveler and have been recording [every county I’ve visited across the United States](/life/us_print/). Internationally, looking ahead, Peru and Bolivia are next on my travel bucket list.
+Outside of work, I am an avid traveler and have been recording [every county I’ve visited across the United States](/travel/us_print/). Internationally, looking ahead, Peru and Bolivia are next on my travel bucket list.
 
 ## Poster about my research 
 Community’s Cohesion and Resistance

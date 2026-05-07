@@ -1,7 +1,7 @@
 ---
 title: "Mapping & Spatial Visualization"
 layout: single
-permalink: /analysis/mapping/
+permalink: /projects/mapping/
 header:
   overlay_image: /assets/images/earth_little_rock.jpg
   overlay_filter: 0.2

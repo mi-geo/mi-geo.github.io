@@ -1,7 +1,7 @@
 ---
-title: "Life"
+title: "Travel"
 layout: splash
-permalink: /life/
+permalink: /travel/
 header:
   overlay_color: "#000"
   overlay_filter: "0.2"
@@ -27,7 +27,7 @@ feature_row:
     alt: " "
     title: "Upper Pennisula"
     excerpt: 'This is what the city Sault Ste. Marie in the UP looks like!'
-    url: "/life/up_michigan/"
+    url: "/travel/up_michigan/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row2:

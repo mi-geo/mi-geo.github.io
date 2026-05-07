@@ -1,7 +1,7 @@
 ---
 title: "US Counties I have been to"
 layout: splash
-permalink: /life/us_print/
+permalink: /travel/us_print/
 #classes: wide
 intro:
   - excerpt: 'Enjoy life since it is short!'

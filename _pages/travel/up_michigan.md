@@ -1,7 +1,7 @@
 ---
 title: "Upper Peninsula of Michigan"
 layout: splash
-permalink: /life/up_michigan/
+permalink: /travel/up_michigan/
 #classes: wide
 gallery:
   - url: /assets/images/travel/up/Christ.jpg
