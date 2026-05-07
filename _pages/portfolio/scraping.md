@@ -1,6 +1,6 @@
 ---
 title: "Building the Dataset: Court Records Across the American South"
-layout: single
+layout: none
 permalink: /portfolio/scraping/
 header:
   overlay_image: /assets/images/earth_little_rock.jpg
