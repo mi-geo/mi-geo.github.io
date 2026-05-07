@@ -28,13 +28,15 @@ feature_row:
     btn_class: "btn-info"
 ---
 
-Hi, I am Teng Zhang, currently a geographyer onsite at Southern Methodist University. A couple of years ago, I earned my PhD in Geography from [Michigan State University](https://geo.msu.edu/), where I worked with Prof. Siddharth Chandra and Prof. Ashton Shortridge. 
+Hi, I am Teng Zhang, a spatial data scientist and quantitative researcher focused on applying data science, machine learning, and geographic analysis to complex real-world problems, particularly those related to public health, social justice, and violence.
 
-I am also a passionate traveler. You can find my travel log — essentially a record of places I have been — through this [link](/life). It is a recent project in which I began transforming the static maps I used to mark into something [more interesting](/teng-globe/globe). The project is still in a relatively early stage. GitHub Pages does not easily support real dynamic web applications.
+A couple of years ago, I earned my PhD in Geography from [Michigan State University](https://geo.msu.edu/), where I worked with Prof. Siddharth Chandra and Prof. Ashton Shortridge. 
 
 As a geospatial data scientist in quantitative human geography, I utilize innovative data-driven methods to analyze complex, interdisciplinary research questions. My work focuses broadly on the inequality of justice, encompassing themes such as mass violence, legal accessibility, and urban environment. Moving forward, I aim to deepen these lines of inquiry by examining the consequences and micro-structural patterns of inequality, while expanding into related themes that explore the interactions, long-term impacts, and the socio-institutional foundations of inequality and conflict.
 
 Currently, I am conducting researches on the uneven distribution of legal resources across southern U.S. states. These projects are inspired by principles of econometric analysis and employ highly abstract frameworks to categorize complex court activities. The underlying data are derived from over 200,000 caseload records collected through [a web crawler I developed](/analysis/scraping). For more information, please refer to this link.
+
+I am also a passionate traveler. You can find my travel log — essentially a record of places I have been — through this [link](/life). It is a recent project in which I began transforming the static maps I used to mark into something [more interesting](/teng-globe/globe). The project is still in a relatively early stage. GitHub Pages does not easily support real dynamic web applications.
 
 My dissertation project, [*Unsafe Place: Spatial Analysis of Indonesian Genocide 1965-1966 in Java Timur*](/research/Indonesia) used innovative spatial quantitative techniques to answer three vital research questions about genocide: where, who, and how. 
 
