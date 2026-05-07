@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning Applications"
 layout: single
-permalink: /projects/pytorch/
+permalink: /portfolio/pytorch/
 header:
   overlay_image: /assets/images/earth_little_rock.jpg
   overlay_filter: 0.2
@@ -14,7 +14,7 @@ toc_label: "Content"
 toc_icon: "columns"
 
 sidebar:
-  nav: "projects"
+  nav: "portfolio"
 ---
 
 Machine learning is not my focus, but people has been talking about it for decades, so I will give you an example of how it applies in spatial analysis. Note in this example actually the locational information is embedded in 'longitude' and 'latitude' variables. In serious social science study, this will be a bad practice. 

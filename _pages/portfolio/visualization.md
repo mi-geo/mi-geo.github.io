@@ -1,7 +1,7 @@
 ---
 title: "Data Visualization"
 layout: single
-permalink: /projects/visualization/
+permalink: /portfolio/visualization/
 header:
   overlay_image: /assets/images/earth_little_rock.jpg
   overlay_filter: 0.2

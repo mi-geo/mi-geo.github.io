@@ -1,7 +1,7 @@
 ---
 title: "Data Manipulating and Web Scraping"
 layout: single
-permalink: /projects/scraping/
+permalink: /portfolio/scraping/
 header:
   overlay_image: /assets/images/earth_little_rock.jpg
   overlay_filter: 0.2

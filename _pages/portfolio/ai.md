@@ -1,7 +1,7 @@
 ---
 title: "AI Applications"
 layout: single
-permalink: /projects/ai/
+permalink: /portfolio/ai/
 header:
   overlay_image: /assets/images/earth_little_rock.jpg
   overlay_filter: 0.2
@@ -10,7 +10,7 @@ excerpt: "Using AI and language models to work with legal texts, spatial data, a
 classes: wide
 toc: false
 sidebar:
-  nav: "projects"
+  nav: "portfolio"
 ---
 
 This page documents a small experiment using **deep learning** for spatial analysis.  

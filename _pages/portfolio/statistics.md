@@ -1,7 +1,7 @@
 ---
 title: "Statistics & Modeling"
 layout: single
-permalink: /projects/statistics/
+permalink: /portfolio/statistics/
 header:
   overlay_image: /assets/images/earth_little_rock.jpg
   overlay_filter: 0.2

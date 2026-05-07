@@ -1,7 +1,7 @@
 ---
-title: "Projects"
+title: "Portfolio"
 layout: splash
-permalink: /projects/
+permalink: /portfolio/
 date:
 classes: page-hero-tall
 header:
@@ -23,7 +23,7 @@ feature_row0:
     alt: "Scraping"
     title: "Data Scraping and Cleaning"
     excerpt: "Automation of large-scale web scraping, data cleaning, and high-volume dataset preparation for spatial analysis."
-    url: "/projects/scraping/"
+    url: "/portfolio/scraping/"
     btn_label: "Read More"
     btn_class: "btn-info"
   - image_path: /assets/images/mapping2.jpg
@@ -31,7 +31,7 @@ feature_row0:
     alt: "Visualization"
     title: "Data Visualization"
     excerpt: "Data illustration to explore the relationships between variables."
-    url: "/projects/visualization/"
+    url: "/portfolio/visualization/"
     btn_label: "Read More"
     btn_class: "btn-info"
   - image_path: /assets/images/mapping3.jpg
@@ -39,7 +39,7 @@ feature_row0:
     alt: "statss"
     title: "Geospatial Statistics"
     excerpt: "Quantitative spatial modeling focusing on urban policy, spatial econometrics, and GIS-based statistical inference."
-    url: "/projects/statistics/"
+    url: "/portfolio/statistics/"
 
 feature_row1:
   - image_path: /assets/images/mapping1.jpg
@@ -47,7 +47,7 @@ feature_row1:
     alt: ""
     title: "Geospatial Data Mapping"
     excerpt: "Design and production of thematic maps, interactive web maps, and geospatial storytelling platforms."
-    url: "/projects/mapping/"
+    url: "/portfolio/mapping/"
     btn_label: "Read More"
     btn_class: "btn-info"
   - image_path: /assets/images/Jilin_Apt1.jpg
@@ -55,7 +55,7 @@ feature_row1:
     alt: "Apartment in Jilin, Jinlin China"
     title: "Geospatial Simulation"
     excerpt: "Simulating or Computational Models."
-    url: "/projects/sim/"
+    url: "/portfolio/sim/"
     btn_label: "Read More"
     btn_class: "btn-info"
   - image_path: /assets/images/inte1.jpg
@@ -63,7 +63,7 @@ feature_row1:
     alt: "Mehretu's painting"
     title: "AI Application in Geospatial Data"
     excerpt: "Integrating modern AI tools for geospatial analytics, pattern recognition, and automated spatial decision support."
-    url: "/projects/ai/"
+    url: "/portfolio/ai/"
 
 
 feature_row2:
@@ -72,21 +72,9 @@ feature_row2:
     alt: "Thomas Edison's factory"
     title: "Machine Learning Application in Geospatial Data"
     excerpt: "Application of supervised and unsupervised learning to spatial prediction, clustering, and pattern detection."
-    url: "/projects/pytorch/"
+    url: "/portfolio/pytorch/"
     btn_label: "Read More"
     btn_class: "btn-info"
-  - image_path: /assets/images/Sun-Venus.jpg
-    image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
-    alt: "Sun and Venus"
-    title: ""
-    excerpt: ""
-    url: ""
-  - image_path: /assets/images/Sun-Venus.jpg
-    image_caption: "Credit: [Teng](https://mi-geo.github.io/)"
-    alt: "Sun and Venus"
-    title: ""
-    excerpt: ""
-    url: ""
 
 ---
 
