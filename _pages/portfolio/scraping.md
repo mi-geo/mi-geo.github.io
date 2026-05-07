@@ -1,128 +1,430 @@
 ---
-title: "Data Manipulating and Web Scraping"
+title: "Building the Dataset: Court Records Across the American South"
 layout: single
 permalink: /portfolio/scraping/
 header:
   overlay_image: /assets/images/earth_little_rock.jpg
-  overlay_filter: 0.2
+  overlay_filter: 0.18
   caption: "[**Cool globes in front of Clinton Library**](https://www.clintonfoundation.org/clinton-presidential-center/cool-globes/) @ Little Rock, AR"
-excerpt: "Examples of data cleaning, manipulation, and quick exploratory scrawls for research."
-class: wide
-toc: true
-toc_label: "Content"
-toc_icon: "face"
+excerpt: "A custom web crawler that collected more than 200,000 court records for research on legal resource inequality."
+classes: wide
+toc: false
 ---
 
-Good scraping should be respectful, quiet, and invisible.
+<style>
+  .scrape-project {
+    --ink: #182430;
+    --muted: #5f6770;
+    --line: #d8d4ca;
+    --paper: #fbfaf6;
+    --card: #ffffff;
+    --accent: #a35a2b;
+    --accent-soft: #efe1d6;
+    font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    color: var(--ink);
+    background:
+      radial-gradient(circle at top right, rgba(163, 90, 43, 0.08), transparent 20rem),
+      linear-gradient(180deg, rgba(24, 36, 48, 0.02), rgba(24, 36, 48, 0)),
+      var(--paper);
+    border: 1px solid rgba(216, 212, 202, 0.8);
+    border-radius: 20px;
+    padding: 2.25rem 1.4rem 3rem;
+    box-shadow: 0 18px 40px rgba(24, 36, 48, 0.06);
+  }
 
-### What I mean by “scraping”
-Scraping is the fast, improvisational stage of research where I pull messy online data into something usable—clean enough to explore, rough enough to stay flexible.  
-This is where most of my projects actually start.
+  .scrape-project a {
+    color: var(--ink);
+    text-decoration-color: rgba(163, 90, 43, 0.45);
+    text-underline-offset: 0.16em;
+  }
 
-### Demo: a simple scraping prototype
-<video controls width="80%" style="display:block; margin: 2rem auto;">
-  <source src="/assets/videos/scraping-clipped.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+  .scrape-project a:hover {
+    color: var(--accent);
+  }
 
+  .scrape-project__container {
+    max-width: 860px;
+    margin: 0 auto;
+  }
 
----
+  .scrape-project__breadcrumb,
+  .scrape-project__back {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
 
-### Why scrape the web?
-Because the data you need is often:
+  .scrape-project__breadcrumb {
+    margin-bottom: 2.2rem;
+  }
 
-1. **The data sits on a website with no download option.**  
-   Many institutions display information online but offer no CSV, API, or export tool. Scraping becomes the only practical way to turn what you see on the screen into something you can work with. Sometimes, data will only be visible after clicking buttons or running JavaScript.
+  .scrape-project__breadcrumb span {
+    margin: 0 0.45rem;
+    color: #8c8f93;
+  }
 
-2. **scattered across dozens or thousands of pages,**  
-   Court records, business listings, and demographic tables are often buried in long paginated lists. Scraping automates what would otherwise be hours—or weeks—of manual clicking.
+  .scrape-project__hero h1 {
+    font-size: clamp(2.2rem, 4vw, 3.4rem);
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    margin: 0 0 0.9rem;
+    max-width: 14ch;
+  }
 
-3. **Social science research needs scale.**  
-   Many questions require thousands or millions of observations. Scraping lets us build datasets large enough for rigorous models and reproducible research.
+  .scrape-project__subtitle {
+    max-width: 42rem;
+    font-size: 1.08rem;
+    line-height: 1.75;
+    color: #3a4652;
+    margin: 0 0 1.4rem;
+  }
 
+  .scrape-project__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-bottom: 2.6rem;
+  }
 
+  .scrape-project__tag {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 0.76rem;
+    padding: 0.42rem 0.7rem;
+    border: 1px solid rgba(163, 90, 43, 0.2);
+    border-radius: 999px;
+    background: rgba(239, 225, 214, 0.6);
+    color: #5a4639;
+  }
 
----
+  .scrape-project__rule {
+    height: 1px;
+    border: 0;
+    background: linear-gradient(90deg, rgba(163, 90, 43, 0.2), rgba(216, 212, 202, 0.6));
+    margin: 2rem 0;
+  }
 
-### When scraping works best
-1. **Pages share the same layout or structure.**  
-   When each record follows the same HTML pattern, scraping becomes predictable and efficient.
+  .scrape-project__section-label {
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 0.76rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #7d7b76;
+    margin: 0 0 1rem;
+  }
 
-2. **The site doesn’t aggressively block automated access.**  
-   Some servers allow light scraping; others block quickly. A cooperative site makes everything smoother.
+  .scrape-project__stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
 
-3. **There’s no human-verification barrier.**  
-   CAPTCHAs or puzzle checks stop automated scripts. Without them, scraping becomes straightforward.
+  .scrape-project__stat {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(249, 247, 242, 0.98));
+    border: 1px solid rgba(216, 212, 202, 0.9);
+    border-radius: 16px;
+    padding: 1.4rem 1.2rem;
+    text-align: center;
+  }
 
-4. **The server is stable and responsive.**  
-   Strong servers can handle repeated requests, reducing timeouts and speeding up collection.
+  .scrape-project__stat-number {
+    display: block;
+    font-size: clamp(2rem, 4vw, 2.9rem);
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 0.45rem;
+    color: var(--ink);
+  }
 
-When these conditions line up, scraping becomes surprisingly efficient.
+  .scrape-project__stat-label {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--muted);
+  }
 
----
+  .scrape-project__body p,
+  .scrape-project__pipeline-note,
+  .scrape-project__caption,
+  .scrape-project__callout p {
+    font-size: 1.02rem;
+    line-height: 1.82;
+    color: #32404c;
+  }
 
-### Tools I use
-- **BeautifulSoup** — ideal for parsing clean, static HTML and extracting specific elements.  
-- **Selenium** — when pages need clicking, scrolling, or dynamic loading  
-- **Threading** — safe speed-ups when scraping large collections  
-- **Occasional human assistance** — sometimes you just need someone to help bypass stubborn verification steps  
+  .scrape-project__body p + p {
+    margin-top: 1rem;
+  }
 
----
+  .scrape-project__media {
+    background: #f2ede4;
+    border: 1px solid rgba(216, 212, 202, 0.95);
+    border-radius: 18px;
+    padding: 1rem;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  }
 
-### Ethical notes
-Scraping responsibly means:
-1. acting at human speed
-	Slower requests reduce server stress and mimic normal browsing.
-2. not hammering a server  
-3. respecting privacy  
-4. respecting intellectual property  
+  .scrape-project__media video {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+  }
 
----
+  .scrape-project__caption {
+    margin-top: 0.85rem;
+    font-size: 0.92rem;
+    color: var(--muted);
+    font-style: italic;
+  }
 
+  .scrape-project__pipeline {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin-bottom: 1rem;
+  }
 
+  .scrape-project__step {
+    position: relative;
+    background: var(--card);
+    border: 1px solid rgba(216, 212, 202, 0.95);
+    border-radius: 14px;
+    padding: 1rem 0.95rem;
+    min-height: 8.6rem;
+  }
 
+  .scrape-project__step::after {
+    content: "->";
+    position: absolute;
+    right: -0.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(163, 90, 43, 0.55);
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 1rem;
+  }
 
-<!--
-Example pseudocode (hidden):
+  .scrape-project__step:last-child::after {
+    display: none;
+  }
 
-from bs4 import BeautifulSoup
-import requests
-import concurrent.futures
-from selenium import webdriver
+  .scrape-project__step-label {
+    display: inline-block;
+    margin-bottom: 0.7rem;
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
 
-def fetch_page(url):
-    html = requests.get(url).text
-    soup = BeautifulSoup(html, "html.parser")
-    return soup.select_one("div.case-details")
+  .scrape-project__step-title {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.45;
+    color: var(--ink);
+  }
 
-urls = [...]
-with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
-    results = executor.map(fetch_page, urls)
--->
+  .scrape-project__cards {
+    display: grid;
+    gap: 0.9rem;
+  }
 
+  .scrape-project__card {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(250, 249, 245, 0.98));
+    border: 1px solid rgba(216, 212, 202, 0.9);
+    border-radius: 16px;
+    padding: 1.15rem 1.2rem;
+  }
 
-### Basic Ethics of Web Scraping
+  .scrape-project__card-title {
+    font-size: 1.04rem;
+    line-height: 1.45;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
 
-Even when scraping **publicly accessible** information, I follow several principles:
+  .scrape-project__card-meta {
+    font-size: 0.92rem;
+    color: var(--muted);
+  }
 
-- **Respect server load**  
-  Use delays, avoid unnecessary loops, and throttle multithreading to avoid stressing the site.
+  .scrape-project__callout {
+    border-left: 4px solid rgba(163, 90, 43, 0.55);
+    background: rgba(255, 255, 255, 0.62);
+    padding: 0.3rem 0 0.3rem 1.2rem;
+  }
 
-- **Check robots.txt when available**  
-  While not legally binding, it gives insight into what the host considers acceptable.
+  .scrape-project__back {
+    display: inline-block;
+    margin-top: 2rem;
+  }
 
-- **No scraping behind logins, paywalls, or private portals**  
-  Only work with publicly visible, non-authenticated data.
+  @media (max-width: 800px) {
+    .scrape-project {
+      padding: 1.6rem 1rem 2.2rem;
+    }
 
-- **Scrape only what is necessary**  
-  Avoid collecting personal identifiable information (PII) unless explicitly allowed and clearly part of research.
+    .scrape-project__pipeline {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 
-- **Do not republish sensitive data**  
-  Even if public, raw scraped data often requires redaction or aggregation.
+    .scrape-project__step::after {
+      display: none;
+    }
+  }
 
-- **Give credit when appropriate**  
-  Cite the institutional source if the data contributes to published work.
+  @media (max-width: 640px) {
+    .scrape-project__stats,
+    .scrape-project__pipeline {
+      grid-template-columns: 1fr;
+    }
 
-These guidelines keep the workflow responsible, reproducible, and aligned with academic standards for handling digital data.
+    .scrape-project__hero h1 {
+      max-width: none;
+    }
+  }
+</style>
 
----
+<div class="scrape-project">
+  <div class="scrape-project__container">
+    <nav class="scrape-project__breadcrumb" aria-label="Breadcrumb">
+      <a href="/portfolio/">Portfolio</a>
+      <span>&rsaquo;</span>
+      Building the Dataset
+    </nav>
+
+    <header class="scrape-project__hero">
+      <h1>Building the Dataset: Court Records Across the American South</h1>
+      <p class="scrape-project__subtitle">
+        A custom web crawler that collected more than 200,000 caseload records from state court
+        systems with no public API or bulk export, creating the empirical foundation for ongoing
+        research on legal resource inequality.
+      </p>
+      <div class="scrape-project__tags" aria-label="Tools used">
+        <span class="scrape-project__tag">Python</span>
+        <span class="scrape-project__tag">Selenium</span>
+        <span class="scrape-project__tag">BeautifulSoup</span>
+        <span class="scrape-project__tag">Threading</span>
+        <span class="scrape-project__tag">pandas</span>
+      </div>
+    </header>
+
+    <hr class="scrape-project__rule">
+
+    <section aria-labelledby="project-glance">
+      <p id="project-glance" class="scrape-project__section-label">Project at a glance</p>
+      <div class="scrape-project__stats">
+        <div class="scrape-project__stat">
+          <span class="scrape-project__stat-number">200K+</span>
+          <span class="scrape-project__stat-label">court records collected</span>
+        </div>
+        <div class="scrape-project__stat">
+          <span class="scrape-project__stat-number">4</span>
+          <span class="scrape-project__stat-label">southern U.S. states covered</span>
+        </div>
+        <div class="scrape-project__stat">
+          <span class="scrape-project__stat-number">0</span>
+          <span class="scrape-project__stat-label">public APIs available</span>
+        </div>
+      </div>
+    </section>
+
+    <hr class="scrape-project__rule">
+
+    <section class="scrape-project__body" aria-labelledby="project-problem">
+      <p id="project-problem" class="scrape-project__section-label">The problem</p>
+      <p>
+        Studying the geography of legal resources across the South required court-level caseload
+        data, but the records were not available as CSV downloads, public APIs, or research-ready
+        tables. Instead, they were embedded inside state court portals as paginated HTML, often
+        behind layers of search forms, dropdowns, and JavaScript-rendered interfaces.
+      </p>
+      <p>
+        Manual collection at that scale was not feasible. This project automated the workflow from
+        browser interaction to extraction, cleaning, and structuring, turning scattered records into
+        a usable dataframe for spatial analysis and downstream modeling.
+      </p>
+    </section>
+
+    <hr class="scrape-project__rule">
+
+    <section aria-labelledby="project-video">
+      <p id="project-video" class="scrape-project__section-label">Scraper in action</p>
+      <div class="scrape-project__media">
+        <video controls preload="metadata" poster="/assets/images/data1.jpg">
+          <source src="/assets/videos/scraping-clipped.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p class="scrape-project__caption">
+        A live view of the scraper navigating court records, parsing case metadata, and writing
+        structured rows to a dataframe in real time.
+      </p>
+    </section>
+
+    <hr class="scrape-project__rule">
+
+    <section aria-labelledby="project-pipeline">
+      <p id="project-pipeline" class="scrape-project__section-label">Technical pipeline</p>
+      <div class="scrape-project__pipeline">
+        <div class="scrape-project__step">
+          <span class="scrape-project__step-label">Step 1</span>
+          <strong class="scrape-project__step-title">Selenium renders JavaScript-driven court pages</strong>
+        </div>
+        <div class="scrape-project__step">
+          <span class="scrape-project__step-label">Step 2</span>
+          <strong class="scrape-project__step-title">BeautifulSoup parses the resulting HTML</strong>
+        </div>
+        <div class="scrape-project__step">
+          <span class="scrape-project__step-label">Step 3</span>
+          <strong class="scrape-project__step-title">Threading keeps collection efficient at scale</strong>
+        </div>
+        <div class="scrape-project__step">
+          <span class="scrape-project__step-label">Step 4</span>
+          <strong class="scrape-project__step-title">pandas cleans, standardizes, and structures output</strong>
+        </div>
+      </div>
+      <p class="scrape-project__pipeline-note">
+        Several court portals required click paths, pagination, and dynamic page rendering before
+        records became visible, so static parsers alone were not enough. Selenium handled the
+        interaction layer, BeautifulSoup handled extraction, and carefully throttled threading kept
+        the process fast without hammering the underlying servers.
+      </p>
+    </section>
+
+    <hr class="scrape-project__rule">
+
+    <section aria-labelledby="project-outcomes">
+      <p id="project-outcomes" class="scrape-project__section-label">What this data enabled</p>
+      <div class="scrape-project__cards">
+        <article class="scrape-project__card">
+          <div class="scrape-project__card-title">A network-based metric for detecting legal resources</div>
+          <div class="scrape-project__card-meta">Association of American Geographers (AAG) · March 2025</div>
+        </article>
+        <article class="scrape-project__card">
+          <div class="scrape-project__card-title">Where are the lawyers in Texas?</div>
+          <div class="scrape-project__card-meta">American Society of Criminology (ASC) · November 2024</div>
+        </article>
+      </div>
+      <p class="scrape-project__caption" style="font-style: normal; margin-top: 1rem;">
+        <a href="/research/legal/">See the related research page</a>
+      </p>
+    </section>
+
+    <hr class="scrape-project__rule">
+
+    <section aria-labelledby="project-ethics">
+      <p id="project-ethics" class="scrape-project__section-label">A note on ethics</p>
+      <div class="scrape-project__callout">
+        <p>
+          All data was collected from publicly accessible pages at human-mimicking speeds with
+          delays between requests. No logins, paywalls, or private portals were accessed. Only the
+          information necessary for the research was collected, and raw records are not redistributed.
+        </p>
+      </div>
+    </section>
+
+    <a class="scrape-project__back" href="/portfolio/">&larr; Back to Portfolio</a>
+  </div>
+</div>
