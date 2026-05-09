@@ -56,7 +56,7 @@ feature_row1:
   - image_path: /assets/images/network.jpg
     image_caption: "World Expo heritage in Spokane, MA"
     alt: "Network analysis"
-    title: "Extract Connection from Chaos"
+    title: "Finding Structure in Complex Networks"
     excerpt: "AI-assisted Network Analysis Work"
     url: "/portfolio/network/"
     btn_label: "Open Page"
@@ -67,7 +67,7 @@ feature_row1:
     alt: "Deep learning case studies"
     title: "When AI Thinking Deeply: Deep Learning Case Studies"
     excerpt: "TCN time-series forecasting and related experiments."
-    url: "/portfolio/forecasting/"
+    url: "/portfolio/deeplearning/"
     btn_label: "Open Page"
     btn_class: "btn--info"
 
