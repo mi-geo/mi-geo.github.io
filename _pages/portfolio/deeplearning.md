@@ -311,7 +311,7 @@ permalink: /portfolio/deeplearning/
   <section class="dl-grid">
     <article class="dl-card">
       <div class="dl-card__media">
-        <img src="/assets/ai/cnn_model_flowchart.png" alt="CNN model flowchart for land-use classification">
+        <img src="/assets/ai/Sat_Labels.png" alt="Predicted land-use labels for sample tiles">
       </div>
       <div class="dl-card__body">
         <p class="dl-card__kicker">Current example</p>
@@ -327,7 +327,7 @@ permalink: /portfolio/deeplearning/
             <span class="dl-tag">EuroSAT</span>
             <span class="dl-tag">Remote sensing</span>
           </div>
-          <a class="dl-cta" href="/portfolio/ai/">Open CNN project</a>
+          <a class="dl-cta" href="/portfolio/cnn-eurosat/">Open CNN project</a>
         </div>
       </div>
     </article>

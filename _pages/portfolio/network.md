@@ -312,6 +312,11 @@ permalink: /portfolio/network/
         In legal-access research, networks make concentration visible. In simulation work, they also
         help explain why small local connections can produce much larger cascades once a system starts moving.
       </p>
+      <p>
+        More broadly, I like network analysis because it gives shape to relationships that are easy
+        to miss when we only look at counts, rates, or boundaries. It is a good way to ask whether
+        a pattern is really local, really connected, or quietly organized around a few key nodes.
+      </p>
       <div class="net-chip-row">
         <span class="net-chip">Network analysis</span>
         <span class="net-chip">Spatial structure</span>
@@ -325,28 +330,6 @@ permalink: /portfolio/network/
   <h2 class="net-section-title">A few examples</h2>
 
   <section class="net-grid">
-    <article class="net-card">
-      <div class="net-card__media">
-        <img src="/assets/images/res/network1.png" alt="General network analysis diagram">
-      </div>
-      <div class="net-card__body">
-        <p class="net-card__kicker">Conceptual frame</p>
-        <h3>Geography is often a network before it becomes a map.</h3>
-        <p>
-          I like network analysis because it gives shape to relationships that are easy to miss when
-          we only look at counts, rates, or boundaries. It is a good way to ask whether a pattern is
-          really local, really connected, or quietly organized around a few key nodes.
-        </p>
-        <div class="net-card__footer">
-          <div class="net-card__tags">
-            <span class="net-tag">Conceptual</span>
-            <span class="net-tag">Relational data</span>
-            <span class="net-tag">Pattern finding</span>
-          </div>
-        </div>
-      </div>
-    </article>
-
     <article class="net-card">
       <div class="net-card__media net-card__media--two">
         <img src="/assets/charts/network/p_2014.png" alt="Lawyer network in Texas Panhandle before COVID">
@@ -372,23 +355,44 @@ permalink: /portfolio/network/
     </article>
 
     <article class="net-card">
-      <div class="net-card__media net-card__media--two">
+      <div class="net-card__media">
         <img src="/assets/charts/Colombia_network.png" alt="Colombia drug trafficking network">
+      </div>
+      <div class="net-card__body">
+        <p class="net-card__kicker">Inference from pattern</p>
+        <h3>Sometimes the network becomes visible even when the raw data are not explicitly relational.</h3>
+        <p>
+          This Colombia example is useful because the structure reveals itself even when the original
+          source material is not presented as a clean network. The map is a reminder that relational
+          systems can still be recovered from pattern, route logic, and spatial organization.
+        </p>
+        <div class="net-card__footer">
+          <div class="net-card__tags">
+            <span class="net-tag">Inference</span>
+            <span class="net-tag">Route structure</span>
+            <span class="net-tag">Pattern recovery</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="net-card">
+      <div class="net-card__media">
         <img src="/assets/analysis/forest_fire.gif" alt="Forest fire simulation showing spreading connectivity">
       </div>
       <div class="net-card__body">
-        <p class="net-card__kicker">Inference and dynamics</p>
-        <h3>Networks also help explain how things spread, split, and cascade.</h3>
+        <p class="net-card__kicker">Simulation logic</p>
+        <h3>Connectivity also matters when the question is how a process spreads.</h3>
         <p>
-          Sometimes the most interesting part is not the visible network itself, but the logic behind it:
-          how routes emerge, how clusters separate, or how a simple local rule can create a much larger
-          chain reaction. That is where network thinking starts to overlap naturally with simulation.
+          This is a different kind of problem from a network map, but it is related in spirit. A simulation
+          like this makes it easier to see how small local connections can trigger much larger cascades once
+          a system reaches the right threshold.
         </p>
         <div class="net-card__footer">
           <div class="net-card__tags">
             <span class="net-tag">Diffusion</span>
             <span class="net-tag">Simulation</span>
-            <span class="net-tag">Emergence</span>
+            <span class="net-tag">Cascade</span>
           </div>
           <a class="net-cta" href="/portfolio/sim/">See simulation page</a>
         </div>
