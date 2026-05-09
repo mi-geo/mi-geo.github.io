@@ -1,5 +1,5 @@
 ---
-title: "Building the Dataset: Court Records Across the American South"
+title: "Data Hunting: Collecting Court Records Across the American South"
 layout: none
 permalink: /portfolio/scraping/
 header:
@@ -171,7 +171,7 @@ toc: false
   }
 
   .scrape-project__caption {
-    margin-top: 0.85rem;
+    margin: 0 0 0.85rem;
     font-size: 0.92rem;
     color: var(--muted);
     font-style: italic;
@@ -250,9 +250,9 @@ toc: false
   }
 
   .scrape-project__callout {
-    border-left: 4px solid rgba(163, 90, 43, 0.55);
-    background: rgba(255, 255, 255, 0.62);
-    padding: 0.3rem 0 0.3rem 1.2rem;
+    border-left: 2px solid rgba(163, 90, 43, 0.22);
+    background: rgba(255, 255, 255, 0.28);
+    padding: 0.15rem 0 0.15rem 0.9rem;
   }
 
   .scrape-project__back {
@@ -291,15 +291,14 @@ toc: false
     <nav class="scrape-project__breadcrumb" aria-label="Breadcrumb">
       <a href="/portfolio/">Portfolio</a>
       <span>&rsaquo;</span>
-      Building the Dataset
+      Data Hunting
     </nav>
 
     <header class="scrape-project__hero">
-      <h1>Building the Dataset: Court Records Across the American South</h1>
+      <h1>Collecting Court Records Across the American South</h1>
       <p class="scrape-project__subtitle">
-        A custom web crawler that collected more than 200,000 caseload records from state court
-        systems with no public API or bulk export, creating the empirical foundation for ongoing
-        research on legal resource inequality.
+        I built multiple customized web crawlers that collected more than 200,000 pieces of court
+        data from state court systems.
       </p>
       <div class="scrape-project__tags" aria-label="Tools used">
         <span class="scrape-project__tag">Python</span>
@@ -320,8 +319,8 @@ toc: false
           <span class="scrape-project__stat-label">court records collected</span>
         </div>
         <div class="scrape-project__stat">
-          <span class="scrape-project__stat-number">4</span>
-          <span class="scrape-project__stat-label">southern U.S. states covered</span>
+          <span class="scrape-project__stat-number">270+</span>
+          <span class="scrape-project__stat-label">counties across the South covered</span>
         </div>
         <div class="scrape-project__stat">
           <span class="scrape-project__stat-number">0</span>
@@ -335,15 +334,21 @@ toc: false
     <section class="scrape-project__body" aria-labelledby="project-problem">
       <p id="project-problem" class="scrape-project__section-label">The problem</p>
       <p>
-        Studying the geography of legal resources across the South required court-level caseload
-        data, but the records were not available as CSV downloads, public APIs, or research-ready
-        tables. Instead, they were embedded inside state court portals as paginated HTML, often
-        behind layers of search forms, dropdowns, and JavaScript-rendered interfaces.
+        Studying the geography of legal resources across the South required court data that no
+        portal made easy to access. Every state site presented different
+        obstacles: some exposed CSV files in the interface but blocked direct downloads, while
+        others buried records behind multi-step forms, dynamic dropdowns, or JavaScript-rendered
+        tables. Each one required its own workaround.
       </p>
       <p>
-        Manual collection at that scale was not feasible. This project automated the workflow from
-        browser interaction to extraction, cleaning, and structuring, turning scattered records into
-        a usable dataframe for spatial analysis and downstream modeling.
+        Because most portals relied on dynamic rendering, Selenium handled the bulk of the work,
+        navigating clicks, form submissions, and page transitions the way a human would. Each site
+        ran as its own independent thread, and the final output was a unified, structured dataframe
+        ready for spatial analysis and modeling.
+      </p>
+      <p>
+        One small stroke of luck: none of the sites used CAPTCHAs, which made automation much
+        easier.
       </p>
     </section>
 
@@ -351,16 +356,16 @@ toc: false
 
     <section aria-labelledby="project-video">
       <p id="project-video" class="scrape-project__section-label">Scraper in action</p>
+      <p class="scrape-project__caption">
+        A live view of the scraper navigating court records, parsing case metadata, and writing
+        structured rows to a dataframe in real time.
+      </p>
       <div class="scrape-project__media">
         <video controls preload="metadata" poster="/assets/images/data1.jpg">
           <source src="/assets/videos/scraping-clipped.mp4" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </div>
-      <p class="scrape-project__caption">
-        A live view of the scraper navigating court records, parsing case metadata, and writing
-        structured rows to a dataframe in real time.
-      </p>
     </section>
 
     <hr class="scrape-project__rule">
@@ -418,9 +423,8 @@ toc: false
       <p id="project-ethics" class="scrape-project__section-label">A note on ethics</p>
       <div class="scrape-project__callout">
         <p>
-          All data was collected from publicly accessible pages at human-mimicking speeds with
-          delays between requests. No logins, paywalls, or private portals were accessed. Only the
-          information necessary for the research was collected, and raw records are not redistributed.
+          Data was collected from publicly accessible pages at human-like speeds. No logins or
+          private portals were accessed, and raw records are not redistributed.
         </p>
       </div>
     </section>
