@@ -54,7 +54,6 @@ Communityâ€™s Cohesion and Resistance
 <figure>
   <a href="/Indonesia/"><img src="/assets/posters/Duke2023-Poster-zm.jpg"></a>
 </figure>
-You can explore this poster [here (png format)](/assets/posters/Duke2023-Poster.jpg) or [here (pdf format)](/assets/posters/AAG2023-Poster-f.pdf).
 You can explore this poster [here (JPG format)](/assets/posters/Duke2023-Poster.jpg) or [here (PDF format)](/assets/posters/Duke2023-Poster.pdf).
 
 ## Recent Research / Talks
