@@ -1,202 +1,96 @@
 ---
 title: "Portfolio"
-layout: single
+layout: splash
 permalink: /portfolio/
-classes: wide
+classes: page-hero-tall
 header:
-  overlay_color: "#101820"
-  overlay_filter: "0.28"
+  overlay_color: "#000"
+  overlay_filter: "0.2"
   overlay_image: /assets/images/Jackson.jpg
   caption: "Mississippi State Capitol, Photo credit: [**Teng**](https://en.wikipedia.org/wiki/Mississippi_State_Capitol)"
-excerpt: "Selected projects in data collection, documentation intelligence, mapping, and computational analysis."
-toc: false
+excerpt: "Selected projects in data collection, AI-assisted research, quantitative analysis, and spatial storytelling."
+class: wide
+
+intro:
+  - excerpt: "This page gathers the main project threads I want to keep developing across legal access research, computational methods, and mapping."
+
+feature_row0:
+  - image_path: /assets/images/data1.jpg
+    image_caption: "\"Building a 200K-record dataset where no API existed.\""
+    alt: "Court scraper"
+    title: "Court Report Scraper"
+    excerpt: "A large-scale scraping workflow for state court systems. Tools: **Selenium** and **BeautifulSoup**. Connected to legal access research."
+    url: "/portfolio/scraping/"
+    btn_label: "Open Page"
+    btn_class: "btn--info"
+
+feature_row1:
+  - image_path: /assets/images/mapping3.jpg
+    image_caption: "\"Turning unstructured legal documents into structured data.\""
+    alt: "Document intelligence"
+    title: "Converting Unstructured Data to Structured"
+    excerpt: "A documentation intelligence workflow for extracting usable information from messy legal texts. Tools: **pdfplumber** and **GPT-5**."
+    url: "/portfolio/document-intelligence/"
+    btn_label: "Open Page"
+    btn_class: "btn--info"
+
+feature_row2:
+  - image_path: /assets/images/mapping2.jpg
+    image_caption: "\"Maps and charts from the research.\""
+    alt: "Justice and violence visualization"
+    title: "Spatial Patterns of Justice and Violence"
+    excerpt: "An evolving collection of figures, maps, and visual narratives. Tools: **Plotly**, **QGIS**, and **R**. Linked to both research threads."
+    url: "/portfolio/justice-patterns/"
+    btn_label: "Open Page"
+    btn_class: "btn--info"
+
+feature_row3:
+  - image_path: /assets/images/res/network1.png
+    image_caption: "\"Classical methods, modern tools.\""
+    alt: "Methods and statistics"
+    title: "AI-assisted Analysis and Statistics"
+    excerpt: "A place for statistical reasoning, modeling, and older quantitative methods reworked through contemporary computational workflows."
+    url: "/portfolio/methods/"
+    btn_label: "Open Page"
+    btn_class: "btn--info"
+
+feature_row4:
+  - image_path: /assets/images/machine.jpg
+    image_caption: "\"Teaching machines to predict what comes next.\""
+    alt: "Forecasting with neural networks"
+    title: "TCN Timeseries Forecasting"
+    excerpt: "A deep learning page centered on sequence prediction, the M4 benchmark, and forecasting experiments with **PyTorch**."
+    url: "/portfolio/forecasting/"
+    btn_label: "Open Page"
+    btn_class: "btn--info"
+
+feature_row5:
+  - image_path: /assets/images/mapping1.jpg
+    image_caption: "\"Let maps talk.\""
+    alt: "Interactive mapping"
+    title: "Interactive Web Mapping and Spatial Visualization"
+    excerpt: "A home for web maps and spatial interfaces designed to let patterns be explored directly instead of only summarized in text."
+    url: "/portfolio/maps-talk/"
+    btn_label: "Open Page"
+    btn_class: "btn--info"
 ---
 
-<style>
-  .portfolio-index {
-    --ink: #18232d;
-    --muted: #5f6973;
-    --paper: #faf8f2;
-    --card: #fffdf9;
-    --line: #ddd7ca;
-    --accent: #9c5b33;
-    --accent-soft: rgba(156, 91, 51, 0.09);
-    font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-    color: var(--ink);
-    background:
-      radial-gradient(circle at top right, rgba(156, 91, 51, 0.07), transparent 22rem),
-      linear-gradient(180deg, rgba(24, 35, 45, 0.025), rgba(24, 35, 45, 0)),
-      var(--paper);
-    border: 1px solid rgba(221, 215, 202, 0.85);
-    border-radius: 22px;
-    padding: 2.3rem 1.35rem 3rem;
-    box-shadow: 0 18px 36px rgba(24, 35, 45, 0.06);
-  }
+{% include feature_row id="intro" type="center" %}
 
-  .portfolio-index__container {
-    max-width: 900px;
-    margin: 0 auto;
-  }
+## Data Hunting: Feeding the Machine with Data at Scale
+{% include feature_row id="feature_row0" type="left" %}
 
-  .portfolio-index__intro {
-    margin-bottom: 2rem;
-  }
+## AI-powered Documentation Intelligence
+{% include feature_row id="feature_row1" type="right" %}
 
-  .portfolio-index__eyebrow,
-  .portfolio-index__meta {
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-  }
+## From Numbers to Narrative: AI-assisted Visualization
+{% include feature_row id="feature_row2" type="left" %}
 
-  .portfolio-index__eyebrow {
-    font-size: 0.78rem;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    color: var(--accent);
-    margin-bottom: 0.85rem;
-  }
+## Classical Methods, Modern Tools
+{% include feature_row id="feature_row3" type="right" %}
 
-  .portfolio-index__intro h1 {
-    font-size: clamp(2.3rem, 4vw, 3.5rem);
-    line-height: 1.05;
-    letter-spacing: -0.035em;
-    margin: 0 0 0.8rem;
-  }
+## When AI Thinking Deeply
+{% include feature_row id="feature_row4" type="left" %}
 
-  .portfolio-index__intro p {
-    max-width: 44rem;
-    font-size: 1.05rem;
-    line-height: 1.8;
-    color: #384450;
-    margin: 0;
-  }
-
-  .portfolio-index__grid {
-    display: grid;
-    gap: 1.1rem;
-  }
-
-  .portfolio-index__section {
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(250, 248, 243, 0.98));
-    border: 1px solid rgba(221, 215, 202, 0.92);
-    border-radius: 18px;
-    padding: 1.2rem 1.2rem 1.3rem;
-  }
-
-  .portfolio-index__section-title {
-    font-size: 1.35rem;
-    line-height: 1.25;
-    margin: 0 0 0.9rem;
-  }
-
-  .portfolio-index__item {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-    border-left: 3px solid rgba(156, 91, 51, 0.45);
-    padding: 0.15rem 0 0.15rem 1rem;
-    transition: transform 140ms ease, border-color 140ms ease, background 140ms ease;
-  }
-
-  .portfolio-index__item:hover {
-    transform: translateX(4px);
-    border-color: var(--accent);
-    background: var(--accent-soft);
-  }
-
-  .portfolio-index__item-title {
-    display: block;
-    font-size: 1.08rem;
-    line-height: 1.45;
-    font-weight: 700;
-    margin-bottom: 0.25rem;
-  }
-
-  .portfolio-index__item-subtitle {
-    display: block;
-    font-size: 0.98rem;
-    line-height: 1.7;
-    color: var(--muted);
-  }
-
-  .portfolio-index__meta {
-    display: block;
-    margin-top: 0.7rem;
-    font-size: 0.76rem;
-    letter-spacing: 0.04em;
-    color: #7a766d;
-  }
-
-  @media (max-width: 640px) {
-    .portfolio-index {
-      padding: 1.5rem 0.95rem 2rem;
-    }
-  }
-</style>
-
-<div class="portfolio-index">
-  <div class="portfolio-index__container">
-    <header class="portfolio-index__intro">
-      <p class="portfolio-index__eyebrow">Portfolio</p>
-      <h1>Research Infrastructure, Analysis, and Spatial Storytelling</h1>
-      <p>
-        A working index of projects across data collection, AI-assisted interpretation,
-        quantitative analysis, and interactive mapping. Each section points to a project page
-        that I can continue to expand over time.
-      </p>
-    </header>
-
-    <div class="portfolio-index__grid">
-      <section class="portfolio-index__section">
-        <h2 class="portfolio-index__section-title">Data Hunting: Feeding the Machine with Data at Scale</h2>
-        <a class="portfolio-index__item" href="/portfolio/scraping/">
-          <span class="portfolio-index__item-title">Court Report Scraper</span>
-          <span class="portfolio-index__item-subtitle">Building a 200K-record dataset where no API existed.</span>
-          <span class="portfolio-index__meta">[Selenium · BeautifulSoup] -> Legal access research</span>
-        </a>
-      </section>
-
-      <section class="portfolio-index__section">
-        <h2 class="portfolio-index__section-title">AI-powered Documentation Intelligence</h2>
-        <a class="portfolio-index__item" href="/portfolio/document-intelligence/">
-          <span class="portfolio-index__item-title">Converting Unstructured Data to Structured</span>
-          <span class="portfolio-index__item-subtitle">Turning unstructured legal documents into structured data.</span>
-          <span class="portfolio-index__meta">[pdfplumber · GPT-5] -> Legal access research</span>
-        </a>
-      </section>
-
-      <section class="portfolio-index__section">
-        <h2 class="portfolio-index__section-title">From Numbers to Narrative: AI-assisted Visualization</h2>
-        <a class="portfolio-index__item" href="/portfolio/justice-patterns/">
-          <span class="portfolio-index__item-title">Spatial Patterns of Justice and Violence</span>
-          <span class="portfolio-index__item-subtitle">Maps and charts from the research.</span>
-          <span class="portfolio-index__meta">[Plotly · QGIS · R] -> Both research threads</span>
-        </a>
-      </section>
-
-      <section class="portfolio-index__section">
-        <h2 class="portfolio-index__section-title">Classical Methods, Modern Tools</h2>
-        <a class="portfolio-index__item" href="/portfolio/methods/">
-          <span class="portfolio-index__item-title">AI-assisted Analysis and Statistics</span>
-          <span class="portfolio-index__item-subtitle">Bringing classical statistical reasoning into newer computational workflows.</span>
-        </a>
-      </section>
-
-      <section class="portfolio-index__section">
-        <h2 class="portfolio-index__section-title">When AI Thinking Deeply</h2>
-        <a class="portfolio-index__item" href="/portfolio/forecasting/">
-          <span class="portfolio-index__item-title">TCN Timeseries Forecasting</span>
-          <span class="portfolio-index__item-subtitle">Deep learning for sequence prediction on the M4 benchmark.</span>
-          <span class="portfolio-index__meta">[PyTorch] -> Methods</span>
-        </a>
-      </section>
-
-      <section class="portfolio-index__section">
-        <h2 class="portfolio-index__section-title">Let Maps Talk</h2>
-        <a class="portfolio-index__item" href="/portfolio/maps-talk/">
-          <span class="portfolio-index__item-title">Interactive Web Mapping and Spatial Visualization</span>
-          <span class="portfolio-index__item-subtitle">Building interfaces where spatial patterns can be explored rather than only described.</span>
-        </a>
-      </section>
-    </div>
-  </div>
-</div>
+## Let Maps Talk
+{% include feature_row id="feature_row5" type="right" %}
