@@ -39,7 +39,7 @@ feature_row0:
     alt: "visualization"
     title: "From Numbers to Narrative: AI-assisted Visualization"
     excerpt: "Selected visualization work from my research projects."
-    url: "/portfolio/justice-patterns/"
+    url: "/portfolio/visualization/"
     btn_label: "Open Page"
     btn_class: "btn--info"
 

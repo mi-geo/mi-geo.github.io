@@ -1,74 +1,404 @@
 ---
-title: "Data Visualization"
-layout: single
+title: "From Numbers to Narrative: AI-assisted Visualization"
+layout: none
 permalink: /portfolio/visualization/
-header:
-  overlay_image: /assets/images/earth_little_rock.jpg
-  overlay_filter: 0.2
-  caption: "[**Cool globes in front of Clinton Library**](https://www.clintonfoundation.org/clinton-presidential-center/cool-globes/) @ Little Rock, AR"
-excerpt: "Designing clear, honest, and interpretable visualizations from complex spatial and statistical data."
-classes: wide
 ---
+<style>
+  :root {
+    --viz-bg: #ffffff;
+    --viz-surface: #ffffff;
+    --viz-surface-soft: #f7f7f7;
+    --viz-surface-strong: #f2f2f2;
+    --viz-ink: #222222;
+    --viz-body: #3f3f3f;
+    --viz-muted: #6a6a6a;
+    --viz-line: #dddddd;
+    --viz-line-soft: #ebebeb;
+    --viz-accent: #ff385c;
+    --viz-accent-active: #e00b41;
+    --viz-on-accent: #ffffff;
+    --viz-radius-card: 14px;
+    --viz-radius-pill: 9999px;
+    --viz-shadow: rgba(0, 0, 0, 0.02) 0 0 0 1px, rgba(0, 0, 0, 0.04) 0 2px 6px 0, rgba(0, 0, 0, 0.1) 0 4px 8px 0;
+    --viz-max: 1180px;
+  }
 
-Here I focus on visualizing **non-geospatial** data — the kind of data that lives in a table (dataframe) rather than a map. These visualizations help reveal structure, patterns, surprises, and guardrails before modeling.
+  * {
+    box-sizing: border-box;
+  }
 
-## Basic Data Structure: the Dataframe
+  body {
+    margin: 0;
+    background: var(--viz-bg);
+    color: var(--viz-ink);
+    font-family: Circular, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    line-height: 1.5;
+  }
 
-Most of my work begins with a **dataframe**: rows as observations, columns as variables.  
-This structure is simple enough to manipulate quickly, yet flexible enough for complex analysis.  
-A dataframe can hold numeric values, categories, text, timestamps — whatever the analysis requires.
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 
-| case_id | court_name        | filing_date | charge_type | attorney_count |
-|---------|--------------------|-------------|--------------|----------------|
-| 2023-01 | Travis County GDC  | 2023-07-18  | Misdemeanor  | 1              |
-| 2023-02 | Harris County CCL  | 2023-07-21  | Felony       | 0              |
-| 2023-03 | Dallas Municipal   | 2023-07-25  | Traffic      | 1              |
-| 2023-04 | Bexar County GDC   | 2023-08-03  | Felony       | 2              |
+  .viz-page {
+    max-width: var(--viz-max);
+    margin: 0 auto;
+    padding: 26px 18px 72px;
+  }
 
+  .viz-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--viz-line-soft);
+  }
 
+  .viz-nav__crumb,
+  .viz-nav__meta {
+    font-size: 14px;
+    color: var(--viz-muted);
+  }
 
-## Why Visualize?
+  .viz-nav__crumb strong {
+    color: var(--viz-ink);
+    font-weight: 600;
+  }
 
-Visualization is the fastest way to understand what a dataset is trying to tell you. It helps:
+  .viz-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+    gap: 24px;
+    align-items: start;
+    margin-bottom: 42px;
+  }
 
-- **Reveal distributions**, which guide transformations and modeling choices.  
-- **Show relationships** between variables — linear, curved, clustered, or none at all.  
-- **Provide a holistic picture** of what the data looks like before running formal models.  
-- **Surprises, there might be surprises**, oddities, and patterns you may not expect. Good figures make the data memorable.
+  .viz-hero__eyebrow {
+    display: inline-block;
+    margin-bottom: 14px;
+    padding: 8px 14px;
+    border-radius: var(--viz-radius-pill);
+    background: #fff1f4;
+    color: var(--viz-accent);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
 
+  .viz-hero h1 {
+    margin: 0 0 14px;
+    font-size: clamp(2.3rem, 5vw, 3.8rem);
+    line-height: 1.04;
+    letter-spacing: -0.04em;
+    font-weight: 700;
+  }
 
+  .viz-hero p {
+    margin: 0;
+    max-width: 58ch;
+    color: var(--viz-body);
+    font-size: 17px;
+    line-height: 1.7;
+  }
 
-## Best Ways to Visualize Data
+  .viz-hero__aside {
+    background: var(--viz-surface-soft);
+    border: 1px solid var(--viz-line-soft);
+    border-radius: 24px;
+    padding: 22px;
+  }
 
-The **scatter plot** is the workhorse of quantitative research.  
-It’s the clearest way to explore how two variables move together — or don’t.
+  .viz-hero__aside h2 {
+    margin: 0 0 12px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
 
-When the story involves three variables, **3D plots** and **interactive graphics** can add depth, especially when exploring surfaces, clusters, or nonlinear structure.
+  .viz-hero__aside p {
+    margin: 0 0 16px;
+    color: var(--viz-body);
+    font-size: 15px;
+    line-height: 1.65;
+  }
 
-Plotly is a great too in creating interactive 3D charts. It is free and available in both Python and R:
-<iframe src="/assets/charts/3Dhisto.html" height="600" width="900"></iframe>
-You can explore this map [as its own web page here](/assets/charts/3Dhisto.html).
+  .viz-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
 
-Histograms, density curves, and boxplots also remain essential for understanding how a variable behaves on its own.
-<img src="/assets/images/res/Indices1_min_distance.png" height="600" width="900">
+  .viz-chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    padding: 7px 12px;
+    border-radius: var(--viz-radius-pill);
+    background: #ffffff;
+    border: 1px solid var(--viz-line);
+    font-size: 13px;
+    color: var(--viz-body);
+  }
 
+  .viz-section-title {
+    margin: 0 0 18px;
+    font-size: 28px;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+  }
 
+  .viz-gallery {
+    display: grid;
+    gap: 24px;
+  }
 
-## Some of My Favorite Plot Types
+  .viz-card {
+    background: var(--viz-surface);
+    border: 1px solid var(--viz-line-soft);
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: var(--viz-shadow);
+  }
 
-- **Histograms** — simple, direct, and great for spotting skewness or multimodality.  
-- **Ridgeline plots** — elegant for comparing distributions across groups.  
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Ridgelineplot.png" height="600" width="900">
+  .viz-card__media {
+    background: var(--viz-surface-strong);
+  }
 
-- **Dot and “spot” charts** — excellent for highlighting individual values or small clusters.
-- **Profile Charts** — histogram from another dimension.
-<img src="https://www.overcharts.com/en/wp-content/uploads/2020/05/tpo-profile-session2.png" height="600" width="900">
+  .viz-card__media img,
+  .viz-card__media iframe {
+    display: block;
+    width: 100%;
+    border: 0;
+  }
 
-- **Volume Charts** — histogram from another dimension.
-<img src="https://library.tradingtechnologies.com/trade/Content/technical-indicators/screenshots/volume-at-price.png" height="600" width="900">
+  .viz-card__media img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
 
+  .viz-card__media iframe {
+    height: 430px;
+    background: #ffffff;
+  }
 
+  .viz-card__body {
+    padding: 20px 20px 22px;
+  }
 
-Good visualization is not about decoration — it’s about clarity. When done well, a plot becomes a compact, honest representation of your data’s story.
+  .viz-card__kicker {
+    margin: 0 0 10px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--viz-accent);
+  }
 
+  .viz-card__body h3 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    line-height: 1.18;
+    letter-spacing: -0.02em;
+  }
 
+  .viz-card__body p {
+    margin: 0;
+    color: var(--viz-body);
+    font-size: 15px;
+    line-height: 1.68;
+  }
+
+  .viz-card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-top: 18px;
+  }
+
+  .viz-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .viz-tag {
+    display: inline-flex;
+    align-items: center;
+    min-height: 30px;
+    padding: 6px 10px;
+    border-radius: var(--viz-radius-pill);
+    background: var(--viz-surface-soft);
+    border: 1px solid var(--viz-line-soft);
+    color: var(--viz-muted);
+    font-size: 12px;
+  }
+
+  .viz-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 46px;
+    padding: 12px 18px;
+    border-radius: 12px;
+    background: var(--viz-accent);
+    color: var(--viz-on-accent);
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .viz-cta:hover {
+    background: var(--viz-accent-active);
+  }
+
+  .viz-note {
+    margin-top: 32px;
+    padding-top: 18px;
+    border-top: 1px solid var(--viz-line-soft);
+    color: var(--viz-muted);
+    font-size: 14px;
+  }
+
+  @media (max-width: 980px) {
+    .viz-hero {
+      grid-template-columns: 1fr;
+    }
+
+    .viz-card__footer {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .viz-cta {
+      white-space: normal;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .viz-page {
+      padding: 18px 12px 48px;
+    }
+
+    .viz-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .viz-card__media iframe {
+      height: 320px;
+    }
+  }
+</style>
+
+<main class="viz-page">
+  <div class="viz-nav">
+    <a class="viz-nav__crumb" href="/portfolio/">Portfolio / <strong>Visualization</strong></a>
+    <a class="viz-nav__meta" href="/portfolio/">Back to portfolio</a>
+  </div>
+
+  <section class="viz-hero">
+    <div>
+      <span class="viz-hero__eyebrow">Visualization</span>
+      <h1>Turning numbers into pictures that people can actually stay with.</h1>
+      <p>
+        I like visualizations that do a little more than decorate a finding. A good figure should
+        slow the reader down just enough to notice pattern, contrast, and structure. Some of these
+        are exploratory, some are presentational, and some sit somewhere in between.
+      </p>
+    </div>
+
+    <aside class="viz-hero__aside">
+      <h2>How I usually think about this work</h2>
+      <p>
+        First, I want the image to be readable. Then I want it to be honest. After that, if it can
+        still feel a little memorable, that is a bonus.
+      </p>
+      <div class="viz-chip-row">
+        <span class="viz-chip">Plotly</span>
+        <span class="viz-chip">R</span>
+        <span class="viz-chip">QGIS</span>
+        <span class="viz-chip">ggplot2</span>
+        <span class="viz-chip">Research graphics</span>
+      </div>
+    </aside>
+  </section>
+
+  <h2 class="viz-section-title">A few examples</h2>
+
+  <section class="viz-gallery">
+    <article class="viz-card">
+      <div class="viz-card__media">
+        <iframe src="/assets/charts/3Dhisto.html" title="Interactive 3D histogram"></iframe>
+      </div>
+      <div class="viz-card__body">
+        <p class="viz-card__kicker">Interactive</p>
+        <h3>3D exploration for shape, density, and comparison</h3>
+        <p>
+          Sometimes I want a chart to behave more like a small space than a flat figure. This one is
+          useful for rotating a distribution, checking how the surface behaves, and seeing whether the
+          pattern still holds when you move around it a little.
+        </p>
+        <div class="viz-card__footer">
+          <div class="viz-card__tags">
+            <span class="viz-tag">Plotly</span>
+            <span class="viz-tag">3D chart</span>
+            <span class="viz-tag">Exploratory</span>
+          </div>
+          <a class="viz-cta" href="/assets/charts/3Dhisto.html">Open full chart</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="viz-card">
+      <div class="viz-card__media">
+        <img src="/assets/images/res/Indices1_min_distance.png" alt="Visualization of index distance patterns">
+      </div>
+      <div class="viz-card__body">
+        <p class="viz-card__kicker">Static figure</p>
+        <h3>Showing structure without over-explaining it</h3>
+        <p>
+          A static figure still has a lot of value when it is arranged carefully. I like charts like
+          this when I need a cleaner single-frame explanation, especially for papers, slides, or places
+          where the reader only gets one glance.
+        </p>
+        <div class="viz-card__footer">
+          <div class="viz-card__tags">
+            <span class="viz-tag">Research figure</span>
+            <span class="viz-tag">Presentation-ready</span>
+            <span class="viz-tag">Static</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="viz-card">
+      <div class="viz-card__media">
+        <img src="/assets/images/res/Beijing-restua-surviving5.png" alt="Beijing restaurant survival visualization">
+      </div>
+      <div class="viz-card__body">
+        <p class="viz-card__kicker">Applied work</p>
+        <h3>When visualization becomes a way to think, not just to report</h3>
+        <p>
+          Many of my favorite charts come from the middle of the research process, when the goal is
+          not to make a final polished statement yet, but to notice where the story might actually be.
+          That is often where the most useful graphics begin.
+        </p>
+        <div class="viz-card__footer">
+          <div class="viz-card__tags">
+            <span class="viz-tag">Urban data</span>
+            <span class="viz-tag">Applied analysis</span>
+            <span class="viz-tag">Spatial story</span>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <p class="viz-note">
+    I still like maps, but this page is for the moments when a chart, a surface, or a carefully shaped
+    figure can do the talking on its own.
+  </p>
+</main>
