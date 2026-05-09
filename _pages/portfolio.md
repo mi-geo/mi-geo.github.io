@@ -74,10 +74,10 @@ feature_row1:
 
 feature_row2:
   - image_path: /assets/images/mapping1.jpg
-    image_caption: "\"Let maps talk.\""
+    image_caption: "Expo 1904, St. Louis, MO"
     alt: "Interactive mapping"
-    title: "Let Maps Talk: Interactive Web Mapping"
-    excerpt: ""
+    title: "Let Maps Talk"
+    excerpt: "Selected interactive web mapping"
     url: "/portfolio/mapping/"
     btn_label: "Open Page"
     btn_class: "btn--info"
