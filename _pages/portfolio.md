@@ -24,7 +24,7 @@ feature_row0:
     url: "/portfolio/scraping/"
     btn_label: "Open Page"
     btn_class: "btn--info"
-		
+
   - image_path: /assets/images/Jilin_Apt1.jpg
     image_caption: "Structured intelligence in Jilin, China"
     alt: "Document intelligence"
@@ -33,7 +33,7 @@ feature_row0:
     url: "/portfolio/document-intelligence/"
     btn_label: "Open Page"
     btn_class: "btn--info"
-	
+
   - image_path: /assets/images/gate-arch.jpg
     image_caption: "Is the Gateway Arch a Gaussian distribution?"
     alt: "visualization"

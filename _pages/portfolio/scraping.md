@@ -1,5 +1,5 @@
 ---
-title: "Data Hunting: Collecting Court Records Across the American South"
+title: "Building the Dataset: Court Records Across the American South"
 layout: none
 permalink: /portfolio/scraping/
 header:
@@ -295,7 +295,7 @@ toc: false
     </nav>
 
     <header class="scrape-project__hero">
-      <h1>Collecting Court Records Across the American South</h1>
+      <h1>Building the Dataset: Court Records Across the American South</h1>
       <p class="scrape-project__subtitle">
         I built multiple customized web crawlers that collected more than 200,000 pieces of court
         data from state court systems.

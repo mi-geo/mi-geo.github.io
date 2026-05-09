@@ -3,12 +3,6 @@ title: "Interactive Web Mapping and Spatial Visualization"
 layout: none
 permalink: /portfolio/mapping/
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Web Mapping and Spatial Visualization</title>
   <style>
     :root {
       --bg: #ffffff;
@@ -243,8 +237,6 @@ permalink: /portfolio/mapping/
       }
     }
   </style>
-</head>
-<body>
   <main class="page-shell">
     <div class="topbar">
       <a class="brand" href="/portfolio/">
@@ -306,5 +298,3 @@ permalink: /portfolio/mapping/
       Both pieces live online because maps are nicer when they can move a little and invite you in.
     </p>
   </main>
-</body>
-</html>
