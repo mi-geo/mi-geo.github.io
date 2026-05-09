@@ -8,89 +8,86 @@ header:
   overlay_filter: "0.2"
   overlay_image: /assets/images/Jackson.jpg
   caption: "Mississippi State Capitol, Photo credit: [**Teng**](https://en.wikipedia.org/wiki/Mississippi_State_Capitol)"
-excerpt: "Selected projects in data collection, AI-assisted research, quantitative analysis, and spatial storytelling."
+excerpt: "A working index of projects across data collection, AI-assisted interpretation, quantitative analysis, and interactive mapping. Each section points to a project page that I can continue to expand over time Selected projects in data collection, AI-assisted research, quantitative analysis, and spatial storytelling."
+
 class: wide
 
 intro:
   - excerpt: "This page gathers the main project threads I want to keep developing across legal access research, computational methods, and mapping."
 
 feature_row0:
-  - image_path: /assets/images/data1.jpg
-    image_caption: "\"Building a 200K-record dataset where no API existed.\""
-    alt: "Court scraper"
-    title: "Court Report Scraper"
-    excerpt: "A large-scale scraping workflow for state court systems. Tools: **Selenium** and **BeautifulSoup**. Connected to legal access research."
+  - image_path: /assets/images/hunting.jpg
+    image_caption: "You need the right tools to hunt (taken in Glacier NP)"
+    alt: "Data Hunting"
+    title: "**Data Hunting**: Feeding the Machine with Data at Scale"
+    excerpt: "Court report scraper and others."
     url: "/portfolio/scraping/"
+    btn_label: "Open Page"
+    btn_class: "btn--info"
+		
+  - image_path: /assets/images/Jilin_Apt1.jpg
+    image_caption: "Structured inteligence in Jilin, China"
+    alt: "Document intelligence"
+    title: "AI-powered **Documentation Intelligence**"
+    excerpt: "Converting unstructured pdfs/introductions to analysable dataframes with help from LLM"
+    url: "/portfolio/document-intelligence/"
+    btn_label: "Open Page"
+    btn_class: "btn--info"
+	
+  - image_path: /assets/images/gate-arch.jpg
+    image_caption: "Is Gate Arch a Gaussian distribution? "
+    alt: "visualization"
+		
+    title: "From Numbers to Narrative: AI-assisted **Visualization**"
+    excerpt: "Some visualization works I've done before."
+    url: "/portfolio/visualization/"
     btn_label: "Open Page"
     btn_class: "btn--info"
 
 feature_row1:
-  - image_path: /assets/images/mapping3.jpg
-    image_caption: "\"Turning unstructured legal documents into structured data.\""
-    alt: "Document intelligence"
-    title: "Converting Unstructured Data to Structured"
-    excerpt: "A documentation intelligence workflow for extracting usable information from messy legal texts. Tools: **pdfplumber** and **GPT-5**."
-    url: "/portfolio/document-intelligence/"
-    btn_label: "Open Page"
-    btn_class: "btn--info"
-
-feature_row2:
-  - image_path: /assets/images/mapping2.jpg
-    image_caption: "\"Maps and charts from the research.\""
-    alt: "Justice and violence visualization"
-    title: "Spatial Patterns of Justice and Violence"
-    excerpt: "An evolving collection of figures, maps, and visual narratives. Tools: **Plotly**, **QGIS**, and **R**. Linked to both research threads."
-    url: "/portfolio/justice-patterns/"
-    btn_label: "Open Page"
-    btn_class: "btn--info"
-
-feature_row3:
-  - image_path: /assets/images/res/network1.png
-    image_caption: "\"Classical methods, modern tools.\""
+  - image_path: /assets/images/inte1.jpg
+    image_caption: "Julie Mehretu's work in Crystal Bridges Museum of American Art, Bentonville, AR"
     alt: "Methods and statistics"
-    title: "AI-assisted Analysis and Statistics"
-    excerpt: "A place for statistical reasoning, modeling, and older quantitative methods reworked through contemporary computational workflows."
+    title: "Classical Methods, Modern Tools""
+    excerpt: ": **AI-assisted Analysis and Statistics**"
     url: "/portfolio/methods/"
     btn_label: "Open Page"
     btn_class: "btn--info"
 
-feature_row4:
-  - image_path: /assets/images/machine.jpg
-    image_caption: "\"Teaching machines to predict what comes next.\""
-    alt: "Forecasting with neural networks"
-    title: "TCN Timeseries Forecasting"
-    excerpt: "A deep learning page centered on sequence prediction, the M4 benchmark, and forecasting experiments with **PyTorch**."
+  - image_path: /assets/images/inte1.jpg
+    image_caption: ""
+    alt: "Network analysis"
+    title: "Extract Useful Information from Chaos""
+    excerpt: "AI-assisted Network Analysis"
+    url: "/portfolio/methods/"
+    btn_label: "Open Page"
+    btn_class: "btn--info"
+
+  - image_path: /assets/images/time.jpg
+    image_caption: "When I am thinking...in Badland NP"
+    alt: " "
+    title: "When AI Thinking Deeply: **Deep Learning** Case Studies"
+    excerpt: "TCN Timeseries Forecasting."
     url: "/portfolio/forecasting/"
     btn_label: "Open Page"
     btn_class: "btn--info"
 
-feature_row5:
+
+feature_row2:
   - image_path: /assets/images/mapping1.jpg
     image_caption: "\"Let maps talk.\""
     alt: "Interactive mapping"
-    title: "Interactive Web Mapping and Spatial Visualization"
-    excerpt: "A home for web maps and spatial interfaces designed to let patterns be explored directly instead of only summarized in text."
-    url: "/portfolio/maps-talk/"
+    title: "Let Maps Talk: Interactive **Web Mapping**"
+    excerpt: ""
+    url: "/portfolio/mapping/"
     btn_label: "Open Page"
     btn_class: "btn--info"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-## Data Hunting: Feeding the Machine with Data at Scale
-{% include feature_row id="feature_row0" type="left" %}
+{% include feature_row id="feature_row0" %}
 
-## AI-powered Documentation Intelligence
-{% include feature_row id="feature_row1" type="right" %}
+{% include feature_row id="feature_row1" %}
 
-## From Numbers to Narrative: AI-assisted Visualization
-{% include feature_row id="feature_row2" type="left" %}
-
-## Classical Methods, Modern Tools
-{% include feature_row id="feature_row3" type="right" %}
-
-## When AI Thinking Deeply
-{% include feature_row id="feature_row4" type="left" %}
-
-## Let Maps Talk
-{% include feature_row id="feature_row5" type="right" %}
+{% include feature_row id="feature_row2" %}
