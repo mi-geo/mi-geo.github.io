@@ -1,78 +1,81 @@
 ---
 title: Teng Zhang
-layout: single
+layout: splash
 author_profile: true
 classes: wide
 header:
   overlay_color: "#000"
-  overlay_filter: "0.1"
-  overlay_image:  /assets/images/gate-arch.jpg
-  caption: "St. Louis, MO. *Photo credit:* [***Teng Zhang***](https://https://www.facebook.com/geography.teng.zhang)"
-excerpt: " "
-feature_row:
-  - image_path: /assets/images/res/Beijing-restua-surviving5.png
-    #image_caption: "Credit: [Teng](https://stormocean.github.io/)"
-    alt: "Spatial Analysis"
-    title: "Innovatie Spatial Analysis Methods"
-    excerpt: ""
+  overlay_filter: "0.18"
+  overlay_image: /assets/images/gate-arch.jpg
+  caption: "St. Louis, MO. *Photo credit:* [***Teng Zhang***](https://www.facebook.com/geography.teng.zhang)"
+excerpt: "Spatial Data Scientist & Quantitative Geographer"
+intro:
+  - excerpt: "Spatial Data Scientist & Quantitative Geographer. I study geographic inequality — legal access, mass violence, and urban environments — using machine learning, network analysis, and spatial statistics. Currently based in Dallas, TX."
+
+feature_row0:
+  - image_path: /assets/images/hunting.jpg
+    alt: "Portfolio"
+    title: "Portfolio"
+    excerpt: "Projects and pipelines"
+    url: "/portfolio/"
+    btn_label: "Explore"
+    btn_class: "btn--info"
+  - image_path: /assets/images/Indonesia-statue.jpg
+    alt: "Research"
+    title: "Research"
+    excerpt: "Publications and talks"
     url: "/research/"
-    btn_label: "Read More"
-    btn_class: "btn-info"
+    btn_label: "Explore"
+    btn_class: "btn--info"
+  - image_path: /assets/images/world-regional-geography.jpg
+    alt: "Teaching"
+    title: "Teaching"
+    excerpt: "Courses and materials"
+    url: "/teaching/"
+    btn_label: "Explore"
+    btn_class: "btn--info"
+
+feature_row1:
+  - image_path: /assets/images/data1.jpg
+    image_caption: "\"Building a large court-data pipeline where no API existed.\""
+    alt: "Court records project"
+    title: "Court Records Project"
+    excerpt: "A multi-state scraping workflow that built a large structured court dataset for ongoing research on legal access."
+    url: "/portfolio/scraping/"
+    btn_label: "View Project"
+    btn_class: "btn--info"
   - image_path: /assets/images/res/whole-draft-resize.png
-    #image_caption: "Credit: [Teng](https://stormocean.github.io/)"
-    alt: "Violence"
-    title: "Mass Violence in Indonesia"
-    excerpt: "analysis of mass **violence**. Research area focuses on Indonesia."
-    url: "/Indonesia/"
-    btn_label: "Read More"
-    btn_class: "btn-info"
+    image_caption: "\"A dissertation project on the spatial structure of mass violence in Indonesia.\""
+    alt: "Indonesia dissertation"
+    title: "Unsafe Place: Indonesia Dissertation"
+    excerpt: "My dissertation used spatial quantitative methods to study where violence happened, who carried it out, and how local structures shaped its geography."
+    url: "/research/Indonesia/"
+    btn_label: "View Research"
+    btn_class: "btn--info"
 ---
 
-Hi, I am Teng Zhang, a spatial data scientist and quantitative researcher focused on applying data science, machine learning, and geographic analysis to complex real-world problems, particularly those related to public health, social justice, and violence.
+{% include feature_row id="intro" type="center" %}
 
-A couple of years ago, I earned my PhD in Geography from [Michigan State University](https://geo.msu.edu/), where I worked with Prof. Siddharth Chandra and Prof. Ashton Shortridge. 
+{% include feature_row id="feature_row0" %}
 
-As a geospatial data scientist in quantitative human geography, I utilize innovative data-driven methods to analyze complex, interdisciplinary research questions. My work focuses broadly on the inequality of justice, encompassing themes such as mass violence, legal accessibility, and urban environment. Moving forward, I aim to deepen these lines of inquiry by examining the consequences and micro-structural patterns of inequality, while expanding into related themes that explore the interactions, long-term impacts, and the socio-institutional foundations of inequality and conflict.
+## Featured Work
+{% include feature_row id="feature_row1" %}
 
-Currently, I am conducting researches on the uneven distribution of legal resources across southern U.S. states. These projects are inspired by principles of econometric analysis and employ highly abstract frameworks to categorize complex court activities. The underlying data are derived from over 200,000 caseload records collected through [a web crawler I developed](/portfolio/scraping). For more information, please refer to this link.
+## Recent Talks
 
-I am also a passionate traveler. You can find my travel log — essentially a record of places I have been — through this [link](/travel). It is a recent project in which I began transforming the static maps I used to mark into something [more interesting](/teng-globe/globe). The project is still in a relatively early stage. GitHub Pages does not easily support real dynamic web applications.
+| Date | Event | Presentation |
+| --- | --- | --- |
+| March 2025 | Association of American Geographers (AAG) | [A network-based metric for detecting legal resources](/research/legal/) |
+| November 2024 | American Society of Criminology (ASC) | [Where are the lawyers in Texas?](/research/legal/) |
+| April 2024 | Association of American Geographers (AAG) | [Who should be responsible for the killings in Indonesia?](/research/Indonesia/) |
+| April 2023 | Association of American Geographers (AAG) | [Community's Cohesion and Resistance](/research/Indonesia/) |
 
-My dissertation project, [*Unsafe Place: Spatial Analysis of Indonesian Genocide 1965-1966 in Java Timur*](/research/Indonesia) used innovative spatial quantitative techniques to answer three vital research questions about genocide: where, who, and how. 
+## Featured Poster
 
-<figure class="half">
-	<a href="/Indonesia/"><img src="/assets/images/res/Pop.png"></a>
-	<a href="/works/"><img src="/assets/images/res/GWR.png"></a>
-	<figcaption>Spatial Analysis and Indonesian Genocide</figcaption>
-</figure>
-
-Aside from my academic pursuits, I have shared my knowledge and passion with students through the art of teaching, imparting the intricacies of Intermediate GIS, World Regional Geography, and GIS Technology. I am currently developing syllabi for potential classes that will explore the fascinating fields of the Geography of Violence.
-
-My journey to becoming a Michigander began as a senior analyst at Jones Lang LaSalle in Guangzhou, China, where I explored a diverse range of real estate landscapes—from high-rise apartments and expansive warehouses to bustling office towers and vibrant shopping centers. These early experiences continue to shape and inspire my approach to research and spatial analysis.
-
-Outside of work, I am an avid traveler and have been recording [every county I’ve visited across the United States](/travel/us_print/). Internationally, looking ahead, Peru and Bolivia are next on my travel bucket list.
-
-## Poster about my research 
-Community’s Cohesion and Resistance
-<figure>
-	<a href="/Indonesia/"><img src="/assets/posters/Duke2023-Poster-zm.jpg"></a>
-</figure>
-You can explore this poster [here (png format)](/assets/posters/Duke2023-Poster.jpg) or [here (pdf format)](/assets/posters/AAG2023-Poster-f.pdf).
-
-
-## Recent Research / Talks
-
-Mar 2025 | Annual Meeting of Association of American Geographers: [A network based metric for detecting legal resurces](http://www.aag.org/).
-
-Nov 2024 | Annual Meeting of American Society of Criminology: [Where are the lawyers in Texas?](http://www.asc.org/).
-
-Apr 2024 | Annual Meeting of Association of American Geographers: [Who should be responsible for the killings in Indonesia](http://www.aag.org/).
-
-Apr 2023 | Annual Meeting of Association of American Geographers: [Community’s Cohesion and Resistance](http://www.aag.org/).
+**Community's Cohesion and Resistance**
 
 <figure>
-	<a href="/Indonesia/"><img src="/assets/posters/AAG2023-Poster-zm.png"></a>
+  <a href="/research/Indonesia/"><img src="/assets/posters/Duke2023-Poster-zm.jpg"></a>
 </figure>
-You can explore this poster [here (png format)](/assets/posters/AAG2023-Poster-f.png) or [here (pdf format)](/assets/posters/AAG2023-Poster-f.pdf).
 
-
+You can view the poster [as a JPG](/assets/posters/Duke2023-Poster.jpg) or [as a PDF](/assets/posters/Duke2023-Poster.pdf).

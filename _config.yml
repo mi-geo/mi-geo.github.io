@@ -118,9 +118,6 @@ author:
   location         : "Dallas, TX"
   email            : "tengz.ecogeo@gmail.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"

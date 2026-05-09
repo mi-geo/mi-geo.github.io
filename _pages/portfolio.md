@@ -19,7 +19,7 @@ feature_row0:
   - image_path: /assets/images/hunting.jpg
     image_caption: "You need the right tools to hunt (taken in Glacier NP)"
     alt: "Data Hunting"
-    title: "**Data Hunting**: Feeding the Machine with Data at Scale"
+    title: "Data Hunting: Feeding the Machine with Data at Scale"
     excerpt: "Court report scraping and related data-building workflows."
     url: "/portfolio/scraping/"
     btn_label: "Open Page"
@@ -28,16 +28,16 @@ feature_row0:
   - image_path: /assets/images/Jilin_Apt1.jpg
     image_caption: "Structured intelligence in Jilin, China"
     alt: "Document intelligence"
-    title: "AI-powered **Documentation Intelligence**"
+    title: "AI-powered Documentation Intelligence"
     excerpt: "Converting unstructured PDFs and text introductions into analyzable dataframes with help from LLMs."
     url: "/portfolio/document-intelligence/"
     btn_label: "Open Page"
     btn_class: "btn--info"
 
-  - image_path: /assets/images/gate-arch.jpg
-    image_caption: "Is the Gateway Arch a Gaussian distribution?"
+  - image_path: /assets/images/Xiancun.jpg
+    image_caption: "City skylines looks like histgram. Guangzhou, China"
     alt: "visualization"
-    title: "From Numbers to Narrative: AI-assisted **Visualization**"
+    title: "From Numbers to Narrative: AI-assisted Visualization"
     excerpt: "Selected visualization work from my research projects."
     url: "/portfolio/justice-patterns/"
     btn_label: "Open Page"
@@ -48,7 +48,7 @@ feature_row1:
     image_caption: "Julie Mehretu's work in Crystal Bridges Museum of American Art, Bentonville, AR"
     alt: "Methods and statistics"
     title: "Classical Methods, Modern Tools"
-    excerpt: "**AI-assisted Analysis and Statistics**."
+    excerpt: "AI-assisted Analysis and Statistics"
     url: "/portfolio/methods/"
     btn_label: "Open Page"
     btn_class: "btn--info"
@@ -65,7 +65,7 @@ feature_row1:
   - image_path: /assets/images/time.jpg
     image_caption: "When I am thinking... in Badlands National Park"
     alt: "Deep learning case studies"
-    title: "When AI Thinking Deeply: **Deep Learning** Case Studies"
+    title: "When AI Thinking Deeply: Deep Learning Case Studies"
     excerpt: "TCN time-series forecasting and related experiments."
     url: "/portfolio/forecasting/"
     btn_label: "Open Page"
@@ -76,7 +76,7 @@ feature_row2:
   - image_path: /assets/images/mapping1.jpg
     image_caption: "\"Let maps talk.\""
     alt: "Interactive mapping"
-    title: "Let Maps Talk: Interactive **Web Mapping**"
+    title: "Let Maps Talk: Interactive Web Mapping"
     excerpt: ""
     url: "/portfolio/mapping/"
     btn_label: "Open Page"
