@@ -22,7 +22,7 @@ feature_row0:
     title: "Data Hunting: Feeding the Machine with Data at Scale"
     excerpt: "Court report scraping and related data-building workflows."
     url: "/portfolio/scraping/"
-    btn_label: "Open Page"
+    btn_label: "Read more"
     btn_class: "btn--info"
 
   - image_path: /assets/images/Jilin_Apt1.jpg
@@ -31,7 +31,7 @@ feature_row0:
     title: "AI-powered Documentation Intelligence"
     excerpt: "Converting unstructured PDFs and text introductions into analyzable dataframes with help from LLMs."
     url: "/portfolio/document-intelligence/"
-    btn_label: "Open Page"
+    btn_label: "Read more"
     btn_class: "btn--info"
 
   - image_path: /assets/images/Xiancun.jpg
@@ -40,7 +40,7 @@ feature_row0:
     title: "From Numbers to Narrative: AI-assisted Visualization"
     excerpt: "Selected visualization work from my research projects."
     url: "/portfolio/visualization/"
-    btn_label: "Open Page"
+    btn_label: "Read more"
     btn_class: "btn--info"
 
 feature_row1:
@@ -50,7 +50,7 @@ feature_row1:
     title: "Classical Methods, Modern Tools"
     excerpt: "AI-assisted Analysis and Statistics"
     url: "/portfolio/methods/"
-    btn_label: "Open Page"
+    btn_label: "Read more"
     btn_class: "btn--info"
 
   - image_path: /assets/images/network.jpg
@@ -59,7 +59,7 @@ feature_row1:
     title: "Finding Structure in Complex Networks"
     excerpt: "AI-assisted Network Analysis Work"
     url: "/portfolio/network/"
-    btn_label: "Open Page"
+    btn_label: "Read more"
     btn_class: "btn--info"
 
   - image_path: /assets/images/time.jpg
@@ -68,7 +68,7 @@ feature_row1:
     title: "When AI Thinking Deeply: Deep Learning Case Studies"
     excerpt: "TCN time-series forecasting and related experiments."
     url: "/portfolio/deeplearning/"
-    btn_label: "Open Page"
+    btn_label: "Read more"
     btn_class: "btn--info"
 
 
@@ -79,7 +79,7 @@ feature_row2:
     title: "Let Maps Talk"
     excerpt: "Selected interactive web mapping"
     url: "/portfolio/mapping/"
-    btn_label: "Open Page"
+    btn_label: "Read more"
     btn_class: "btn--info"
 ---
 

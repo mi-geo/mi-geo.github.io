@@ -4,13 +4,9 @@ main:
     url: /portfolio/
     description: "My analytics, metrics, and data projects"
     
-  - title: "Research"
-    url: /research/
-    description: "Academic research, publications, and working papers"
-     
-  - title: "Teaching"
-    url: /teaching/
-    description: "Courses I taught, teaching philosophy, and materials"
+  - title: "Academic"
+    url: /academic/
+    description: "Research and teaching"
 
   - title: "CV"
     url: /cv/

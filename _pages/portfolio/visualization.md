@@ -327,22 +327,18 @@ permalink: /portfolio/visualization/
     </aside>
   </section>
 
-  <h2 class="viz-section-title">A few examples</h2>
-
   <section class="viz-gallery">
     <article class="viz-card">
+      <div class="viz-card__media">
+        <img src="/assets/analysis/histo-1.png" alt="Exploratory histogram used for early data checking">
+      </div>
       <div class="viz-card__body">
         <p class="viz-card__kicker">Exploratory workflow</p>
-        <h3>Before the model, I usually start by looking at the data</h3>
+        <h3>Visualization is my first pass at asking what story the data is even capable of telling</h3>
         <p>
-          This page comes from a dataset I used in one of my papers. Before I move into formal
-          modeling, I usually build a small set of charts and descriptive figures to understand the
-          shape of the variables, the spread of the observations, and the kinds of relationships that
-          may or may not be worth chasing later.
-        </p>
-        <p style="margin-top:12px;padding-left:16px;border-left:3px solid #f0d4db;color:var(--viz-muted);font-style:italic;">
-          Visualization is often my first pass at asking what kind of story the data is even capable
-          of telling.
+          Before formal modeling, I build a diagnostic layer of distributions, outliers, and variable
+          relationships to understand what the data can and cannot support. This example comes from my
+          violence geography research dataset.
         </p>
         <div class="viz-card__footer">
           <div class="viz-card__tags">
