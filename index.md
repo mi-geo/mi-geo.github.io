@@ -46,6 +46,71 @@ permalink: /
     padding: 24px 20px 72px;
   }
 
+  .home-layout {
+    display: grid;
+    grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+    gap: 40px;
+    align-items: start;
+  }
+
+  .home-rail {
+    position: sticky;
+    top: 24px;
+    padding-top: 28px;
+  }
+
+  .home-rail__card {
+    background: var(--home-surface);
+    border: 1px solid var(--home-border);
+    padding: 18px;
+  }
+
+  .home-rail__photo {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin-bottom: 18px;
+  }
+
+  .home-rail__name {
+    margin: 0 0 6px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .home-rail__role {
+    margin: 0 0 16px;
+    color: var(--home-text-soft);
+    font-size: 15px;
+  }
+
+  .home-rail__meta {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  .home-rail__meta a,
+  .home-rail__meta span {
+    color: var(--home-text-soft);
+    font-size: 14px;
+  }
+
+  .home-rail__meta a:hover {
+    color: var(--home-text);
+  }
+
+  .home-rail__links {
+    display: grid;
+    gap: 10px;
+  }
+
+  .home-main {
+    min-width: 0;
+  }
+
   .home-hero {
     padding: 28px 0 56px;
     border-bottom: 1px solid var(--home-border);
@@ -80,24 +145,35 @@ permalink: /
     font-size: 20px;
   }
 
-  .home-banner {
-    margin-top: 34px;
-    border: 1px solid var(--home-border);
-    overflow: hidden;
+  .home-hero__cta {
+    margin-top: 24px;
   }
 
-  .home-banner img {
-    display: block;
-    width: 100%;
-    aspect-ratio: 18 / 7;
-    object-fit: cover;
+  .home-quicklinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 30px;
   }
 
-  .home-banner__caption {
-    padding: 10px 14px;
-    border-top: 1px solid var(--home-border);
-    color: var(--home-text-muted);
+  .home-quicklinks a,
+  .home-old-link a {
+    color: var(--home-text);
+    font-family: "Courier New", "SFMono-Regular", monospace;
     font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+  }
+
+  .home-quicklinks a:hover,
+  .home-old-link a:hover {
+    color: var(--home-text-muted);
+  }
+
+  .home-old-link {
+    margin-top: 18px;
+    color: var(--home-text-soft);
+    font-size: 15px;
   }
 
   .home-preview {
@@ -126,10 +202,34 @@ permalink: /
     font-size: 16px;
   }
 
+  .home-preview__head h2 a {
+    color: var(--home-text);
+    text-decoration: underline;
+    text-decoration-color: var(--home-border-strong);
+    text-underline-offset: 5px;
+  }
+
+  .home-preview__head h2 a:hover {
+    color: var(--home-text-muted);
+  }
+
   .home-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 24px;
+  }
+
+  .home-portfolio-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(240px, 0.9fr);
+    gap: 24px;
+    align-items: start;
+  }
+
+  .home-portfolio-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
   }
 
   .home-card {
@@ -185,6 +285,25 @@ permalink: /
     margin-top: 16px;
   }
 
+  .home-promo {
+    border: 1px solid var(--home-border);
+    background: var(--home-surface);
+    padding: 18px;
+  }
+
+  .home-promo p {
+    margin: 0 0 16px;
+    color: var(--home-text-soft);
+    font-size: 15px;
+  }
+
+  .home-promo h3 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
   .home-section {
     margin-top: 56px;
     padding-top: 8px;
@@ -237,6 +356,13 @@ permalink: /
     gap: 14px;
   }
 
+  .home-activity-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.8fr) minmax(220px, 0.78fr);
+    gap: 24px;
+    align-items: start;
+  }
+
   .home-talk {
     display: grid;
     grid-template-columns: 140px minmax(0, 1fr);
@@ -260,17 +386,21 @@ permalink: /
   }
 
   .home-poster {
-    margin-top: 24px;
     border: 1px solid var(--home-border);
     background: var(--home-surface);
-    padding: 16px;
+    padding: 18px;
+    max-width: 320px;
+    justify-self: start;
   }
 
   .home-poster img {
     display: block;
-    width: 100%;
-    max-width: 760px;
+    width: auto;
+    max-width: 100%;
+    max-height: 360px;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 12px;
   }
 
@@ -281,7 +411,23 @@ permalink: /
   }
 
   @media (max-width: 820px) {
+    .home-layout {
+      grid-template-columns: 1fr;
+      gap: 28px;
+    }
+
+    .home-rail {
+      position: static;
+      padding-top: 0;
+    }
+
     .home-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .home-portfolio-layout,
+    .home-portfolio-cards,
+    .home-activity-layout {
       grid-template-columns: 1fr;
     }
 
@@ -297,63 +443,96 @@ permalink: /
 </style>
 
 <main class="home-shell">
-  <section class="home-hero">
-    <p class="home-hero__eyebrow">Teng Zhang / Spatial Data Science</p>
-    <h1>TENG ZHANG</h1>
-    <p class="home-hero__sub">
-      I study geographic inequality - legal access, mass violence, and urban environments - using
-      machine learning, network analysis, and spatial statistics. My research is powered by data
-      pipelines I build from scratch, often where no structured data previously existed.
-    </p>
+  <div class="home-layout">
+    <aside class="home-rail">
+      <div class="home-rail__card">
+        <img class="home-rail__photo" src="/assets/images/avatar-1.jpg" alt="Teng Zhang">
+        <h2 class="home-rail__name">Teng Zhang</h2>
+        <p class="home-rail__role">Spatial data scientist and quantitative geographer</p>
 
-    <div class="home-banner">
-      <img src="/assets/images/gate-arch-banner.jpg" alt="St. Louis gateway arch banner">
-      <div class="home-banner__caption">
-        St. Louis, MO. Banner image kept here as a visual marker rather than a full-page hero.
+        <div class="home-rail__meta">
+          <span>Dallas, Texas</span>
+          <a href="mailto:tengz.ecogeo@gmail.com">tengz.ecogeo@gmail.com</a>
+        </div>
+
+        <div class="home-rail__links">
+          <a class="home-button" href="/cv/">View CV</a>
+          <a class="home-link" href="https://www.instagram.com/geography.teng/">Instagram</a>
+          <a class="home-link" href="https://github.com/mi-geo">GitHub</a>
+        </div>
       </div>
-    </div>
-  </section>
+    </aside>
 
-  <section class="home-preview">
+    <div class="home-main">
+      <section class="home-hero">
+        <p class="home-hero__eyebrow">Teng Zhang / Spatial Data Science</p>
+        <h1>TENG ZHANG</h1>
+        <p class="home-hero__sub">
+          I study geographic inequality - legal access, mass violence, and urban environments - using
+          machine learning, network analysis, and spatial statistics. My research is powered by data
+          pipelines I build from scratch, often where no structured data previously existed.
+        </p>
+
+        <div class="home-quicklinks">
+          <a href="/portfolio/">Portfolio</a>
+          <a href="/academic/">Academic</a>
+          <a href="/cv/">CV</a>
+          <a href="/travel/">Travel</a>
+        </div>
+
+        <div class="home-old-link">
+          <a href="/home/archive-restored/">Older homepage version</a>
+        </div>
+      </section>
+
+      <section class="home-preview">
     <div class="home-preview__head">
       <p class="home-section__eyebrow">Portfolio</p>
-      <h2>Selected work from the portfolio</h2>
+      <h2>Selected work from the <a href="/portfolio/">portfolio</a></h2>
       <p>
         A few projects that show how I collect data, build methods, and turn research questions into
         something computable.
       </p>
     </div>
 
-    <div class="home-grid">
-      <article class="home-card">
-        <p class="home-card__eyebrow">Data pipeline</p>
-        <a href="/portfolio/scraping/"><img src="/assets/images/data1.jpg" alt="Court records project"></a>
-        <h2>Building the Dataset: Court Records Across the American South</h2>
-        <p>
-          A multi-state scraping workflow that built a large structured court dataset for ongoing
-          research on legal access and legal-resource inequality.
-        </p>
-        <a class="home-button" href="/portfolio/scraping/">Read more</a>
-      </article>
+    <div class="home-portfolio-layout">
+      <div class="home-portfolio-cards">
+        <article class="home-card">
+          <p class="home-card__eyebrow">Data hunting</p>
+          <a href="/portfolio/scraping/"><img src="/assets/images/hunting.jpg" alt="Data hunting project"></a>
+          <h2>Building the Dataset</h2>
+          <p>
+            Court-data collection at scale, built from custom crawlers where no structured public API
+            existed.
+          </p>
+          <a class="home-button" href="/portfolio/scraping/">Read more</a>
+        </article>
 
-      <article class="home-card">
-        <p class="home-card__eyebrow">Visualization</p>
-        <a href="/portfolio/visualization/"><img src="/assets/images/Xiancun.jpg" alt="Visualization work"></a>
-        <h2>From Numbers to Narrative</h2>
+        <article class="home-card">
+          <p class="home-card__eyebrow">Document intelligence</p>
+          <a href="/portfolio/document-intelligence/"><img src="/assets/images/Jilin_Apt1.jpg" alt="Document intelligence project"></a>
+          <h2>Converting Documents into Data</h2>
+          <p>
+            Workflow examples for turning messy PDFs and text-heavy materials into structured, usable
+            research data.
+          </p>
+          <a class="home-button" href="/portfolio/document-intelligence/">Read more</a>
+        </article>
+      </div>
+
+      <aside class="home-promo">
+        <p class="home-card__eyebrow">Portfolio</p>
+        <h3>More projects, methods, and experiments</h3>
         <p>
-          Visualization work across exploratory charts, interactive figures, and research graphics that
-          help me understand what the data is actually saying.
+          The full portfolio gathers the broader mix: mapping, networks, modeling, visualization, and
+          the smaller technical case studies that sit behind the research.
         </p>
-        <a class="home-button" href="/portfolio/visualization/">Read more</a>
-      </article>
+        <a class="home-button" href="/portfolio/">View portfolio</a>
+      </aside>
     </div>
+      </section>
 
-    <p class="home-preview__more">
-      <a class="home-link" href="/portfolio/">Read more in portfolio</a>
-    </p>
-  </section>
-
-  <section class="home-preview">
+      <section class="home-preview">
     <div class="home-preview__head">
       <p class="home-section__eyebrow">Academic</p>
       <h2>One research anchor</h2>
@@ -363,70 +542,82 @@ permalink: /
       </p>
     </div>
 
-    <div class="home-grid" style="grid-template-columns:minmax(0, 1fr);">
-      <article class="home-card">
-        <p class="home-card__eyebrow">Dissertation</p>
-        <a href="/research/Indonesia/"><img src="/assets/images/res/whole-draft-resize.png" alt="Indonesia dissertation"></a>
-        <h2>Unsafe Place: Indonesia Dissertation</h2>
+    <div class="home-portfolio-layout">
+      <div class="home-portfolio-cards" style="grid-template-columns:minmax(0, 1fr);">
+        <article class="home-card">
+          <p class="home-card__eyebrow">Dissertation</p>
+          <a href="/research/Indonesia/"><img src="/assets/images/res/whole-draft-resize.png" alt="Indonesia dissertation"></a>
+          <h2>Unsafe Place: Indonesia Dissertation</h2>
+          <p>
+            A dissertation project using spatial quantitative methods to study where violence happened,
+            who carried it out, and how local structures shaped its geography.
+          </p>
+          <a class="home-button" href="/research/Indonesia/">Read more</a>
+        </article>
+      </div>
+
+      <aside class="home-promo">
+        <p class="home-card__eyebrow">Academic</p>
+        <h3>Research and teaching in one place</h3>
         <p>
-          A dissertation project using spatial quantitative methods to study where violence happened,
-          who carried it out, and how local structures shaped its geography.
+          The academic page brings together the larger research agenda, recent talks, and the teaching
+          side of my work without splitting them into completely separate tracks.
         </p>
-        <a class="home-button" href="/research/Indonesia/">Read more</a>
-      </article>
+        <a class="home-button" href="/academic/">View academic</a>
+      </aside>
     </div>
+      </section>
 
-    <p class="home-preview__more">
-      <a class="home-link" href="/academic/">Read more in academic</a>
-    </p>
-  </section>
-
-  <section class="home-section">
-    <p class="home-section__eyebrow">Recent activity</p>
+      <section class="home-section">
+    <p class="home-section__eyebrow">Selected activity</p>
     <h2>Talks and poster</h2>
-    <div class="home-meta">
-      <article class="home-talk">
-        <div class="home-talk__date">March 2025</div>
-        <div class="home-talk__body">
-          Association of American Geographers (AAG):
-          <a href="/research/legal/">A network-based metric for detecting legal resources</a>
-        </div>
-      </article>
+    <div class="home-activity-layout">
+      <div class="home-meta">
+        <article class="home-talk">
+          <div class="home-talk__date">March 2025</div>
+          <div class="home-talk__body">
+            Association of American Geographers (AAG):
+            <a href="/research/legal/">A network-based metric for detecting legal resources</a>
+          </div>
+        </article>
 
-      <article class="home-talk">
-        <div class="home-talk__date">November 2024</div>
-        <div class="home-talk__body">
-          American Society of Criminology (ASC):
-          <a href="/research/legal/">Where are the lawyers in Texas?</a>
-        </div>
-      </article>
+        <article class="home-talk">
+          <div class="home-talk__date">November 2024</div>
+          <div class="home-talk__body">
+            American Society of Criminology (ASC):
+            <a href="/research/legal/">Where are the lawyers in Texas?</a>
+          </div>
+        </article>
 
-      <article class="home-talk">
-        <div class="home-talk__date">April 2024</div>
-        <div class="home-talk__body">
-          Association of American Geographers (AAG):
-          <a href="/research/Indonesia/">Who should be responsible for the killings in Indonesia?</a>
-        </div>
-      </article>
+        <article class="home-talk">
+          <div class="home-talk__date">April 2024</div>
+          <div class="home-talk__body">
+            Association of American Geographers (AAG):
+            <a href="/research/Indonesia/">Who should be responsible for the killings in Indonesia?</a>
+          </div>
+        </article>
 
-      <article class="home-talk">
-        <div class="home-talk__date">April 2023</div>
-        <div class="home-talk__body">
-          Association of American Geographers (AAG):
-          <a href="/research/Indonesia/">Community's Cohesion and Resistance</a>
-        </div>
-      </article>
+        <article class="home-talk">
+          <div class="home-talk__date">April 2023</div>
+          <div class="home-talk__body">
+            Association of American Geographers (AAG):
+            <a href="/research/Indonesia/">Community's Cohesion and Resistance</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="home-poster">
+        <a href="/research/Indonesia/">
+          <img src="/assets/posters/Duke2023-Poster-zm.jpg" alt="Community's Cohesion and Resistance poster">
+        </a>
+        <p>
+          Community's Cohesion and Resistance.
+          <a href="/assets/posters/Duke2023-Poster.jpg">JPG</a> /
+          <a href="/assets/posters/Duke2023-Poster.pdf">PDF</a>
+        </p>
+      </div>
     </div>
-
-    <div class="home-poster">
-      <a href="/research/Indonesia/">
-        <img src="/assets/posters/Duke2023-Poster-zm.jpg" alt="Community's Cohesion and Resistance poster">
-      </a>
-      <p>
-        Community's Cohesion and Resistance.
-        <a href="/assets/posters/Duke2023-Poster.jpg">JPG</a> /
-        <a href="/assets/posters/Duke2023-Poster.pdf">PDF</a>
-      </p>
+      </section>
     </div>
-  </section>
+  </div>
 </main>
