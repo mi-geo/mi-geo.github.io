@@ -18,6 +18,14 @@ toc_sticky: false
 ---
 *C.V. [Download](https://mi-geo.github.io/assets/Teng_CV_data_ac.pdf)*
 
+## Intro
+
+Hi, I am Teng Zhang, a spatial data scientist and quantitative geographer working on questions of inequality, legal access, mass violence, and urban environments.
+
+I earned my PhD in Geography from [Michigan State University](https://geo.msu.edu/), where I worked with Prof. Siddharth Chandra and Prof. Ashton Shortridge. I want to keep building a career centered on data science: collecting difficult data, turning messy information into structured evidence, and using spatial and quantitative methods to study real-world inequality.
+
+My recent work ranges from large-scale court-data collection in the American South to research on violence and spatial structure in Indonesia. Across those projects, I am most interested in the part where data, method, and substantive questions meet.
+
 ## Profile
 
 Self-motivated geospatial data scientist with a focus on interdisciplinary applications, dedicated to advancing spatial awareness and critical thinking in both research and teaching.
