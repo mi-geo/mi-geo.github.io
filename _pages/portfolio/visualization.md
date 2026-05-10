@@ -179,7 +179,7 @@ permalink: /portfolio/visualization/
   }
 
   .viz-card__media iframe {
-    height: 430px;
+    height: 500px;
     background: #ffffff;
   }
 
@@ -288,7 +288,7 @@ permalink: /portfolio/visualization/
     }
 
     .viz-card__media iframe {
-      height: 320px;
+      height: 380px;
     }
   }
 </style>
@@ -306,7 +306,8 @@ permalink: /portfolio/visualization/
       <p>
         I like visualizations that do a little more than decorate a finding. A good figure should
         slow the reader down just enough to notice pattern, contrast, and structure. Some of these
-        are exploratory, some are presentational, and some sit somewhere in between.
+        are exploratory, some are presentational, and some sit somewhere in between. In a lot of my
+        projects, the first useful figures come before the formal analysis does.
       </p>
     </div>
 
@@ -329,6 +330,31 @@ permalink: /portfolio/visualization/
   <h2 class="viz-section-title">A few examples</h2>
 
   <section class="viz-gallery">
+    <article class="viz-card">
+      <div class="viz-card__body">
+        <p class="viz-card__kicker">Exploratory workflow</p>
+        <h3>Before the model, I usually start by looking at the data</h3>
+        <p>
+          This page comes from a dataset I used in one of my papers. Before I move into formal
+          modeling, I usually build a small set of charts and descriptive figures to understand the
+          shape of the variables, the spread of the observations, and the kinds of relationships that
+          may or may not be worth chasing later.
+        </p>
+        <p style="margin-top:12px;padding-left:16px;border-left:3px solid #f0d4db;color:var(--viz-muted);font-style:italic;">
+          Visualization is often my first pass at asking what kind of story the data is even capable
+          of telling.
+        </p>
+        <div class="viz-card__footer">
+          <div class="viz-card__tags">
+            <span class="viz-tag">R Markdown</span>
+            <span class="viz-tag">Descriptive figures</span>
+            <span class="viz-tag">Paper workflow</span>
+          </div>
+          <a class="viz-cta" href="/assets/analysis/des.html">Open exploration page</a>
+        </div>
+      </div>
+    </article>
+
     <article class="viz-card">
       <div class="viz-card__media">
         <iframe src="/assets/charts/3Dhisto.html" title="Interactive 3D histogram"></iframe>

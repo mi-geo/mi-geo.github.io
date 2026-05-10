@@ -358,25 +358,25 @@ permalink: /portfolio/methods/
 
     <article class="methods-card">
       <div class="methods-card__media methods-card__media--split">
-        <img src="/assets/ml/ca_housing_actual_vs_predicted.png" alt="California housing actual vs predicted values">
-        <img src="/assets/ml/ML_rmse_comparing.png" alt="California housing model comparison chart">
+        <img src="/assets/ml/ca_housing_actual_vs_predicted.png" alt="Texas housing actual versus predicted values">
+        <img src="/assets/ml/ML_rmse_comparing.png" alt="Texas housing model comparison chart">
       </div>
       <div class="methods-card__body">
         <p class="methods-card__kicker">Machine-learning case study</p>
-        <h3>A California housing experiment, mostly to see how models misbehave</h3>
+        <h3>A Texas housing experiment, mostly to see how models misbehave</h3>
         <p>
           This is a simpler and more exploratory example, but it is still worth keeping. I used the
-          California Housing dataset to compare linear regression, random forest, and gradient boosting.
+          housing case study to compare linear regression, random forest, and gradient boosting.
           The exercise is rudimentary, but it was useful for seeing underfitting, overfitting, and
           residual patterns in a way that is easy to inspect visually.
         </p>
         <div class="methods-card__footer">
           <div class="methods-card__tags">
-            <span class="methods-tag">California Housing</span>
-            <span class="methods-tag">PyTorch page companion</span>
+            <span class="methods-tag">Texas housing</span>
+            <span class="methods-tag">Case study</span>
             <span class="methods-tag">Model comparison</span>
           </div>
-          <a class="methods-cta" href="/portfolio/pytorch/">Open ML case study</a>
+          <a class="methods-cta" href="/portfolio/housing/">Open housing case study</a>
         </div>
       </div>
     </article>
@@ -407,6 +407,6 @@ permalink: /portfolio/methods/
   </section>
 
   <p class="methods-note">
-    I will probably expand this page later, but for now these examples capture the balance pretty well: core research methods, a lighter machine-learning experiment, and one older spatial case that still holds up as a useful demonstration.
+    I will probably expand this page later, but for now these examples capture the balance pretty well: core research methods, a lighter housing-modeling case study, and one older spatial case that still holds up as a useful demonstration.
   </p>
 </main>

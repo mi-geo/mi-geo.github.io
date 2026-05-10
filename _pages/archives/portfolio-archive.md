@@ -68,7 +68,7 @@ feature_row2:
     alt: "Thomas Edison's factory"
     title: "Machine Learning Application in Geospatial Data"
     excerpt: "Application of supervised and unsupervised learning to spatial prediction, clustering, and pattern detection."
-    url: "/portfolio/pytorch/"
+    url: "/portfolio/housing/"
     btn_label: "Read More"
     btn_class: "btn-info"
 ---

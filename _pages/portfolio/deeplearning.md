@@ -350,7 +350,7 @@ permalink: /portfolio/deeplearning/
             <span class="dl-tag">M4 benchmark</span>
             <span class="dl-tag">Forecasting</span>
           </div>
-          <a class="dl-cta" href="/portfolio/pytorch/">Open companion ML page</a>
+          <a class="dl-cta" href="/portfolio/housing/">Open housing case study</a>
         </div>
       </div>
     </article>

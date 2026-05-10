@@ -181,6 +181,32 @@ permalink: /portfolio/network/
     background: #f2f2f2;
   }
 
+  .net-card__media--compact {
+    justify-items: center;
+    padding: 20px 20px 0;
+  }
+
+  .net-card__media--compact img {
+    width: min(100%, 720px);
+    height: auto;
+    min-height: 0;
+    border-radius: 16px;
+    object-fit: contain;
+  }
+
+  .net-card__media--small {
+    justify-items: center;
+    padding: 20px 20px 0;
+  }
+
+  .net-card__media--small img {
+    width: min(100%, 520px);
+    height: auto;
+    min-height: 0;
+    border-radius: 16px;
+    object-fit: contain;
+  }
+
   .net-card__body {
     padding: 20px 20px 22px;
   }
@@ -355,7 +381,7 @@ permalink: /portfolio/network/
     </article>
 
     <article class="net-card">
-      <div class="net-card__media">
+      <div class="net-card__media net-card__media--compact">
         <img src="/assets/charts/Colombia_network.png" alt="Colombia drug trafficking network">
       </div>
       <div class="net-card__body">
@@ -377,7 +403,7 @@ permalink: /portfolio/network/
     </article>
 
     <article class="net-card">
-      <div class="net-card__media">
+      <div class="net-card__media net-card__media--small">
         <img src="/assets/analysis/forest_fire.gif" alt="Forest fire simulation showing spreading connectivity">
       </div>
       <div class="net-card__body">
