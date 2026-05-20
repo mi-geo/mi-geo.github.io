@@ -353,7 +353,7 @@ permalink: /portfolio/visualization/
 
     <article class="viz-card">
       <div class="viz-card__media">
-        <iframe src="/assets/charts/3Dhisto.html" title="Interactive 3D histogram"></iframe>
+        <iframe src="../../assets/charts/plotly/3Dhisto.html" title="Interactive 3D histogram"></iframe>
       </div>
       <div class="viz-card__body">
         <p class="viz-card__kicker">Interactive</p>
@@ -369,7 +369,7 @@ permalink: /portfolio/visualization/
             <span class="viz-tag">3D chart</span>
             <span class="viz-tag">Exploratory</span>
           </div>
-          <a class="viz-cta" href="/assets/charts/3Dhisto.html">Open full chart</a>
+          <a class="viz-cta" href="../../assets/charts/plotly/Repulsion.html">Open full story</a>
         </div>
       </div>
     </article>

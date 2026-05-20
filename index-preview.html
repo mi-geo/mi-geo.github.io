@@ -281,8 +281,9 @@
   }
 
   .home-promo {
-    border: 1px solid var(--home-border);
-    background: var(--home-surface);
+		border: 1px solid transparent;
+    /* border: 1px solid var(--home-border); */
+    /*background: var(--home-surface); */
     padding: 18px;
   }
 
@@ -298,6 +299,10 @@
     font-weight: 400;
     line-height: 1.2;
   }
+
+	.home-single-card {
+		max-width: 420px;
+	}
 
   .home-section {
     margin-top: 56px;
@@ -441,7 +446,7 @@
   <div class="home-layout">
     <aside class="home-rail">
       <div class="home-rail__card">
-        <img class="home-rail__photo" src="/assets/images/avatar-1.jpg" alt="Teng Zhang">
+        <img class="home-rail__photo" src="assets/images/avatar-1.jpg" alt="Teng Zhang">
         <h2 class="home-rail__name">Teng Zhang</h2>
         <p class="home-rail__role">Spatial data scientist and quantitative geographer</p>
 
@@ -494,7 +499,7 @@
       <div class="home-portfolio-cards">
         <article class="home-card">
           <p class="home-card__eyebrow">Data hunting</p>
-          <a href="/portfolio/scraping/"><img src="/assets/images/hunting.jpg" alt="Data hunting project"></a>
+          <a href="/portfolio/scraping/"><img src="assets/images/hunting.jpg" alt="Data hunting project"></a>
           <h2>Building the Dataset</h2>
           <p>
             Court-data collection at scale, built from custom crawlers where no structured public API
@@ -538,10 +543,10 @@
     </div>
 
     <div class="home-portfolio-layout">
-      <div class="home-portfolio-cards" style="grid-template-columns:minmax(0, 1fr);">
+      <div class="home-portfolio-cards home-single-card" style="grid-template-columns:minmax(0, 1fr);">
         <article class="home-card">
           <p class="home-card__eyebrow">Dissertation</p>
-          <a href="/research/Indonesia/"><img src="/assets/images/res/whole-draft-resize.png" alt="Indonesia dissertation"></a>
+          <a href="/research/Indonesia/"><img src="assets/images/res/whole-draft-resize.png" alt="Indonesia dissertation"></a>
           <h2>Unsafe Place: Indonesia Dissertation</h2>
           <p>
             A dissertation project using spatial quantitative methods to study where violence happened,
@@ -603,12 +608,12 @@
 
       <div class="home-poster">
         <a href="/research/Indonesia/">
-          <img src="/assets/posters/Duke2023-Poster-zm.jpg" alt="Community's Cohesion and Resistance poster">
+          <img src="assets/posters/Duke2023-Poster-zm.jpg" alt="Community's Cohesion and Resistance poster">
         </a>
         <p>
           Community's Cohesion and Resistance.
-          <a href="/assets/posters/Duke2023-Poster.jpg">JPG</a> /
-          <a href="/assets/posters/Duke2023-Poster.pdf">PDF</a>
+          <a href="assets/posters/Duke2023-Poster.jpg">JPG</a> /
+          <a href="assets/posters/Duke2023-Poster.pdf">PDF</a>
         </p>
       </div>
     </div>

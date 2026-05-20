@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minimum-Distance Figures</title>
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #fafafa;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    .page {
+      max-width: 980px;
+      margin: 32px auto;
+      background: #fff;
+      padding: 36px 44px 48px;
+      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
+      border-radius: 8px;
+    }
+    h1, h2, h3 {
+      font-family: Arial, sans-serif;
+      color: #111;
+    }
+    h1 {
+      font-size: 30px;
+      margin: 0 0 10px;
+    }
+    h2 {
+      font-size: 22px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #e5e5e5;
+      padding-bottom: 6px;
+    }
+    p, li {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    ul {
+      margin-top: 8px;
+    }
+    .note {
+      background: #f5f5f5;
+      border-left: 4px solid #999;
+      padding: 12px 14px;
+      margin: 16px 0 22px;
+    }
+    .figure {
+      margin: 22px 0 30px;
+    }
+    .figure img {
+      width: 60%;
+      display: block;
+      margin: 0 auto;
+      border: 1px solid #ddd;
+    }
+    .caption {
+      font-size: 14px;
+      color: #555;
+      margin-top: 8px;
+    }
+    iframe {
+      width: 60%;
+      height: 460px;
+      border: none;
+      display: block;
+      margin: 0 auto;
+      background: #fff;
+    }
+    code {
+      background: #f0f0f0;
+      padding: 1px 4px;
+      border-radius: 3px;
+      font-family: Consolas, monospace;
+      font-size: 0.95em;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <h1>Minimum-Distance Figures</h1>
+
+    <p>This notebook-style page summarizes the minimum-distance analysis and embeds the static figures together with the interactive 3D histogram.</p>
+
+    <h2>Background</h2>
+    <p>The substantive question is whether communist camps (<code>kompro</code>) and Islamic boarding schools (<code>pesantren</code>) are spatially repulsive to each other.</p>
+    <p>If that repulsion assumption is relaxed, then many alternative spatial arrangements become possible. Under that non-repulsive random model, a large number of potential locations for kompros and pesantrens were generated.</p>
+    <p>For each simulated arrangement, two minimum-distance statistics were calculated:</p>
+    <ul>
+      <li>the minimum distance among kompros</li>
+      <li>the minimum distance from kompros to pesantrens</li>
+    </ul>
+    <p>The same statistics were also calculated from the empirical data. The purpose of the figures below is to compare the empirical point to the bootstrap or simulation distribution.</p>
+
+    <h2>Real data point in the minimum-distance metric space</h2>
+    <div class="figure">
+      <img src="scatter_histo_marginals.png" alt="Scatter plot with marginal histograms">
+    </div>
+
+    <h2>Real data point in the minimum-distance metric space, in a 3D histogram</h2>
+    <div class="note">
+      This figure is a 3D histogram surface rather than a raw 3D scatter plot. Each surface cell shows how many simulated pairs fall into that <code>(P, K)</code> bin.
+    </div>
+
+    <iframe src="3Dhisto.html" title="Interactive 3D histogram"></iframe>
+
+    <div class="caption">Interactive 3D histogram of the simulated distribution, with the empirical point overlaid.</div>
+    <p><strong>Note:</strong> <strong>P</strong> means minimum distance to pesantren, while <strong>K</strong> means minimum distance to simulated kompro.</p>
+
+    <h2>Interpretation</h2>
+    <p>If the empirical point falls in a dense region of the simulated surface, then it looks more consistent with the random non-repulsive model. If it falls in a sparse region or near the edge of the simulated surface, then it looks less consistent with that model.</p>
+    <p>Overall, the figures suggest that the non-repulsive model is not a good description of the observed pattern. In that sense, it seems the assumption of a non-repulsive spatial relationship is rejected by the empirical configuration.</p>
+  </div>
+</body>
+</html>

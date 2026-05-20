@@ -549,7 +549,7 @@ permalink: /
     </div>
 
     <div class="home-portfolio-layout">
-      <div class="home-portfolio-cards" style="grid-template-columns:minmax(0, 1fr);">
+      <div class="home-portfolio-cards" style="grid-template-columns:minmax(0, 1fr); max-width: 420px;">
         <article class="home-card">
           <p class="home-card__eyebrow">Dissertation</p>
           <a href="/research/Indonesia/"><img src="/assets/images/res/whole-draft-resize.png" alt="Indonesia dissertation"></a>
