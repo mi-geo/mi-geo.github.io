@@ -376,37 +376,21 @@ permalink: /portfolio/visualization/
 
     <article class="viz-card">
       <div class="viz-card__media">
-        <img src="/assets/images/res/Indices1_min_distance.png" alt="Visualization of index distance patterns">
-      </div>
-      <div class="viz-card__body">
-        <p class="viz-card__kicker">Static figure</p>
-        <h3>Showing structure without over-explaining it</h3>
-        <p>
-          A static figure still has a lot of value when it is arranged carefully. I like charts like
-          this when I need a cleaner single-frame explanation, especially for papers, slides, or places
-          where the reader only gets one glance.
-        </p>
-        <div class="viz-card__footer">
-          <div class="viz-card__tags">
-            <span class="viz-tag">Research figure</span>
-            <span class="viz-tag">Presentation-ready</span>
-            <span class="viz-tag">Static</span>
-          </div>
-        </div>
-      </div>
-    </article>
-
-    <article class="viz-card">
-      <div class="viz-card__media">
         <img src="/assets/images/res/Beijing-restua-surviving5.png" alt="Beijing restaurant survival visualization">
       </div>
       <div class="viz-card__body">
         <p class="viz-card__kicker">Applied work</p>
         <h3>When visualization becomes a way to think, not just to report</h3>
         <p>
-          Many of my favorite charts come from the middle of the research process, when the goal is
-          not to make a final polished statement yet, but to notice where the story might actually be.
-          That is often where the most useful graphics begin.
+          This map shows estimated eight-year restaurant survival rates across Beijing on a 1-kilometer
+          grid. Before it became part of a larger analysis, it was already useful as a thinking tool:
+          it helped me see where long-term commercial stability clustered, where it thinned out, and
+          how those spatial patterns might connect to neighborhood structure.
+        </p>
+        <p>
+          That is the kind of visualization work I value most. A figure like this does not just summarize
+          an answer at the end. It helps shape the question itself by revealing gradients, edges, and
+          uneven urban patterns that are harder to notice in a table alone.
         </p>
         <div class="viz-card__footer">
           <div class="viz-card__tags">
