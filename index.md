@@ -232,6 +232,10 @@ permalink: /
     gap: 16px;
   }
 
+  .home-single-card {
+    max-width: 420px;
+  }
+
   .home-card {
     background: var(--home-surface);
     border: 1px solid var(--home-border);
@@ -292,9 +296,8 @@ permalink: /
   }
 
   .home-promo {
-    border: 1px solid var(--home-border);
-    background: var(--home-surface);
-    padding: 16px;
+    border: 1px solid transparent;
+    padding: 18px;
   }
 
   .home-promo p {
@@ -392,9 +395,7 @@ permalink: /
   }
 
   .home-poster {
-    border: 1px solid var(--home-border);
-    background: var(--home-surface);
-    padding: 18px;
+    padding: 18px 0 0;
     max-width: 320px;
     justify-self: start;
   }
@@ -453,7 +454,7 @@ permalink: /
     <aside class="home-rail">
       <div class="home-rail__card">
         <img class="home-rail__photo" src="/assets/images/avatar-1.jpg" alt="Teng Zhang">
-        <h2 class="home-rail__name">Teng Zhang</h2>
+        <h2 class="home-rail__name">Teng Zhang, PhD</h2>
         <p class="home-rail__role">Spatial data scientist and quantitative geographer</p>
 
         <div class="home-rail__meta">
@@ -517,7 +518,7 @@ permalink: /
         <article class="home-card">
           <p class="home-card__eyebrow">Document intelligence</p>
           <a href="/portfolio/document-intelligence/"><img src="/assets/images/Jilin_Apt1.jpg" alt="Document intelligence project"></a>
-          <h2>Converting Documents into Data</h2>
+          <h2>Converting Docs into Data</h2>
           <p>
             Workflow examples for turning messy PDFs and text-heavy materials into structured, usable
             research data.
@@ -549,7 +550,7 @@ permalink: /
     </div>
 
     <div class="home-portfolio-layout">
-      <div class="home-portfolio-cards" style="grid-template-columns:minmax(0, 1fr); max-width: 420px;">
+      <div class="home-portfolio-cards home-single-card" style="grid-template-columns:minmax(0, 1fr);">
         <article class="home-card">
           <p class="home-card__eyebrow">Dissertation</p>
           <a href="/research/Indonesia/"><img src="/assets/images/res/whole-draft-resize.png" alt="Indonesia dissertation"></a>
@@ -580,7 +581,7 @@ permalink: /
     <div class="home-activity-layout">
       <div class="home-meta">
         <article class="home-talk">
-          <div class="home-talk__date">March 2025</div>
+          <div class="home-talk__date">Mar. 2025</div>
           <div class="home-talk__body">
             Association of American Geographers (AAG):
             <a href="/research/legal/">A network-based metric for detecting legal resources</a>
@@ -588,7 +589,7 @@ permalink: /
         </article>
 
         <article class="home-talk">
-          <div class="home-talk__date">November 2024</div>
+          <div class="home-talk__date">Nov. 2024</div>
           <div class="home-talk__body">
             American Society of Criminology (ASC):
             <a href="/research/legal/">Where are the lawyers in Texas?</a>
@@ -596,7 +597,7 @@ permalink: /
         </article>
 
         <article class="home-talk">
-          <div class="home-talk__date">April 2024</div>
+          <div class="home-talk__date">Apr. 2024</div>
           <div class="home-talk__body">
             Association of American Geographers (AAG):
             <a href="/research/Indonesia/">Who should be responsible for the killings in Indonesia?</a>
@@ -604,7 +605,7 @@ permalink: /
         </article>
 
         <article class="home-talk">
-          <div class="home-talk__date">April 2023</div>
+          <div class="home-talk__date">Apr. 2023</div>
           <div class="home-talk__body">
             Association of American Geographers (AAG):
             <a href="/research/Indonesia/">Community's Cohesion and Resistance</a>
@@ -618,8 +619,6 @@ permalink: /
         </a>
         <p>
           Community's Cohesion and Resistance.
-          <a href="/assets/posters/Duke2023-Poster.jpg">JPG</a> /
-          <a href="/assets/posters/Duke2023-Poster.pdf">PDF</a>
         </p>
       </div>
     </div>

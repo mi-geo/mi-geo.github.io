@@ -268,6 +268,18 @@ permalink: /portfolio/document-intelligence/
     background: linear-gradient(180deg, #fdfdfd, #f5f5f5);
   }
 
+  .docintel__pdf img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+
+  .docintel__pdf img.docintel__img--mid {
+    object-position: center 42%;
+  }
+
   .docintel__pdf::before {
     content: "";
     position: absolute;
@@ -492,7 +504,9 @@ permalink: /portfolio/document-intelligence/
             <span>A resume with shifting structure, uneven headings, and context that is not always explicit.</span>
           </div>
           <div class="docintel__panel-body">
-            <div class="docintel__pdf docintel__pdf--resume" aria-hidden="true"></div>
+            <div class="docintel__pdf">
+              <img class="docintel__img--mid" src="/assets/images/fig/Dong-en.png" alt="Resume sample with uneven structure">
+            </div>
           </div>
         </section>
 
@@ -578,7 +592,9 @@ permalink: /portfolio/document-intelligence/
             <span>Multi-page PDF tables where rows break awkwardly, columns shift, and text alignment drifts.</span>
           </div>
           <div class="docintel__panel-body">
-            <div class="docintel__pdf docintel__pdf--table" aria-hidden="true"></div>
+            <div class="docintel__pdf">
+              <img src="/assets/images/fig/pdf-sample.png" alt="PDF sample with tabular legal data">
+            </div>
           </div>
         </section>
 

@@ -334,24 +334,29 @@ permalink: /portfolio/methods/
   <section class="methods-grid">
     <article class="methods-card">
       <div class="methods-card__media methods-card__media--single">
-        <img src="/assets/images/statistics/command-structure-EJ.png" alt="Multilevel model structure used in Indonesia research">
+        <img src="/assets/images/res/command-structure-EJ.png" alt="Military command structure used to illustrate hierarchical modeling">
       </div>
       <div class="methods-card__body">
         <p class="methods-card__kicker">Research method</p>
-        <h3>Multilevel modeling in the Indonesia research</h3>
+        <h3>Why hierarchical models are useful when organizations are nested</h3>
         <p>
-          This is closer to the center of my actual research practice. A lot of social and spatial
-          data come in layers: village inside subdistrict, subdistrict inside district, county inside
-          court system, and so on. Multilevel models help separate what is happening within those
-          units from what is happening between them, which makes the final inference much more grounded.
+          These models are especially useful when the people or places you study sit inside larger
+          layers of organization: students inside schools, soldiers inside units, or local events
+          inside broader command structures. They let you ask what belongs to the individual level
+          and what may be shaped by the group above it.
+        </p>
+        <p>
+          I used this approach in my military violence research to examine how different structures
+          and subgroups within the armed forces shaped patterns of mass violence. In that kind of
+          setting, a flat model can miss the fact that behavior is often conditioned by the chain of
+          command, not just by the actor at the bottom of it.
         </p>
         <div class="methods-card__footer">
           <div class="methods-card__tags">
             <span class="methods-tag">Hierarchical structure</span>
-            <span class="methods-tag">Indonesia dissertation</span>
-            <span class="methods-tag">Interpretable inference</span>
+            <span class="methods-tag">Nested organization</span>
+            <span class="methods-tag">Military violence</span>
           </div>
-          <a class="methods-cta" href="/research/Indonesia/">See related research</a>
         </div>
       </div>
     </article>
