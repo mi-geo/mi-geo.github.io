@@ -236,6 +236,11 @@ permalink: /
     max-width: 420px;
   }
 
+  .home-single-promo {
+    max-width: 420px;
+    justify-self: start;
+  }
+
   .home-card {
     background: var(--home-surface);
     border: 1px solid var(--home-border);
@@ -554,16 +559,16 @@ permalink: /
         <article class="home-card">
           <p class="home-card__eyebrow">Dissertation</p>
           <a href="/research/Indonesia/"><img src="/assets/images/res/whole-draft-resize.png" alt="Indonesia dissertation"></a>
-          <h2>Unsafe Place: Indonesia Dissertation</h2>
+          <h2>Unsafe Place</h2>
           <p>
-            A dissertation project using spatial quantitative methods to study where violence happened,
-            who carried it out, and how local structures shaped its geography.
+            Using spatial quantitative methods to study where violence happened, who carried it out,
+            and how local structures shaped its geography.
           </p>
           <a class="home-button" href="/research/Indonesia/">Read more</a>
         </article>
       </div>
 
-      <aside class="home-promo">
+      <aside class="home-promo home-single-promo">
         <p class="home-card__eyebrow">Academic</p>
         <h3>Research and teaching in one place</h3>
         <p>
