@@ -291,7 +291,7 @@ permalink: /portfolio/housing/
   <section class="housing-hero">
     <div>
       <span class="housing-eyebrow">Case study</span>
-      <h1>A small housing modeling exercise, kept visible on purpose.</h1>
+      <h1>A small housing modeling exercise, kept visible on purpose</h1>
       <p>
         This is not my main research, and that is part of why I like keeping it here. It is a modest
         Texas housing case study that lets me show how I compare models, read residuals across space,

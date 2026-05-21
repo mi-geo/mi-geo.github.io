@@ -291,7 +291,7 @@ permalink: /portfolio/sim/
   <section class="sim-hero">
     <div>
       <span class="sim-hero__eyebrow">Simulation</span>
-      <h1>Geosimulation is one of the few ways to watch a pattern become a process.</h1>
+      <h1>Geosimulation is one of the few ways to watch a pattern become a process</h1>
       <p>
         Most real-world datasets arrive after everything has already happened. They show the aftermath:
         the burned landscape, the migration map, the unequal distribution, the broken network. Simulation
@@ -323,7 +323,7 @@ permalink: /portfolio/sim/
       </div>
       <div class="sim-card__body">
         <p class="sim-card__kicker">Classical example</p>
-        <h3>Drossel-Schwabl, or how a tiny rule can make a landscape feel alive.</h3>
+        <h3>Drossel-Schwabl, or how a tiny rule can make a landscape feel alive</h3>
         <p>
           The forest-fire model is a classical cellular automaton, but it still works beautifully as an
           opening example because it is so legible. Trees grow, neighboring cells catch, burned cells clear,
@@ -368,7 +368,7 @@ permalink: /portfolio/sim/
     <article class="sim-card">
       <div class="sim-card__body">
         <p class="sim-card__kicker">Why I keep coming back to it</p>
-        <h3>Simulation is most useful when the mechanism matters as much as the outcome.</h3>
+        <h3>Simulation is most useful when the mechanism matters as much as the outcome</h3>
         <p>
           For research on legal systems, violence, migration, or environmental risk, the most interesting question
           is often not just where something is concentrated, but what kind of local structure allows that concentration

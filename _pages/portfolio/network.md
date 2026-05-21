@@ -187,7 +187,8 @@ permalink: /portfolio/network/
   }
 
   .net-card__media--compact img {
-    width: min(100%, 720px);
+    width: min(30%, 360px);
+    max-height: 400px;
     height: auto;
     min-height: 0;
     border-radius: 16px;
@@ -292,6 +293,10 @@ permalink: /portfolio/network/
       grid-template-columns: 1fr;
     }
 
+    .net-card__media--compact img {
+      width: min(70%, 360px);
+    }
+
     .net-card__footer {
       flex-direction: column;
       align-items: flex-start;
@@ -323,7 +328,7 @@ permalink: /portfolio/network/
   <section class="net-hero">
     <div>
       <span class="net-hero__eyebrow">Network analysis</span>
-      <h1>Looking for structure when the relationships are not obvious at first glance.</h1>
+      <h1>Looking for structure when the relationships are not obvious at first glance</h1>
       <p>
         I use network thinking when a system is really about connections: who is tied to whom,
         which places cluster together, where bottlenecks appear, and how a sparse local pattern can
@@ -363,7 +368,7 @@ permalink: /portfolio/network/
       </div>
       <div class="net-card__body">
         <p class="net-card__kicker">Applied legal network</p>
-        <h3>Tracing concentration and change in legal-resource networks.</h3>
+        <h3>Tracing concentration and change in legal-resource networks</h3>
         <p>
           These legal-network views from the Texas Panhandle show how access can become concentrated
           around a limited set of courts and professional clusters. Over time, the pattern is not just
@@ -382,15 +387,23 @@ permalink: /portfolio/network/
 
     <article class="net-card">
       <div class="net-card__media net-card__media--compact">
-        <img src="/assets/charts/Colombia_network.png" alt="Colombia drug trafficking network">
+        <img src="/assets/images/fig/Colombia_network.jpg" alt="Colombia cocaine trafficking network">
       </div>
       <div class="net-card__body">
-        <p class="net-card__kicker">Inference from pattern</p>
-        <h3>Sometimes the network becomes visible even when the raw data are not explicitly relational.</h3>
+        <p class="net-card__kicker">Inference from info</p>
+        <h3>Cocaine Trafficking Networks - Colombia</h3>
         <p>
-          This Colombia example is useful because the structure reveals itself even when the original
-          source material is not presented as a clean network. The map is a reminder that relational
-          systems can still be recovered from pattern, route logic, and spatial organization.
+          Sometimes the network becomes visible even when the raw data are not explicitly relational.
+        </p>
+        <p>
+          This map was built to support a 2019 study on cocaine trafficking networks in Colombia,
+          one that traces supply routes not through direct observation, but through the logic of drug
+          prices across geography. When price gaps close predictably along certain corridors, a network
+          becomes legible. The spatial work here tries to make that inferential structure visible.
+        </p>
+        <p style="margin-top: 12px; color: var(--net-muted); font-size: 14px; line-height: 1.6;">
+          Mapping contribution to: Benitez et al. (2019), "Following the price: Identifying cocaine
+          trafficking networks in Colombia." <em>Global Crime</em>, 20(2), pp. 90-114.
         </p>
         <div class="net-card__footer">
           <div class="net-card__tags">
@@ -408,7 +421,7 @@ permalink: /portfolio/network/
       </div>
       <div class="net-card__body">
         <p class="net-card__kicker">Simulation logic</p>
-        <h3>Connectivity also matters when the question is how a process spreads.</h3>
+        <h3>Connectivity also matters when the question is how a process spreads</h3>
         <p>
           This is a different kind of problem from a network map, but it is related in spirit. A simulation
           like this makes it easier to see how small local connections can trigger much larger cascades once

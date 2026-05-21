@@ -45,102 +45,98 @@ permalink: /portfolio/mapping/
 
     .topbar {
       display: flex;
-      align-items: center;
       justify-content: space-between;
-      gap: 16px;
+      align-items: center;
+      gap: 14px;
       padding-bottom: 18px;
       margin-bottom: 24px;
       border-bottom: 1px solid var(--line);
     }
 
-    .brand {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      font-size: 15px;
-      font-weight: 600;
-      color: var(--ink);
-    }
-
-    .brand-dot {
-      width: 12px;
-      height: 12px;
-      border-radius: 50%;
-      background: var(--accent);
-      display: inline-block;
-    }
-
+    .brand,
     .back-link {
       font-size: 14px;
       color: var(--muted);
     }
 
-    .hero {
-      display: grid;
-      grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
-      gap: 26px;
-      align-items: stretch;
-      margin-bottom: 42px;
+    .brand strong {
+      color: var(--ink);
+      font-weight: 600;
     }
 
-    .hero-copy {
-      padding: 12px 0;
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+      gap: 24px;
+      align-items: start;
+      margin-bottom: 42px;
     }
 
     .eyebrow {
       display: inline-block;
+      margin-bottom: 14px;
+      padding: 8px 14px;
+      border-radius: var(--radius-pill);
+      background: #fff1f4;
+      color: var(--accent);
       font-size: 12px;
       font-weight: 700;
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 14px;
     }
 
     .hero h1 {
       margin: 0 0 14px;
-      font-size: clamp(2.2rem, 4vw, 3.4rem);
-      line-height: 1.08;
-      letter-spacing: -0.03em;
-      font-weight: 600;
+      font-size: clamp(2.3rem, 5vw, 3.8rem);
+      line-height: 1.04;
+      letter-spacing: -0.04em;
+      font-weight: 700;
     }
 
     .hero p {
       margin: 0;
-      max-width: 56ch;
+      max-width: 58ch;
       color: var(--body);
       font-size: 17px;
+      line-height: 1.7;
     }
 
     .hero-aside {
       background: var(--surface-soft);
       border: 1px solid var(--line);
       border-radius: 24px;
-      padding: 24px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+
+    .hero-aside h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      line-height: 1.2;
     }
 
     .hero-aside p {
       margin: 0 0 18px;
       color: var(--body);
       font-size: 15px;
+      line-height: 1.65;
     }
 
-    .hero-pill {
+    .hero-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .hero-chip {
       display: inline-flex;
       align-items: center;
-      justify-content: center;
-      min-height: 44px;
-      padding: 10px 18px;
+      min-height: 34px;
+      padding: 7px 12px;
       border-radius: var(--radius-pill);
-      background: var(--accent);
-      color: #fff;
-      font-size: 14px;
-      font-weight: 600;
-      align-self: flex-start;
+      background: #ffffff;
+      border: 1px solid var(--line);
+      font-size: 13px;
+      color: var(--body);
     }
 
     .section-grid {
@@ -239,17 +235,14 @@ permalink: /portfolio/mapping/
   </style>
   <main class="page-shell">
     <div class="topbar">
-      <a class="brand" href="/portfolio/">
-        <span class="brand-dot" aria-hidden="true"></span>
-        Back to Portfolio
-      </a>
-      <a class="back-link" href="/portfolio/">A small corner for maps I enjoy building</a>
+      <a class="brand" href="/portfolio/">Portfolio / <strong>Mapping</strong></a>
+      <a class="back-link" href="/portfolio/">Back to portfolio</a>
     </div>
 
     <section class="hero">
       <div class="hero-copy">
         <span class="eyebrow">Mapping</span>
-        <h1>Interactive maps, wandering ideas, and a few places worth zooming into.</h1>
+        <h1>Interactive maps, wandering ideas, and a few places worth zooming into</h1>
         <p>
           This page is a lighter, more casual stop in the portfolio. It brings together one research-facing
           map and one travel-facing globe: one for understanding legal geography, and one simply for enjoying
@@ -258,11 +251,17 @@ permalink: /portfolio/mapping/
       </div>
 
       <aside class="hero-aside">
+        <h2>What this page holds together</h2>
         <p>
-          I like maps best when they feel inviting. A good map should let you poke around a little, notice
-          something unexpected, and stay long enough to enjoy the view.
+          This page keeps the mapping work in two registers: one research-facing interactive map and one
+          more personal globe. Both are spatial interfaces, but they invite attention in very different ways.
         </p>
-        <a class="hero-pill" href="/portfolio/">More portfolio pages</a>
+        <div class="hero-chips">
+          <span class="hero-chip">Interactive maps</span>
+          <span class="hero-chip">Research geography</span>
+          <span class="hero-chip">Travel globe</span>
+          <span class="hero-chip">Spatial storytelling</span>
+        </div>
       </aside>
     </section>
 

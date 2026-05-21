@@ -262,7 +262,7 @@ permalink: /portfolio/beijing-restaurants/
   <section class="bj-hero">
     <div>
       <span class="bj-hero__eyebrow">Case study</span>
-      <h1>Restaurant survival in Beijing, seen as a spatial pattern rather than just a business outcome.</h1>
+      <h1>Restaurant survival in Beijing, seen as a spatial pattern rather than just a business outcome</h1>
       <p>
         This is an older project, but I still like it because it sits at the intersection of scraping,
         geostatistics, and visual interpretation. The question was simple enough on the surface: where
@@ -294,7 +294,7 @@ permalink: /portfolio/beijing-restaurants/
       </div>
       <div class="bj-card__body">
         <p class="bj-card__kicker">Starting pattern</p>
-        <h3>Where restaurants cluster already says something about the city.</h3>
+        <h3>Where restaurants cluster already says something about the city</h3>
         <p>
           The first view is simple but useful: where are restaurants located, and how do different segments
           of the market sit inside Beijing's urban structure? Even before modeling, the spatial distribution
@@ -317,7 +317,7 @@ permalink: /portfolio/beijing-restaurants/
       </div>
       <div class="bj-card__body">
         <p class="bj-card__kicker">Survival surfaces</p>
-        <h3>Longer survival is not evenly distributed across the city.</h3>
+        <h3>Longer survival is not evenly distributed across the city</h3>
         <p>
           These two maps show how restaurant survival changes when the time horizon gets stricter.
           The five-year map still leaves room for pockets of stability, while the eight-year view is

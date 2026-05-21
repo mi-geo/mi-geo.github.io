@@ -286,7 +286,7 @@ permalink: /portfolio/cnn-eurosat/
   <section class="cnn-hero">
     <div>
       <span class="cnn-hero__eyebrow">CNN EuroSAT</span>
-      <h1>A small convolutional model, mostly as a way to think through spatial classification.</h1>
+      <h1>A small convolutional model, mostly as a way to think through spatial classification</h1>
       <p>
         This project is modest on purpose. I trained a simple convolutional neural network on EuroSAT,
         a labeled collection of 64×64 Sentinel-2 image tiles, to get a more practical feel for how
@@ -320,7 +320,7 @@ permalink: /portfolio/cnn-eurosat/
       </div>
       <div class="cnn-card__body">
         <p class="cnn-card__kicker">The setup</p>
-        <h3>A deliberately simple architecture, just enough to make the classification task visible.</h3>
+        <h3>A deliberately simple architecture, just enough to make the classification task visible</h3>
         <p>
           The model uses three convolutional blocks, two fully connected layers, and dropout for basic
           regularization. That is not especially ambitious, but it is enough to create a useful first
@@ -369,7 +369,7 @@ permalink: /portfolio/cnn-eurosat/
       </div>
       <div class="cnn-card__body">
         <p class="cnn-card__kicker">Prediction sample</p>
-        <h3>The result is small, but it already gives a feel for where the model might go next.</h3>
+        <h3>The result is small, but it already gives a feel for where the model might go next</h3>
         <p>
           After training, I sampled a handful of image tiles and asked the network to classify them.
           The predictions are not meant to be a polished deployment result. They are more like a first

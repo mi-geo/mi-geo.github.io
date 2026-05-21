@@ -3,116 +3,479 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Minimum-Distance Figures</title>
+  <title>Repulsion Story</title>
   <style>
+    :root {
+      --rp-primary: #cc785c;
+      --rp-primary-active: #a9583e;
+      --rp-ink: #141413;
+      --rp-body: #3d3d3a;
+      --rp-muted: #6c6a64;
+      --rp-muted-soft: #8e8b82;
+      --rp-hairline: #e6dfd8;
+      --rp-canvas: #faf9f5;
+      --rp-surface-card: #efe9de;
+      --rp-surface-soft: #f5f0e8;
+      --rp-surface-dark: #181715;
+      --rp-on-dark: #faf9f5;
+      --rp-on-dark-soft: #a09d96;
+      --rp-shadow: 0 16px 36px rgba(20, 20, 19, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Georgia, "Times New Roman", serif;
-      background: #fafafa;
-      color: #222;
       margin: 0;
-      padding: 0;
-    }
-    .page {
-      max-width: 980px;
-      margin: 32px auto;
-      background: #fff;
-      padding: 36px 44px 48px;
-      box-shadow: 0 2px 14px rgba(0, 0, 0, 0.08);
-      border-radius: 8px;
-    }
-    h1, h2, h3 {
-      font-family: Arial, sans-serif;
-      color: #111;
-    }
-    h1 {
-      font-size: 30px;
-      margin: 0 0 10px;
-    }
-    h2 {
-      font-size: 22px;
-      margin-top: 30px;
-      margin-bottom: 10px;
-      border-bottom: 1px solid #e5e5e5;
-      padding-bottom: 6px;
-    }
-    p, li {
-      font-size: 16px;
+      background: var(--rp-canvas);
+      color: var(--rp-ink);
+      font-family: "Aptos", "Segoe UI", sans-serif;
       line-height: 1.6;
     }
-    ul {
-      margin-top: 8px;
+
+    a {
+      color: inherit;
+      text-decoration: none;
     }
-    .note {
-      background: #f5f5f5;
-      border-left: 4px solid #999;
-      padding: 12px 14px;
-      margin: 16px 0 22px;
-    }
-    .figure {
-      margin: 22px 0 30px;
-    }
-    .figure img {
-      width: 60%;
-      display: block;
+
+    .story {
+      max-width: 1160px;
       margin: 0 auto;
-      border: 1px solid #ddd;
+      padding: 24px 18px 64px;
     }
-    .caption {
+
+    .story-nav {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 28px;
+      color: var(--rp-muted);
       font-size: 14px;
-      color: #555;
-      margin-top: 8px;
     }
-    iframe {
-      width: 60%;
-      height: 460px;
-      border: none;
+
+    .story-nav a:hover {
+      color: var(--rp-primary);
+    }
+
+    .story-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.45fr) minmax(280px, 0.9fr);
+      gap: 24px;
+      align-items: stretch;
+      margin-bottom: 42px;
+    }
+
+    .story-hero__copy,
+    .story-hero__aside {
+      border-radius: 18px;
+      overflow: hidden;
+    }
+
+    .story-hero__copy {
+      padding: 40px 38px 36px;
+      background: var(--rp-canvas);
+      border: 1px solid var(--rp-hairline);
+    }
+
+    .story-eyebrow {
+      display: inline-block;
+      margin-bottom: 18px;
+      color: var(--rp-primary);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      color: var(--rp-ink);
+      font-family: Georgia, "Times New Roman", serif;
+      font-weight: 400;
+      letter-spacing: -0.02em;
+    }
+
+    .story-hero h1 {
+      max-width: 740px;
+      font-size: clamp(2.6rem, 5.4vw, 4.6rem);
+      line-height: 1.05;
+      margin-bottom: 18px;
+    }
+
+    .story-lead {
+      max-width: 760px;
+      color: var(--rp-body);
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    .story-hero__aside {
+      background: var(--rp-surface-dark);
+      color: var(--rp-on-dark);
+      padding: 28px 26px;
+      box-shadow: var(--rp-shadow);
+    }
+
+    .story-hero__aside h2 {
+      color: var(--rp-on-dark);
+      font-size: 28px;
+      line-height: 1.15;
+      margin-bottom: 12px;
+    }
+
+    .story-hero__aside p {
+      margin: 0 0 18px;
+      color: var(--rp-on-dark-soft);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .story-chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .story-chip {
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--rp-on-dark);
+      font-size: 13px;
+    }
+
+    .story-section {
+      margin-top: 34px;
+    }
+
+    .story-section__title {
+      margin-bottom: 18px;
+      font-size: 32px;
+      line-height: 1.15;
+    }
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .story-card {
+      background: var(--rp-surface-card);
+      border: 1px solid var(--rp-hairline);
+      border-radius: 18px;
+      padding: 22px;
+    }
+
+    .story-card h3 {
+      font-size: 24px;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    .story-card p,
+    .story-note p {
+      margin: 0;
+      color: var(--rp-body);
+      font-size: 16px;
+      line-height: 1.7;
+    }
+
+    .story-card ul {
+      margin: 14px 0 0;
+      padding-left: 18px;
+      color: var(--rp-body);
+    }
+
+    .story-card li {
+      margin-bottom: 8px;
+    }
+
+    .story-figure {
+      margin-top: 24px;
+      background: #ffffff;
+      border: 1px solid var(--rp-hairline);
+      border-radius: 18px;
+      padding: 18px;
+    }
+
+    .story-figure img {
       display: block;
+      width: min(100%, 760px);
       margin: 0 auto;
-      background: #fff;
+      border-radius: 12px;
     }
+
+    .story-caption {
+      margin-top: 12px;
+      color: var(--rp-muted);
+      font-size: 14px;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .story-note {
+      margin-top: 18px;
+      padding: 18px 20px;
+      border-left: 3px solid var(--rp-primary);
+      background: var(--rp-surface-soft);
+      border-radius: 0 14px 14px 0;
+    }
+
+    .story-embed {
+      display: grid;
+      grid-template-columns: minmax(0, 1.55fr) minmax(250px, 0.75fr);
+      gap: 22px;
+      align-items: start;
+      margin-top: 24px;
+    }
+
+    .story-embed__frame {
+      background: #ffffff;
+      border: 1px solid var(--rp-hairline);
+      border-radius: 18px;
+      padding: 16px;
+    }
+
+    .story-embed__frame iframe {
+      display: block;
+      width: 100%;
+      height: 540px;
+      border: none;
+      border-radius: 12px;
+      background: #ffffff;
+    }
+
+    .story-embed__legend {
+      background: var(--rp-surface-dark);
+      color: var(--rp-on-dark);
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: var(--rp-shadow);
+    }
+
+    .story-embed__legend h3 {
+      color: var(--rp-on-dark);
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+
+    .story-embed__legend p {
+      margin: 0 0 12px;
+      color: var(--rp-on-dark-soft);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .story-embed__legend ul {
+      margin: 0 0 18px;
+      padding-left: 18px;
+      color: var(--rp-on-dark-soft);
+    }
+
+    .story-embed__legend li {
+      margin-bottom: 8px;
+    }
+
+    .story-button {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 10px;
+      background: var(--rp-primary);
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .story-button:hover {
+      background: var(--rp-primary-active);
+    }
+
+    .story-footer {
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--rp-hairline);
+      color: var(--rp-muted);
+      font-size: 14px;
+    }
+
     code {
-      background: #f0f0f0;
-      padding: 1px 4px;
-      border-radius: 3px;
-      font-family: Consolas, monospace;
+      padding: 1px 5px;
+      border-radius: 6px;
+      background: rgba(20, 20, 19, 0.06);
+      font-family: "Cascadia Code", Consolas, monospace;
       font-size: 0.95em;
+    }
+
+    @media (max-width: 900px) {
+      .story-hero,
+      .story-grid,
+      .story-embed {
+        grid-template-columns: 1fr;
+      }
+
+      .story-embed__frame iframe {
+        height: 420px;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .story {
+        padding: 16px 12px 40px;
+      }
+
+      .story-nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .story-hero__copy,
+      .story-hero__aside,
+      .story-card,
+      .story-figure,
+      .story-embed__frame,
+      .story-embed__legend {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+
+      .story-hero h1 {
+        font-size: 2.5rem;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="page">
-    <h1>Minimum-Distance Figures</h1>
-
-    <p>This notebook-style page summarizes the minimum-distance analysis and embeds the static figures together with the interactive 3D histogram.</p>
-
-    <h2>Background</h2>
-    <p>The substantive question is whether communist camps (<code>kompro</code>) and Islamic boarding schools (<code>pesantren</code>) are spatially repulsive to each other.</p>
-    <p>If that repulsion assumption is relaxed, then many alternative spatial arrangements become possible. Under that non-repulsive random model, a large number of potential locations for kompros and pesantrens were generated.</p>
-    <p>For each simulated arrangement, two minimum-distance statistics were calculated:</p>
-    <ul>
-      <li>the minimum distance among kompros</li>
-      <li>the minimum distance from kompros to pesantrens</li>
-    </ul>
-    <p>The same statistics were also calculated from the empirical data. The purpose of the figures below is to compare the empirical point to the bootstrap or simulation distribution.</p>
-
-    <h2>Real data point in the minimum-distance metric space</h2>
-    <div class="figure">
-      <img src="scatter_histo_marginals.png" alt="Scatter plot with marginal histograms">
+  <main class="story">
+    <div class="story-nav">
+      <a href="/portfolio/visualization/">Portfolio / Visualization / <strong>Repulsion story</strong></a>
+      <a href="/portfolio/visualization/">Back to visualization</a>
     </div>
 
-    <h2>Real data point in the minimum-distance metric space, in a 3D histogram</h2>
-    <div class="note">
-      This figure is a 3D histogram surface rather than a raw 3D scatter plot. Each surface cell shows how many simulated pairs fall into that <code>(P, K)</code> bin.
-    </div>
+    <section class="story-hero">
+      <div class="story-hero__copy">
+        <span class="story-eyebrow">Spatial simulation</span>
+        <h1>Testing whether two kinds of places tend to push away from each other.</h1>
+        <p class="story-lead">
+          This page is a compact visual story about a repulsion hypothesis. The question is whether
+          communist camps, or <code>kompro</code>, and Islamic boarding schools, or <code>pesantren</code>,
+          were arranged more separately than we would expect under a non-repulsive random pattern.
+        </p>
+      </div>
 
-    <iframe src="3Dhisto.html" title="Interactive 3D histogram"></iframe>
+      <aside class="story-hero__aside">
+        <h2>What the comparison is doing</h2>
+        <p>
+          I generated many alternative spatial arrangements under a model that relaxes the idea of
+          repulsion. Then I compared those simulated configurations to the real one using a pair of
+          minimum-distance statistics.
+        </p>
+        <div class="story-chip-row">
+          <span class="story-chip">Simulation</span>
+          <span class="story-chip">Minimum distance</span>
+          <span class="story-chip">Repulsion hypothesis</span>
+          <span class="story-chip">Interactive Plotly</span>
+        </div>
+      </aside>
+    </section>
 
-    <div class="caption">Interactive 3D histogram of the simulated distribution, with the empirical point overlaid.</div>
-    <p><strong>Note:</strong> <strong>P</strong> means minimum distance to pesantren, while <strong>K</strong> means minimum distance to simulated kompro.</p>
+    <section class="story-section">
+      <h2 class="story-section__title">The setup</h2>
+      <div class="story-grid">
+        <article class="story-card">
+          <h3>The substantive question</h3>
+          <p>
+            If <code>kompro</code> and <code>pesantren</code> were not repelling each other in space,
+            then many other arrangements should have been possible. A simulation lets us ask whether
+            the observed pattern still looks ordinary once those alternatives are generated at scale.
+          </p>
+        </article>
 
-    <h2>Interpretation</h2>
-    <p>If the empirical point falls in a dense region of the simulated surface, then it looks more consistent with the random non-repulsive model. If it falls in a sparse region or near the edge of the simulated surface, then it looks less consistent with that model.</p>
-    <p>Overall, the figures suggest that the non-repulsive model is not a good description of the observed pattern. In that sense, it seems the assumption of a non-repulsive spatial relationship is rejected by the empirical configuration.</p>
-  </div>
+        <article class="story-card">
+          <h3>The two metrics</h3>
+          <ul>
+            <li>Minimum distance among simulated <code>kompro</code> locations</li>
+            <li>Minimum distance from <code>kompro</code> locations to <code>pesantren</code></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="story-section">
+      <h2 class="story-section__title">The empirical point in context</h2>
+      <div class="story-figure">
+        <img src="scatter_histo_marginals.png" alt="Observed point compared with the simulated minimum-distance distribution">
+        <p class="story-caption">
+          The observed configuration appears against the wider simulated distribution in the same
+          minimum-distance metric space.
+        </p>
+      </div>
+      <div class="story-note">
+        <p>
+          The purpose is not just to show one point. It is to ask whether the real pattern lands in
+          a common region of the simulated world or whether it sits at the margins of what the
+          non-repulsive model usually produces.
+        </p>
+      </div>
+    </section>
+
+    <section class="story-section">
+      <h2 class="story-section__title">A surface view of the same question</h2>
+      <div class="story-embed">
+        <div class="story-embed__frame">
+          <iframe src="3Dhisto.html" title="Interactive 3D histogram of simulated minimum-distance values"></iframe>
+          <p class="story-caption">
+            This is a 3D histogram surface. Each cell records how many simulated arrangements fall into
+            that minimum-distance bin, while the dot marks the observed configuration.
+          </p>
+        </div>
+
+        <aside class="story-embed__legend">
+          <h3>How to read it</h3>
+          <p>
+            The chart turns the simulation into a landscape. Dense areas mean the random
+            non-repulsive model generates those combinations often. Sparse areas mean it rarely does.
+          </p>
+          <ul>
+            <li><strong>A</strong> = minimum distance to <em>pesantren</em></li>
+            <li><strong>B</strong> = minimum distance among simulated <em>kompro</em></li>
+            <li><strong>Z</strong> = simulation count</li>
+            <li>The dot marks the observed data point</li>
+          </ul>
+          <a class="story-button" href="3Dhisto.html">Open chart only</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="story-section">
+      <h2 class="story-section__title">What the figure suggests</h2>
+      <div class="story-grid">
+        <article class="story-card">
+          <h3>If the point sits in a dense region</h3>
+          <p>
+            Then the real arrangement looks fairly consistent with the random model. The observed
+            minimum-distance pair would not be especially surprising.
+          </p>
+        </article>
+
+        <article class="story-card">
+          <h3>If the point sits near an edge or sparse region</h3>
+          <p>
+            Then the real arrangement looks harder to explain with the non-repulsive model alone.
+            That is the more interesting outcome here, because it suggests the observed geography was
+            not just one ordinary draw from a neutral arrangement process.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <p class="story-footer">
+      This page keeps the visual argument compact: simulate many possible worlds, place the observed
+      world inside them, and see whether it still looks ordinary.
+    </p>
+  </main>
 </body>
 </html>

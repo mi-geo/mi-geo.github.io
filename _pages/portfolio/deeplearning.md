@@ -169,6 +169,17 @@ permalink: /portfolio/deeplearning/
     background: #f2f2f2;
   }
 
+  .dl-card__media--bottomcrop {
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .dl-card__media--bottomcrop img {
+    height: 100%;
+    min-height: 0;
+    object-position: center bottom;
+  }
+
   .dl-card__body {
     padding: 20px 20px 22px;
   }
@@ -281,7 +292,7 @@ permalink: /portfolio/deeplearning/
   <section class="dl-hero">
     <div>
       <span class="dl-hero__eyebrow">Deep learning</span>
-      <h1>A small gateway for the neural-network projects I want to keep growing.</h1>
+      <h1>A small gateway for the neural-network projects I want to keep growing</h1>
       <p>
         Deep learning is not the center of my work, but it has become a useful side path for
         experimenting with classification, sequence prediction, and model behavior. This page gathers
@@ -333,7 +344,7 @@ permalink: /portfolio/deeplearning/
     </article>
 
     <article class="dl-card">
-      <div class="dl-card__media">
+      <div class="dl-card__media dl-card__media--bottomcrop">
         <img src="/assets/images/time.jpg" alt="Placeholder image for future TCN forecasting work">
       </div>
       <div class="dl-card__body">
@@ -350,33 +361,11 @@ permalink: /portfolio/deeplearning/
             <span class="dl-tag">M4 benchmark</span>
             <span class="dl-tag">Forecasting</span>
           </div>
-          <a class="dl-cta" href="/portfolio/housing/">Open housing case study</a>
+          <a class="dl-cta" href="/portfolio/bitcoin-predict/">Open Bitcoin project</a>
         </div>
       </div>
     </article>
 
-    <article class="dl-card">
-      <div class="dl-card__media">
-        <img src="/assets/images/res/Shanghai.png" alt="Air quality time series for Shanghai">
-      </div>
-      <div class="dl-card__body">
-        <p class="dl-card__kicker">Time series exploration</p>
-        <h3>Reading temporal structure through air-quality contrasts</h3>
-        <p>
-          This one is lighter and more exploratory than the neural-network cases, but it belongs here
-          because it is still about sequence, variation, and pattern over time. Comparing Shanghai and
-          Urumqi is a simple way to see how climate, topography, and energy systems create very different
-          time-series rhythms in air quality.
-        </p>
-        <div class="dl-card__footer">
-          <div class="dl-card__tags">
-            <span class="dl-tag">Time series</span>
-            <span class="dl-tag">Shanghai</span>
-            <span class="dl-tag">Urumqi</span>
-          </div>
-        </div>
-      </div>
-    </article>
   </section>
 
   <p class="dl-note">

@@ -277,7 +277,11 @@ permalink: /portfolio/document-intelligence/
   }
 
   .docintel__pdf img.docintel__img--mid {
-    object-position: center 42%;
+    object-position: center 50%;
+  }
+
+  .docintel__pdf--cropped {
+    height: 260px;
   }
 
   .docintel__pdf::before {
@@ -456,7 +460,7 @@ permalink: /portfolio/document-intelligence/
   <section class="docintel__hero">
     <div class="docintel__hero-copy">
       <span class="docintel__eyebrow">Document Intelligence</span>
-      <h1>Turning messy documents into structured, usable data.</h1>
+      <h1>Turning messy documents into structured, usable data</h1>
       <p>
         This page brings together two small but useful cases in document intelligence: one centered
         on extracting entities from resumes, and one focused on recovering tables from legal PDFs.
@@ -504,7 +508,7 @@ permalink: /portfolio/document-intelligence/
             <span>A resume with shifting structure, uneven headings, and context that is not always explicit.</span>
           </div>
           <div class="docintel__panel-body">
-            <div class="docintel__pdf">
+            <div class="docintel__pdf docintel__pdf--cropped">
               <img class="docintel__img--mid" src="/assets/images/fig/Dong-en.png" alt="Resume sample with uneven structure">
             </div>
           </div>

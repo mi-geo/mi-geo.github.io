@@ -303,28 +303,32 @@ permalink: /portfolio/methods/
   <section class="methods-hero">
     <div>
       <span class="methods-hero__eyebrow">Methods</span>
-      <h1>Classical models when structure matters, machine learning when comparison helps.</h1>
+      <h1>Statistics for Why, Machine Learning for What's Next</h1>
       <p>
-        I do not treat methods as a separate universe from the research. Usually they are just
-        different ways of getting closer to the same question. For now, this page highlights one
-        example from my core research toolkit and one lighter machine-learning case study that helped
-        me think through model behavior in a more visual way.
+        Statistic models are not a separate universe from the research. Statistic models - multilevel,
+        spatial, interpretable - care about why something varies, and what drives it. Machine learning
+        comes in when the question shifts to prediction: what is likely to happen, where, and under
+        what conditions.
       </p>
     </div>
 
     <aside class="methods-hero__aside">
-      <h2>The current balance</h2>
+      <h2>The tools I use</h2>
       <p>
-        Most of my serious work still leans on interpretable spatial and statistical models. But I
-        also like using simpler machine-learning experiments as a way to compare assumptions, inspect
-        residuals, and understand where different model styles behave well or badly.
+        I work across a range of methods depending on what the question needs.
+      </p>
+      <p>
+        Statistical: multilevel, panel, piecewise, bootstrap, Bayesian.
+      </p>
+      <p>
+        Machine learning: random forest, gradient boosting, and lighter neural network experiments.
       </p>
       <div class="methods-chip-row">
-        <span class="methods-chip">Multilevel models</span>
-        <span class="methods-chip">Spatial statistics</span>
-        <span class="methods-chip">Machine learning</span>
-        <span class="methods-chip">Residual mapping</span>
-        <span class="methods-chip">Interpretability</span>
+        <span class="methods-chip">pandas</span>
+        <span class="methods-chip">Stan</span>
+        <span class="methods-chip">PyTorch</span>
+        <span class="methods-chip">R</span>
+        <span class="methods-chip">scikit-learn</span>
       </div>
     </aside>
   </section>

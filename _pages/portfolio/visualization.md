@@ -166,6 +166,10 @@ permalink: /portfolio/visualization/
     background: var(--viz-surface-strong);
   }
 
+  .viz-card__media--compact {
+    padding: 18px 18px 0;
+  }
+
   .viz-card__media img,
   .viz-card__media iframe {
     display: block;
@@ -176,6 +180,26 @@ permalink: /portfolio/visualization/
   .viz-card__media img {
     aspect-ratio: 16 / 9;
     object-fit: cover;
+  }
+
+  .viz-card__media--compact img {
+    width: min(60%, 460px);
+    margin: 0 auto;
+    aspect-ratio: auto;
+    object-fit: contain;
+  }
+
+  .viz-card__media--tall {
+    padding: 18px 18px 0;
+  }
+
+  .viz-card__media--tall img {
+    width: auto;
+    max-width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    aspect-ratio: auto;
+    object-fit: contain;
   }
 
   .viz-card__media iframe {
@@ -302,7 +326,7 @@ permalink: /portfolio/visualization/
   <section class="viz-hero">
     <div>
       <span class="viz-hero__eyebrow">Visualization</span>
-      <h1>Turning numbers into pictures that people can actually stay with.</h1>
+      <h1>Turning numbers into pictures that people can actually stay with</h1>
       <p>
         I like visualizations that do a little more than decorate a finding. A good figure should
         slow the reader down just enough to notice pattern, contrast, and structure. Some of these
@@ -329,7 +353,7 @@ permalink: /portfolio/visualization/
 
   <section class="viz-gallery">
     <article class="viz-card">
-      <div class="viz-card__media">
+      <div class="viz-card__media viz-card__media--compact">
         <img src="/assets/analysis/histo-1.png" alt="Exploratory histogram used for early data checking">
       </div>
       <div class="viz-card__body">
@@ -375,7 +399,7 @@ permalink: /portfolio/visualization/
     </article>
 
     <article class="viz-card">
-      <div class="viz-card__media">
+      <div class="viz-card__media viz-card__media--tall">
         <img src="/assets/images/res/Beijing-restua-surviving5.png" alt="Beijing restaurant survival visualization">
       </div>
       <div class="viz-card__body">
