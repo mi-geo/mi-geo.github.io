@@ -132,7 +132,7 @@ permalink: /
   .home-hero h1 {
     margin: 0;
     font-family: "Courier New", "SFMono-Regular", monospace;
-    font-size: clamp(3.3rem, 12vw, 7.6rem);
+    font-size: clamp(3rem, 10.5vw, 6.8rem);
     font-weight: 300;
     line-height: 1;
     letter-spacing: -0.04em;
