@@ -187,8 +187,8 @@ permalink: /portfolio/network/
   }
 
   .net-card__media--compact img {
-    width: min(30%, 360px);
-    max-height: 400px;
+    width: min(100%, 500px);
+    max-height: 500px;
     height: auto;
     min-height: 0;
     border-radius: 16px;
@@ -294,7 +294,7 @@ permalink: /portfolio/network/
     }
 
     .net-card__media--compact img {
-      width: min(70%, 360px);
+      width: min(100%, 500px);
     }
 
     .net-card__footer {

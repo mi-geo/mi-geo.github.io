@@ -175,8 +175,8 @@ permalink: /portfolio/sim/
 
   .sim-card__media img {
     display: block;
-    width: 100%;
-    max-width: 860px;
+    width: min(50%, 430px);
+    max-width: 430px;
     margin: 0 auto;
     border-radius: var(--sim-radius-lg);
     background: #0f0f0f;

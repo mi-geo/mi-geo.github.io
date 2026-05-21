@@ -187,6 +187,20 @@ permalink: /portfolio/methods/
     max-height: 420px;
   }
 
+  .methods-card__media--fitheight {
+    padding: 18px 18px 0;
+    text-align: center;
+  }
+
+  .methods-card__media--fitheight img {
+    width: auto;
+    max-width: 100%;
+    height: 450px;
+    max-height: 450px;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
   .methods-card__body {
     padding: 20px 20px 22px;
   }
@@ -337,7 +351,7 @@ permalink: /portfolio/methods/
 
   <section class="methods-grid">
     <article class="methods-card">
-      <div class="methods-card__media methods-card__media--single">
+      <div class="methods-card__media methods-card__media--single methods-card__media--fitheight">
         <img src="/assets/images/res/command-structure-EJ.png" alt="Military command structure used to illustrate hierarchical modeling">
       </div>
       <div class="methods-card__body">
