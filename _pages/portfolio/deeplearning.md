@@ -344,6 +344,29 @@ permalink: /portfolio/deeplearning/
     </article>
 
     <article class="dl-card">
+      <div class="dl-card__media">
+        <img src="/assets/covid/21_0510c.png" alt="Snapshot of COVID and mobility map">
+      </div>
+      <div class="dl-card__body">
+        <p class="dl-card__kicker">Bridge example</p>
+        <h3>Covid, mobility, and the forecasting step after mapping</h3>
+        <p>
+          This page sits between descriptive mapping and sequence modeling. It starts from how movement
+          of people relates to the geography of COVID cases, then points toward the forecasting logic
+          that a TCN-style model would eventually take up more directly.
+        </p>
+        <div class="dl-card__footer">
+          <div class="dl-card__tags">
+            <span class="dl-tag">Covid</span>
+            <span class="dl-tag">Mobility</span>
+            <span class="dl-tag">TCN bridge</span>
+          </div>
+          <a class="dl-cta" href="/portfolio/covid/">Open Covid page</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="dl-card">
       <div class="dl-card__media dl-card__media--bottomcrop">
         <img src="/assets/images/time.jpg" alt="Placeholder image for future TCN forecasting work">
       </div>

@@ -279,6 +279,20 @@ permalink: /portfolio/mapping/
         </div>
       </a>
 
+      <a class="map-card" href="/assets/covid/covid2020-12-07_view.html">
+        <img src="/assets/covid/covid-tb.png" alt="Thumbnail preview of the COVID and mobility map">
+        <div class="map-card__body">
+          <span class="map-card__kicker">Research map</span>
+          <h2>Covid and Movement of People</h2>
+          <p>
+            This map looks at the geography of the pandemic through movement. It is an interactive way
+            to think about how mobility, exposure, and local conditions overlapped across space during
+            the COVID period.
+          </p>
+          <span class="map-card__cta">Open the interactive map &rarr;</span>
+        </div>
+      </a>
+
       <a class="map-card" href="https://mi-geo.github.io/teng-globe/globe.html">
         <img src="/assets/images/travel-globe.jpg" alt="Thumbnail preview of Teng's travel globe">
         <div class="map-card__body">
