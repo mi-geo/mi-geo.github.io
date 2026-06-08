@@ -317,7 +317,7 @@ permalink: /portfolio/deeplearning/
     </aside>
   </section>
 
-  <h2 class="dl-section-title">Three directions for now</h2>
+  <h2 class="dl-section-title">Four directions for now</h2>
 
   <section class="dl-grid">
     <article class="dl-card">
@@ -367,21 +367,44 @@ permalink: /portfolio/deeplearning/
     </article>
 
     <article class="dl-card">
+      <div class="dl-card__media">
+        <img src="/assets/ml/tcn_synthetic/forecast_comparison.png" alt="Comparison of univariate and multivariate TCN forecasts on synthetic series">
+      </div>
+      <div class="dl-card__body">
+        <p class="dl-card__kicker">TCN experiment</p>
+        <h3>Synthetic multivariate TCN</h3>
+        <p>
+          A controlled forecasting experiment built on synthetic series, where one target depends on
+          correlated signals around it. This page compares a univariate TCN against a multivariate one,
+          and shows how much structure can be recovered when the model is allowed to see the wider system.
+        </p>
+        <div class="dl-card__footer">
+          <div class="dl-card__tags">
+            <span class="dl-tag">TCN</span>
+            <span class="dl-tag">Synthetic series</span>
+            <span class="dl-tag">PyTorch</span>
+          </div>
+          <a class="dl-cta" href="/portfolio/ml/tcn-synthetic/">Open TCN experiment</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="dl-card">
       <div class="dl-card__media dl-card__media--bottomcrop">
         <img src="/assets/images/time.jpg" alt="Placeholder image for future TCN forecasting work">
       </div>
       <div class="dl-card__body">
         <p class="dl-card__kicker">Next example</p>
-        <h3>TCN time-series forecasting</h3>
+        <h3>Bitcoin forecasting</h3>
         <p>
-          This will be the sequence-model side of the page: a future case built around temporal convolutional
-          networks and forecasting experiments. For now it is mostly a placeholder, but it is the natural next
-          project in this group.
+          This is the live placeholder for a more applied forecasting track: time-series work focused on
+          Bitcoin price behavior, temporal signals, and the kinds of sequence-model questions that feel
+          closer to a real prediction problem.
         </p>
         <div class="dl-card__footer">
           <div class="dl-card__tags">
             <span class="dl-tag">TCN</span>
-            <span class="dl-tag">M4 benchmark</span>
+            <span class="dl-tag">Bitcoin</span>
             <span class="dl-tag">Forecasting</span>
           </div>
           <a class="dl-cta" href="/portfolio/bitcoin-predict/">Open Bitcoin project</a>
