@@ -1,7 +1,7 @@
 ---
-title: "Vibe Coding for Simulation"
+title: "Vibe coding for fun"
 layout: none
-permalink: /portfolio/vibe-coding-simulation/
+permalink: /portfolio/vibe-coding/
 ---
 <style>
   :root {
