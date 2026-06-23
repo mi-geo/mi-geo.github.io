@@ -1,5 +1,5 @@
 ---
-title: "Vibe coding for fun~"
+title: "Vibe Coding"
 layout: none
 permalink: /portfolio/vibe-coding/
 ---
@@ -296,17 +296,17 @@ permalink: /portfolio/vibe-coding/
 
 <main class="pendulum-page">
   <div class="pendulum-nav">
-    <a class="pendulum-nav__crumb" href="/portfolio/">Portfolio / <strong>Vibe Coding</strong> / <strong>Simulation</strong></a>
+    <a class="pendulum-nav__crumb" href="/portfolio/">Portfolio / <strong>Vibe Coding</strong></a>
     <a class="pendulum-nav__meta" href="/portfolio/">Back to portfolio</a>
   </div>
 
   <section class="pendulum-hero">
     <div>
       <span class="pendulum-hero__eyebrow">Vibe Coding</span>
-      <h1>Vibe Coding for Simulation</h1>
+      <h1>Vibe Coding</h1>
       <p>
         I know almost nothing about JavaScript or TypeScript, but vibe coding is now strong enough that
-        I can still build simulations like these. What matters is that the ideas are real, the outputs
+        I can still build projects like these. What matters is that the ideas are real, the outputs
         are interactive, and the code remains understandable enough to keep iterating.
       </p>
     </div>
@@ -315,11 +315,11 @@ permalink: /portfolio/vibe-coding/
       <h2>What this section is really about</h2>
       <p>
         Vibe coding lowers the barrier between mathematical curiosity and a working visual demo. I can
-        focus on the simulation idea, test the behavior quickly, and still end up with something clear
+        focus on the idea, test the behavior quickly, and still end up with something clear
         enough to share.
       </p>
       <div class="pendulum-chip-row">
-        <span class="pendulum-chip">Numerical simulation</span>
+        <span class="pendulum-chip">Mathematical ideas</span>
         <span class="pendulum-chip">Chaotic systems</span>
         <span class="pendulum-chip">Orbital dynamics</span>
         <span class="pendulum-chip">Visualization</span>
@@ -328,25 +328,10 @@ permalink: /portfolio/vibe-coding/
   </section>
 
   <section class="pendulum-stage">
-    <article class="pendulum-card">
-      <p class="pendulum-card__kicker">Why this page exists</p>
-      <h2>Two simulations, built from curiosity more than frontend expertise</h2>
-      <p>
-        These projects are the kind of work I want this section to hold: small, mathematically motivated,
-        visually legible experiments that probably would not exist if I had to learn modern frontend tooling
-        first and only then start building.
-      </p>
-      <p>
-        Instead, vibe coding lets me move directly from an idea to an interactive artifact. I still care
-        about whether the simulation is coherent, readable, and worth showing, but I no longer need deep
-        JavaScript or TypeScript fluency just to get the first serious version on screen.
-      </p>
-    </article>
-
     <section class="pendulum-grid">
       <article class="pendulum-mini">
         <div class="pendulum-mini__media">
-          <img src="/assets/images/two-pendulum.png" alt="Double pendulum simulation preview">
+          <img src="/assets/images/two-pendulum.png" alt="Double pendulum preview">
         </div>
         <p class="pendulum-mini__kicker">Showcase one</p>
         <h3>Double Pendulum</h3>
@@ -361,12 +346,12 @@ permalink: /portfolio/vibe-coding/
       </article>
       <article class="pendulum-mini">
         <div class="pendulum-mini__media">
-          <img src="/assets/images/three-body.png" alt="Three-body simulation preview">
+          <img src="/assets/images/three-body.png" alt="Three-body preview">
         </div>
         <p class="pendulum-mini__kicker">Showcase two</p>
         <h3>Three-Body System</h3>
         <p>
-          A three-body simulation that turns gravitational interaction into something you can watch rather
+          A three-body project that turns gravitational interaction into something you can watch rather
           than only describe. Even a tiny system can produce elegant paths, unstable motion, and surprising
           behavior.
         </p>
@@ -375,21 +360,6 @@ permalink: /portfolio/vibe-coding/
         </div>
       </article>
     </section>
-
-    <article class="pendulum-card">
-      <p class="pendulum-card__kicker">The bigger point</p>
-      <h2>Vibe coding makes technical play more accessible</h2>
-      <p>
-        I do not want to pretend this replaces deep engineering knowledge. What it does change is who gets
-        to make something interesting. If I can build interactive simulation demos while knowing very little
-        JavaScript or TypeScript, that says something important about how much faster exploratory computational
-        work can now move.
-      </p>
-      <p>
-        For me, that means more room to experiment with mathematics, spatial process, and visual explanation
-        without waiting for perfect tool fluency first.
-      </p>
-    </article>
   </section>
 
   <p class="pendulum-footer">
