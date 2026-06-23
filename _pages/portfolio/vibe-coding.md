@@ -1,5 +1,5 @@
 ---
-title: "Vibe coding for fun"
+title: "Vibe coding for fun~"
 layout: none
 permalink: /portfolio/vibe-coding/
 ---
@@ -232,6 +232,21 @@ permalink: /portfolio/vibe-coding/
     padding: 18px;
   }
 
+  .pendulum-mini__media {
+    margin: 0 0 14px;
+    overflow: hidden;
+    border-radius: 14px;
+    border: 1px solid var(--vibe-line-soft);
+    background: #0f1820;
+  }
+
+  .pendulum-mini__media img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+
   .pendulum-mini__kicker {
     margin: 0 0 10px;
     color: var(--vibe-accent);
@@ -330,6 +345,9 @@ permalink: /portfolio/vibe-coding/
 
     <section class="pendulum-grid">
       <article class="pendulum-mini">
+        <div class="pendulum-mini__media">
+          <img src="/assets/images/two-pendulum.png" alt="Double pendulum simulation preview">
+        </div>
         <p class="pendulum-mini__kicker">Showcase one</p>
         <h3>Double Pendulum</h3>
         <p>
@@ -342,6 +360,9 @@ permalink: /portfolio/vibe-coding/
         </div>
       </article>
       <article class="pendulum-mini">
+        <div class="pendulum-mini__media">
+          <img src="/assets/images/three-body.png" alt="Three-body simulation preview">
+        </div>
         <p class="pendulum-mini__kicker">Showcase two</p>
         <h3>Three-Body System</h3>
         <p>
