@@ -62,6 +62,17 @@ feature_row1:
     btn_label: "Read more"
     btn_class: "btn--info"
 
+  - image_path: /assets/images/Vessel1.jpg
+    image_caption: "Vessel1 has vibe~ (NYC)"
+    alt: "Vibe coding for simulation"
+    title: "Vibe Coding for Simulation"
+    excerpt: "I barely know anything about JavaScript or TypeScript, but vibe coding is so powerful enough that I can still build interesting nerd stuffs~"
+    url: "/portfolio/vibe-coding/"
+    btn_label: "Read more"
+    btn_class: "btn--info"
+
+
+feature_row2:
   - image_path: /assets/images/time.jpg
     image_caption: "When I am thinking... in Badlands National Park"
     alt: "Deep learning case studies"
@@ -71,8 +82,6 @@ feature_row1:
     btn_label: "Read more"
     btn_class: "btn--info"
 
-
-feature_row2:
   - image_path: /assets/images/mapping1.jpg
     image_caption: "Expo 1904, St. Louis, MO"
     alt: "Interactive mapping"
